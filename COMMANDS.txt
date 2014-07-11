@@ -1,0 +1,43 @@
+# Command lines for building Source Han Sans OTFs and OTCs
+#
+# Version 2014-07-15
+#
+# To subroutinize the 'CFF' table, which may take several hours for
+# the 65,535-glyph fonts, replace "-nS" with "-maxs 30000" in the
+# command line.
+#
+# To add the "stub" 'DSIG' table to the OpenType/CFF fonts, the
+# following AFDKO command line can be used:
+#
+# % sfntedit -a DSIG=DSIG.bin <font>.otf
+#
+# Important Note: Do not add this 'DSIG' table to the OpenType/CFF
+# fonts that are used to build the OTCs, nor to the OTCs themselves.
+
+# Command line for building the multilingual Japanese-default OTFs
+
+makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf ../FontMenuNameDB -r -nS -cs 1 -ch ../UniSourceHanSansJP-UTF32-H -ci ../SourceHanSans_JP_sequences.txt
+
+# Command lines for building the region-specific subset OTFs
+
+# Japanese
+
+makeotf -f cidfont.ps.JP -ff features.JP -fi cidfontinfo.JP -mf ../FontMenuNameDB.SUBSET -r -nS -cs 1 -ch ../UniSourceHanSansJP-UTF32-H -ci ../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.KR -ff features.KR -fi cidfontinfo.KR -mf ../FontMenuNameDB.SUBSET -r -nS -cs 3 -ch ../UniSourceHanSansKR-UTF32-H -ci ../SourceHanSans_KR_sequences.txt
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.CN -ff features.CN -fi cidfontinfo.CN -mf ../FontMenuNameDB.SUBSET -r -nS -cs 25 -ch ../UniSourceHanSansCN-UTF32-H
+
+# Traditional Chinese
+
+makeotf -f cidfont.ps.TWHK -ff features.TWHK -fi cidfontinfo.TWHK -mf ../FontMenuNameDB.SUBSET -r -nS -cs 2 -ch ../UniSourceHanSansTWHK-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+
+# Command line for building the OTCs (replace $dir with the face name)
+
+otf2otc -t 'CFF '=0 -o SourceHanSans-$dir.ttc SourceHanSans-$dir.otf SourceHanSansK-$dir.otf SourceHanSansSC-$dir.otf SourceHanSansTC-$dir.otf
+
+# EOF
