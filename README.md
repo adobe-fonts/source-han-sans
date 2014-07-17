@@ -16,6 +16,8 @@ Pre-built font binaries
 ----
 The installable font resources (pre-built font binaries) are not part of the source files. They are available at [Open@Adobe](https://sourceforge.net/projects/source-han-sans.adobe/files/) where technical details about these fonts, along with resources not necessary for building the fonts, are also available.
 
+Important Note: The four OTFs in the "OTC" subdirectory of each weight directory are included as source data for building the corresponding OTC, and are not meant to be used as stand-alone fonts, though they can be installed and used as such.
+
 Requirements
 ----
 
