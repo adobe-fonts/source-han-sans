@@ -2,20 +2,20 @@ FontName                   (SourceHanSansKR-Bold)
 FullName                   (Source Han Sans KR Bold)
 FamilyName                 (Source Han Sans KR)
 Weight                     (Bold)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
 XUID                       [1 11 9274293]
 Layout                     (AI0-SourceHanSans)
 Subset                     (AI0-SourceHanSans.KR)
-FSType                     8
+FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
 AdobeCopyright             (Copyright 2014 Adobe Systems Incorporated. All Rights Reserved.)
 Trademark                  (Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.)
 Serif                      false
-IsBoldStyle                true
+IsBoldStyle                false
 IsItalicStyle              false
 PreferOS/2TypoMetrics      true
 IsOS/2WidthWeigthSlopeOnly true

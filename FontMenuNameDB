@@ -53,3 +53,171 @@
 	f=Source Han Sans
 	s=Heavy
 	l=Source Han Sans Heavy
+
+[SourceHanSansK-ExtraLight]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,ExtraLight
+	l=3,1,0x412,\BCF8\ACE0\B515 ExtraLight
+	f=Source Han Sans K
+	s=ExtraLight
+	l=Source Han Sans K ExtraLight
+
+[SourceHanSansK-Light]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Light
+	l=3,1,0x412,\BCF8\ACE0\B515 Light
+	f=Source Han Sans K
+	s=Light
+	l=Source Han Sans K Light
+
+[SourceHanSansK-Normal]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Normal
+	l=3,1,0x412,\BCF8\ACE0\B515 Normal
+	f=Source Han Sans K
+	s=Normal
+	l=Source Han Sans K Normal
+
+[SourceHanSansK-Regular]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Regular
+	l=3,1,0x412,\BCF8\ACE0\B515 Regular
+	f=Source Han Sans K
+	s=Regular
+	l=Source Han Sans K Regular
+
+[SourceHanSansK-Medium]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Medium
+	l=3,1,0x412,\BCF8\ACE0\B515 Medium
+	f=Source Han Sans K
+	s=Medium
+	l=Source Han Sans K Medium
+
+[SourceHanSansK-Bold]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Bold
+	l=3,1,0x412,\BCF8\ACE0\B515 Bold
+	f=Source Han Sans K
+	s=Bold
+	l=Source Han Sans K Bold
+
+[SourceHanSansK-Heavy]
+	f=3,1,0x412,\BCF8\ACE0\B515
+	s=3,1,0x412,Heavy
+	l=3,1,0x412,\BCF8\ACE0\B515 Heavy
+	f=Source Han Sans K
+	s=Heavy
+	l=Source Han Sans K Heavy
+
+[SourceHanSansSC-ExtraLight]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,ExtraLight
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 ExtraLight
+	f=Source Han Sans SC
+	s=ExtraLight
+	l=Source Han Sans SC ExtraLight
+
+[SourceHanSansSC-Light]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Light
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Light
+	f=Source Han Sans SC
+	s=Light
+	l=Source Han Sans SC Light
+
+[SourceHanSansSC-Normal]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Normal
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Normal
+	f=Source Han Sans SC
+	s=Normal
+	l=Source Han Sans SC Normal
+
+[SourceHanSansSC-Regular]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Regular
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Regular
+	f=Source Han Sans SC
+	s=Regular
+	l=Source Han Sans SC Regular
+
+[SourceHanSansSC-Medium]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Medium
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Medium
+	f=Source Han Sans SC
+	s=Medium
+	l=Source Han Sans SC Medium
+
+[SourceHanSansSC-Bold]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Bold
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Bold
+	f=Source Han Sans SC
+	s=Bold
+	l=Source Han Sans SC Bold
+
+[SourceHanSansSC-Heavy]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53
+	s=3,1,0x804,Heavy
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 Heavy
+	f=Source Han Sans SC
+	s=Heavy
+	l=Source Han Sans SC Heavy
+
+[SourceHanSansTC-ExtraLight]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,ExtraLight
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 ExtraLight
+	f=Source Han Sans TC
+	s=ExtraLight
+	l=Source Han Sans TC ExtraLight
+
+[SourceHanSansTC-Light]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Light
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Light
+	f=Source Han Sans TC
+	s=Light
+	l=Source Han Sans TC Light
+
+[SourceHanSansTC-Normal]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Normal
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Normal
+	f=Source Han Sans TC
+	s=Normal
+	l=Source Han Sans TC Normal
+
+[SourceHanSansTC-Regular]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Regular
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Regular
+	f=Source Han Sans TC
+	s=Regular
+	l=Source Han Sans TC Regular
+
+[SourceHanSansTC-Medium]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Medium
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Medium
+	f=Source Han Sans TC
+	s=Medium
+	l=Source Han Sans TC Medium
+
+[SourceHanSansTC-Bold]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Bold
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Bold
+	f=Source Han Sans TC
+	s=Bold
+	l=Source Han Sans TC Bold
+
+[SourceHanSansTC-Heavy]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4
+	s=3,1,0x404,Heavy
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 Heavy
+	f=Source Han Sans TC
+	s=Heavy
+	l=Source Han Sans TC Heavy

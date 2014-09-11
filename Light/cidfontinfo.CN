@@ -2,14 +2,14 @@ FontName                   (SourceHanSansCN-Light)
 FullName                   (Source Han Sans CN Light)
 FamilyName                 (Source Han Sans CN)
 Weight                     (Light)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
 XUID                       [1 11 9274296]
 Layout                     (AI0-SourceHanSans)
 Subset                     (AI0-SourceHanSans.CN)
-FSType                     8
+FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
 AdobeCopyright             (Copyright 2014 Adobe Systems Incorporated. All Rights Reserved.)

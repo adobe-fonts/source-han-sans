@@ -7,7 +7,7 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.000;
+  FontRevision 1.001;
 } head;
 
 table name {
@@ -259,9 +259,7 @@ table vmtx {
   VertOriginY \65162 -120;
   VertAdvanceY \65162 0;
   VertAdvanceY \65163 0;
-  VertOriginY \65164 -120;
   VertAdvanceY \65164 0;
-  VertOriginY \65165 -120;
   VertAdvanceY \65165 0;
 } vmtx;
 
@@ -292,7 +290,8 @@ table OS/2 {
   WeightClass 350;
   WidthClass 5;
   Panose 2 11 4 0 0 0 0 0 0 0;
-  FSType 8;
+  FSType 0;
+  Vendor "ADBE";
   winAscent 1073;
   winDescent 302;
 } OS/2;
@@ -334,6 +333,10 @@ lookup std_ccmp {
 feature ccmp {
   lookup std_ccmp;
 } ccmp;
+
+feature hist {
+  substitute \65353 by \1676;
+} hist;
 
 feature liga {
   substitute \71 \71 \74 by \58922;
@@ -2610,7 +2613,7 @@ lookup latin_special {
   substitute \728 by \63038;
 } latin_special;
 
-lookup jpcntwhk_special {
+lookup cnhkjptw_special {
   substitute \3 by \62997;
   substitute \8 by \62998;
   substitute \718 by \63014;
@@ -2627,7 +2630,7 @@ lookup jpcntwhk_special {
   substitute \1347 by \63029;
   substitute \63041 by \63137;
   substitute \63046 by \63138;
-} jpcntwhk_special;
+} cnhkjptw_special;
 
 feature locl {
   script latn;
@@ -2636,12 +2639,11 @@ feature locl {
 
   script kana;
   language JAN;
-  lookup jpcntwhk_special;
+  lookup cnhkjptw_special;
 } locl;
 
 lookup vert_all {
   substitute \716 by \58935;
-  substitute \717 by \65145;
   substitute \727 by \58934;
   substitute \728 by \58933;
   substitute \888 by \65150;
@@ -2763,8 +2765,6 @@ lookup vert_all {
   substitute \1536 by \65249;
   substitute \1537 by \65250;
   substitute \1538 by \65251;
-  substitute \1539 by \65252;
-  substitute \1540 by \65253;
   substitute \1541 by \65254;
   substitute \1542 by \65255;
   substitute \1543 by \65256;
@@ -6347,7 +6347,7 @@ feature palt {
   position \1464 <-3 0 -21 0>;
   position \1465 <-47 0 -126 0>;
   position \1466 <-4 0 -102 0>;
-  position \1467 <-117 0 -313 0>;
+  position \1467 <-138 0 -313 0>;
   position \1468 <-103 0 -244 0>;
   position \1469 <-4 0 -24 0>;
   position \1470 <7 0 -5 0>;
@@ -6433,7 +6433,7 @@ feature palt {
   position \1558 <-4 0 -45 0>;
   position \1559 <-34 0 -63 0>;
   position \1560 <-16 0 -65 0>;
-  position \1561 <-59 0 -102 0>;
+  position \1561 <-29 0 -102 0>;
   position \1562 <-18 0 -94 0>;
   position \1563 <-16 0 -64 0>;
   position \1564 <-2 0 -31 0>;
@@ -6451,8 +6451,8 @@ feature palt {
   position \1576 <-38 0 -87 0>;
   position \1577 <-46 0 -126 0>;
   position \1578 <-14 0 -86 0>;
-  position \1579 <-46 0 -106 0>;
-  position \1580 <-19 0 -60 0>;
+  position \1579 <-35 0 -87 0>;
+  position \1580 <-8 0 -49 0>;
   position \1581 <-110 0 -213 0>;
   position \1582 <-23 0 -80 0>;
   position \1583 <-5 0 -57 0>;
@@ -6474,9 +6474,9 @@ feature palt {
   position \1599 <-75 0 -166 0>;
   position \1600 <-60 0 -124 0>;
   position \1601 <-60 0 -80 0>;
-  position \1602 <4 0 13 0>;
-  position \1603 <18 0 18 0>;
-  position \1604 <18 0 18 0>;
+  position \1602 <9 0 13 0>;
+  position \1603 <10 0 18 0>;
+  position \1604 <10 0 18 0>;
   position \1605 <-19 0 -31 0>;
   position \1606 <1 0 -35 0>;
   position \1607 <1 0 -36 0>;
@@ -7353,7 +7353,7 @@ feature vpal {
   position \65166 <0 119 0 -250>;
   position \65167 <0 39 0 -58>;
   position \65168 <0 110 0 -265>;
-  position \65169 <0 74 0 -134>;
+  position \65169 <0 84 0 -134>;
   position \65170 <0 86 0 -219>;
   position \65171 <0 20 0 -63>;
   position \65172 <0 113 0 -204>;
@@ -7362,17 +7362,17 @@ feature vpal {
   position \65175 <0 20 0 -53>;
   position \65176 <0 30 0 -52>;
   position \65177 <0 16 0 -24>;
-  position \65178 <0 26 0 -42>;
-  position \65179 <0 -11 0 -5>;
+  position \65178 <0 38 0 -42>;
+  position \65179 <0 13 0 -5>;
   position \65180 <0 28 0 -60>;
   position \65181 <0 28 0 -67>;
   position \65182 <0 33 0 -69>;
   position \65183 <0 5 0 -24>;
   position \65184 <0 33 0 -44>;
   position \65185 <0 9 0 -16>;
-  position \65186 <0 49 0 -56>;
-  position \65187 <0 6 0 -6>;
-  position \65188 <0 24 0 -40>;
+  position \65186 <0 56 0 -56>;
+  position \65187 <0 10 0 -6>;
+  position \65188 <0 36 0 -40>;
   position \65189 <0 23 0 -33>;
   position \65190 <0 35 0 -85>;
   position \65191 <0 26 0 -72>;
@@ -7395,7 +7395,7 @@ feature vpal {
   position \65208 <0 39 0 -54>;
   position \65209 <0 18 0 -25>;
   position \65210 <0 34 0 -46>;
-  position \65211 <0 56 0 -64>;
+  position \65211 <0 45 0 -64>;
   position \65212 <0 31 0 -51>;
   position \65213 <0 17 0 -33>;
   position \65214 <0 10 0 -26>;
@@ -7451,8 +7451,8 @@ feature vpal {
   position \65271 <0 -30 0 -3>;
   position \65272 <0 37 0 -56>;
   position \65273 <0 0 0 -8>;
-  position \65274 <0 -4 0 -40>;
-  position \65275 <0 -33 0 7>;
+  position \65274 <0 4 0 -40>;
+  position \65275 <0 -1 0 7>;
   position \65276 <0 11 0 -65>;
   position \65277 <0 -32 0 -9>;
   position \65278 <0 7 0 -39>;
@@ -7467,8 +7467,8 @@ feature vpal {
   position \65287 <0 -16 0 5>;
   position \65288 <0 30 0 -71>;
   position \65289 <0 -3 0 -12>;
-  position \65290 <0 6 0 -32>;
-  position \65291 <0 -33 0 23>;
+  position \65290 <0 15 0 -32>;
+  position \65291 <0 -11 0 23>;
   position \65292 <0 2 0 -50>;
   position \65293 <0 15 0 -57>;
   position \65294 <0 103 0 -218>;
