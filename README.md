@@ -1,33 +1,34 @@
-Source Han Sans
-====
+# Source Han Sans
 
-Overview
-----
-Source Han Sans is an OpenType/CFF Pan-CJK font family. This open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf*, *sfntedit*, and *otf2otc* tools.
+Source Han Sans is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
 
-Getting Involved
-----
-Send suggestions for changes to the Source Han Sans project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com), for consideration.
+## Download the fonts (OTF, OTC, Super OTC, Subset OTF)
 
-Building
-====
+* [Latest release](../../releases/latest)
+* [All releases](../../releases)
 
-Pre-built font binaries
-----
-The installable font resources (pre-built font binaries) are not part of the source files. They are available at [Open@Adobe](https://sourceforge.net/projects/source-han-sans.adobe/files/) where technical details about these fonts, along with resources not necessary for building the fonts, are also available.
+For information about the various deployment configurations, and to help decide which fonts to download, please refer to the Configurations section of the [official font readme file](https://github.com/adobe-fonts/source-han-sans/blob/master/SourceHanSansReadMe.pdf).
 
-Important Note: The four OTFs in the "OTC" subdirectory of each weight directory are included as source data for building the corresponding OTC, and are not meant to be used as stand-alone fonts, though they can be installed and used as such.
+## Font installation instructions
 
-Requirements
-----
+* [OS X](http://support.apple.com/kb/HT2509)
+* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
+* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
 
-For building binary font files from source, installation of the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO) is necessary. The AFDKO tools are widely used for font development today, and have been integrated into most font editing applications.
+## Building the fonts from source
 
-Building the fonts
-----
+### Requirements
 
-The key to building OpenType/CFF fonts is *makeotf*, which is included in AFDKO. Information and usage instructions can be found by executing *makeotf -h*. The AFDKO *sfntedit* tool is used to splice in the stub 'DSIG' table. The AFDKO script, *otf2otc*, is used to assemble multiple OTFs into a single OTC (OpenType Collection).
+To build the binary font files from source, you need to have installed the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO tools are widely used for font development today, and are part of most font editor applications.
 
-In this repository, all necessary files are in place for building the OpenType/CFF and OpenType/CFF Collection fonts. The COMMANDS.txt file includes the command lines that are used to build the OTFs and OTCs.
+### Build all fonts
 
-That is all.
+In this repository, all necessary files are in place for building the OpenType/CFF and OpenType/CFF Collection fonts. The COMMANDS.txt file provides the command lines that are used to build the OTFs and OTCs.
+
+## Getting Involved
+
+Send suggestions for changes to the Source Han Sans project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub] Source Han Sans), for consideration.
+
+## Further information
+
+For information about the design and background of Source Han Sans, please refer to the [design guide] (https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansDesignGuide.pdf) and [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf).

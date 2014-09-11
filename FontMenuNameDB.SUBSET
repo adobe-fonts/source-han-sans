@@ -166,79 +166,58 @@
 	s=Heavy
 	l=Source Han Sans CN Heavy
 
-[SourceHanSansTWHK-ExtraLight]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-ExtraLight]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,ExtraLight
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK ExtraLight
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,ExtraLight
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK ExtraLight
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW ExtraLight
+	f=Source Han Sans TW
 	s=ExtraLight
-	l=Source Han Sans TWHK ExtraLight
+	l=Source Han Sans TW ExtraLight
 
-[SourceHanSansTWHK-Light]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Light]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Light
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Light
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Light
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Light
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Light
+	f=Source Han Sans TW
 	s=Light
-	l=Source Han Sans TWHK Light
+	l=Source Han Sans TW Light
 
-[SourceHanSansTWHK-Normal]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Normal]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Normal
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Normal
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Normal
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Normal
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Normal
+	f=Source Han Sans TW
 	s=Normal
-	l=Source Han Sans TWHK Normal
+	l=Source Han Sans TW Normal
 
-[SourceHanSansTWHK-Regular]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Regular]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Regular
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Regular
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Regular
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Regular
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Regular
+	f=Source Han Sans TW
 	s=Regular
-	l=Source Han Sans TWHK Regular
+	l=Source Han Sans TW Regular
 
-[SourceHanSansTWHK-Medium]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Medium]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Medium
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Medium
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Medium
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Medium
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Medium
+	f=Source Han Sans TW
 	s=Medium
-	l=Source Han Sans TWHK Medium
+	l=Source Han Sans TW Medium
 
-[SourceHanSansTWHK-Bold]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Bold]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Bold
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Bold
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Bold
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Bold
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Bold
+	f=Source Han Sans TW
 	s=Bold
-	l=Source Han Sans TWHK Bold
+	l=Source Han Sans TW Bold
 
-[SourceHanSansTWHK-Heavy]
-	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK
+[SourceHanSansTW-Heavy]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Heavy
-	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TWHK Heavy
-	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK
-	s=3,1,0xC04,Heavy
-	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 TWHK Heavy
-	f=Source Han Sans TWHK
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW Heavy
+	f=Source Han Sans TW
 	s=Heavy
-	l=Source Han Sans TWHK Heavy
+	l=Source Han Sans TW Heavy

@@ -2,14 +2,14 @@ FontName                   (SourceHanSansKR-Regular)
 FullName                   (Source Han Sans KR Regular)
 FamilyName                 (Source Han Sans KR)
 Weight                     (Regular)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
 XUID                       [1 11 9274291]
 Layout                     (AI0-SourceHanSans)
 Subset                     (AI0-SourceHanSans.KR)
-FSType                     8
+FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
 AdobeCopyright             (Copyright 2014 Adobe Systems Incorporated. All Rights Reserved.)
