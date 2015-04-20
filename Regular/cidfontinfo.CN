@@ -2,7 +2,7 @@ FontName                   (SourceHanSansCN-Regular)
 FullName                   (Source Han Sans CN Regular)
 FamilyName                 (Source Han Sans CN)
 Weight                     (Regular)
-version                    (1.001)
+version                    (1.002)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
@@ -12,13 +12,13 @@ Subset                     (AI0-SourceHanSans.CN)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2014 Adobe Systems Incorporated. All Rights Reserved.)
+AdobeCopyright             (Copyright 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark                  (Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.)
 Serif                      false
 IsBoldStyle                false
 IsItalicStyle              false
-PreferOS/2TypoMetrics      true
-IsOS/2WidthWeigthSlopeOnly true
+PreferOS/2TypoMetrics      false
+IsOS/2WidthWeigthSlopeOnly false
 IsOS/2OBLIQUE              false
 UseOldNameID4              false
 LicenseCode                ADOBE

@@ -12,12 +12,12 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.001;
+  FontRevision 1.002;
 } head;
 
 table name {
-  nameid 0 "Copyright \00A9 2014 Adobe Systems Incorporated. All Rights Reserved.";
-  nameid 0 1 "Copyright \A9 2014 Adobe Systems Incorporated. All Rights Reserved.";
+  nameid 0 "Copyright \00A9 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 1 "Copyright \A9 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
   nameid 7 1 "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.";
   nameid 8 "Adobe Systems Incorporated";
@@ -28,14 +28,14 @@ table name {
   nameid 10 1 "Dr. Ken Lunde (project architect, glyph set definition & overall production); Masataka HATTORI (production & ideograph elements)";
   nameid 11 "http://www.adobe.com/type/";
   nameid 11 1 "http://www.adobe.com/type/";
-  nameid 13 "Copyright \00A9 2014 Adobe Systems Incorporated\000D\000ALicensed under the Apache License, Version 2.0 (the \0022License\0022); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.html\000D\000AUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\000D\000A";
-  nameid 13 1 "Copyright \A9 2014 Adobe Systems Incorporated\0D\0ALicensed under the Apache License, Version 2.0 (the \22License\22); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.html\0D\0AUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \22AS IS\22 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\0D\0A";
-  nameid 14 "http://www.apache.org/licenses/LICENSE-2.0.html";
-  nameid 14 1 "http://www.apache.org/licenses/LICENSE-2.0.html";
+  nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+  nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \22AS IS\22 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+  nameid 14 "http://scripts.sil.org/OFL";
+  nameid 14 1 "http://scripts.sil.org/OFL";
 } name;
 
 table vhea {
-  VertTypoLineGap 500;
+  VertTypoLineGap 0;
 } vhea;
 
 table vmtx {
@@ -227,6 +227,8 @@ table vmtx {
   VertOriginY \59047 874;
   VertOriginY \59048 874;
   VertOriginY \59049 874;
+  VertOriginY \59053 980;
+  VertOriginY \59055 980;
   VertOriginY \59056 786;
   VertOriginY \59057 894;
   VertOriginY \59058 786;
@@ -305,14 +307,14 @@ table BASE {
 table OS/2 {
   TypoAscender 880;
   TypoDescender -120;
-  TypoLineGap 500;
+  TypoLineGap 0;
   XHeight 543;
   CapHeight 733;
   WeightClass 900;
   WidthClass 5;
   Panose 2 11 10 0 0 0 0 0 0 0;
   FSType 0;
-  Vendor "ADBE";
+  Vendor "ADBO";
   winAscent 1160;
   winDescent 320;
 } OS/2;
@@ -335,11 +337,20 @@ lookup std_ccmp {
   substitute \716 \716 by \63028;
   substitute \1440 \1442 by \1438;
   substitute \1441 \1442 by \1439;
+  substitute \1454 \1539 by \65486;
+  substitute \1456 \1539 by \65487;
+  substitute \1460 \1539 by \65488;
+  substitute \1462 \1539 by \65489;
   substitute \1463 \1540 by \61769;
   substitute \1465 \1540 by \61770;
   substitute \1467 \1540 by \61771;
   substitute \1469 \1540 by \61772;
   substitute \1471 \1540 by \61773;
+  substitute \1535 \1539 by \65490;
+  substitute \1548 \1539 by \65491;
+  substitute \1550 \1539 by \65492;
+  substitute \1554 \1539 by \65493;
+  substitute \1556 \1539 by \65494;
   substitute \1557 \1540 by \61774;
   substitute \1559 \1540 by \61775;
   substitute \1561 \1540 by \61776;
@@ -348,6 +359,7 @@ lookup std_ccmp {
   substitute \1573 \1540 by \61779;
   substitute \1582 \1540 by \61780;
   substitute \1586 \1540 by \61781;
+  substitute \1629 \1539 by \65495;
   substitute \1862 \1540 by \61782;
 } std_ccmp;
 
@@ -3146,11 +3158,15 @@ feature fwid {
   substitute \94 by \59084;
   substitute \95 by \59085;
   substitute \100 by \59206;
+  substitute \715 by \716;
   substitute \718 by \63153;
   substitute \719 by \63154;
   substitute \721 by \63155;
   substitute \722 by \63156;
   substitute \742 by \59207;
+  substitute \1346 by \63028;
+  substitute \1347 by \63029;
+  substitute \63038 by \728;
   substitute \63039 by \1389;
   substitute \63040 by \58992;
   substitute \63041 by \58993;
@@ -3448,6 +3464,8 @@ feature hwid {
 } hwid;
 
 feature pwid {
+  substitute \716 by \715;
+  substitute \728 by \63038;
   substitute \1389 by \1;
   substitute \58992 by \2;
   substitute \58993 by \3;
@@ -3545,6 +3563,8 @@ feature pwid {
   substitute \59085 by \95;
   substitute \59206 by \100;
   substitute \59207 by \742;
+  substitute \63028 by \1346;
+  substitute \63029 by \1347;
   substitute \63039 by \1;
   substitute \63040 by \2;
   substitute \63041 by \3;
@@ -5015,6 +5035,7 @@ lookup latin_special {
 lookup cnhkjptw_special {
   substitute \3 by \62997;
   substitute \8 by \62998;
+  substitute \715 by \716;
   substitute \718 by \63014;
   substitute \719 by \63015;
   substitute \720 by \63016;
@@ -5051,6 +5072,7 @@ lookup kr_special {
   substitute \94 by \63011;
   substitute \95 by \63012;
   substitute \118 by \63013;
+  substitute \715 by \716;
   substitute \718 by \63014;
   substitute \719 by \63015;
   substitute \720 by \63016;
@@ -5104,6 +5126,7 @@ lookup jp2kr useExtension {
   substitute \11230 by \61786;
   substitute \11275 by \61987;
   substitute \11285 by \61989;
+  substitute \11297 by \11298;
   substitute \11303 by \61990;
   substitute \11311 by \61991;
   substitute \11332 by \61721;
@@ -5164,6 +5187,7 @@ lookup jp2kr useExtension {
   substitute \14249 by \14250;
   substitute \14298 by \62084;
   substitute \14318 by \58867;
+  substitute \14484 by \14485;
   substitute \14499 by \14500;
   substitute \14532 by \14533;
   substitute \14605 by \58810;
@@ -5354,6 +5378,7 @@ lookup jp2kr useExtension {
   substitute \27206 by \62403;
   substitute \27215 by \27216;
   substitute \27381 by \62410;
+  substitute \27454 by \27455;
   substitute \27485 by \27486;
   substitute \27498 by \27499;
   substitute \27518 by \62416;
@@ -5639,6 +5664,7 @@ lookup jp2kr useExtension {
   substitute \42356 by \42357;
   substitute \42425 by \42426;
   substitute \43047 by \62864;
+  substitute \43125 by \43126;
   substitute \43244 by \62867;
   substitute \43292 by \43293;
   substitute \43344 by \58823;
@@ -5723,6 +5749,7 @@ lookup jp2cn useExtension {
   substitute \719 by \63154;
   substitute \721 by \63155;
   substitute \722 by \63156;
+  substitute \726 by \729;
   substitute \853 by \63024;
   substitute \854 by \63025;
   substitute \859 by \63026;
@@ -15586,6 +15613,7 @@ lookup jp2tw useExtension {
   substitute \719 by \63154;
   substitute \721 by \63155;
   substitute \722 by \63156;
+  substitute \726 by \729;
   substitute \1357 by \17709;
   substitute \1376 by \44409;
   substitute \1390 by \63030;
@@ -17572,7 +17600,6 @@ lookup jp2tw useExtension {
   substitute \13662 by \13664;
   substitute \13666 by \13667;
   substitute \13670 by \13672;
-  substitute \13676 by \13678;
   substitute \13683 by \13684;
   substitute \13685 by \13686;
   substitute \13687 by \13689;
@@ -29103,6 +29130,16 @@ lookup vert_all {
   substitute \63035 by \58927;
   substitute \63036 by \58928;
   substitute \63037 by \58930;
+  substitute \65486 by \65496;
+  substitute \65487 by \65497;
+  substitute \65488 by \65498;
+  substitute \65489 by \65499;
+  substitute \65490 by \65500;
+  substitute \65491 by \65501;
+  substitute \65492 by \65502;
+  substitute \65493 by \65503;
+  substitute \65494 by \65504;
+  substitute \65495 by \65505;
 } vert_all;
 
 lookup vert_jp {
@@ -32720,6 +32757,16 @@ feature palt {
   position \63154 <-13 0 -500 0>;
   position \63155 <-497 0 -500 0>;
   position \63156 <-3 0 -500 0>;
+  position \65486 <-7 0 -3 0>;
+  position \65487 <-5 0 2 0>;
+  position \65488 <-70 0 -94 0>;
+  position \65489 <-11 0 -12 0>;
+  position \65490 <-27 0 -28 0>;
+  position \65491 <-36 0 -47 0>;
+  position \65492 <-29 0 -13 0>;
+  position \65493 <-19 0 -23 0>;
+  position \65494 <-13 0 -25 0>;
+  position \65495 <-46 0 -66 0>;
 } palt;
 
 feature vhal {
@@ -33647,5 +33694,15 @@ feature vpal {
   position \65467 <0 500 0 -500>;
   position \65468 <0 0 0 -500>;
   position \65484 <0 84 0 -160>;
+  position \65496 <0 4 0 -23>;
+  position \65497 <0 11 0 -70>;
+  position \65498 <0 6 0 -16>;
+  position \65499 <0 8 0 -13>;
+  position \65500 <0 8 0 -17>;
+  position \65501 <0 -16 0 -3>;
+  position \65502 <0 38 0 -59>;
+  position \65503 <0 6 0 -29>;
+  position \65504 <0 4 0 -6>;
+  position \65505 <0 8 0 -44>;
 } vpal;
 
