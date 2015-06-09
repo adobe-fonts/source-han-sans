@@ -7,8 +7,14 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.002;
+  FontRevision 1.003;
 } head;
+
+table hhea {
+  Ascender 1160;
+  Descender -320;
+  LineGap 0;
+} hhea;
 
 table name {
   nameid 0 "Copyright \00A9 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
@@ -305,8 +311,8 @@ table OS/2 {
   Panose 2 11 5 0 0 0 0 0 0 0;
   FSType 0;
   Vendor "ADBO";
-  winAscent 1082;
-  winDescent 304;
+  winAscent 1160;
+  winDescent 320;
 } OS/2;
 
 feature aalt {
@@ -1299,10 +1305,15 @@ lookup cnhkjptw_special {
 } cnhkjptw_special;
 
 feature locl {
+  # LATN SCRIPT
   script latn;
   language dflt;
   lookup latin_special;
 
+  language ZHS exclude_dflt; # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  # HANI SCRIPT
   script hani;
   language ZHS;
   lookup cnhkjptw_special;

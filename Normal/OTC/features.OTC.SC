@@ -12,8 +12,14 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.002;
+  FontRevision 1.003;
 } head;
+
+table hhea {
+  Ascender 1160;
+  Descender -320;
+  LineGap 0;
+} hhea;
 
 table name {
   nameid 0 "Copyright \00A9 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.";
@@ -301,8 +307,8 @@ table OS/2 {
   Panose 2 11 4 0 0 0 0 0 0 0;
   FSType 0;
   Vendor "ADBO";
-  winAscent 1073;
-  winDescent 302;
+  winAscent 1160;
+  winDescent 320;
 } OS/2;
 
 feature aalt {
@@ -3649,82 +3655,6 @@ feature pwid {
   substitute \63155 by \721;
   substitute \63156 by \722;
 } pwid;
-
-lookup latin_special {
-  substitute \728 by \63038;
-} latin_special;
-
-lookup cnhkjptw_special {
-  substitute \3 by \62997;
-  substitute \8 by \62998;
-  substitute \715 by \716;
-  substitute \718 by \63014;
-  substitute \719 by \63015;
-  substitute \720 by \63016;
-  substitute \721 by \63017;
-  substitute \722 by \63018;
-  substitute \723 by \63019;
-  substitute \736 by \63020;
-  substitute \738 by \63021;
-  substitute \739 by \63022;
-  substitute \740 by \63023;
-  substitute \1346 by \63028;
-  substitute \1347 by \63029;
-  substitute \63041 by \63137;
-  substitute \63046 by \63138;
-} cnhkjptw_special;
-
-lookup kr_special {
-  substitute \1 by \62995;
-  substitute \2 by \62996;
-  substitute \3 by \62997;
-  substitute \8 by \62998;
-  substitute \9 by \62999;
-  substitute \10 by \63000;
-  substitute \13 by \63001;
-  substitute \14 by \63002;
-  substitute \15 by \63003;
-  substitute \16 by \63004;
-  substitute \27 by \63005;
-  substitute \28 by \63006;
-  substitute \32 by \63007;
-  substitute \60 by \63008;
-  substitute \62 by \63009;
-  substitute \92 by \63010;
-  substitute \94 by \63011;
-  substitute \95 by \63012;
-  substitute \118 by \63013;
-  substitute \715 by \716;
-  substitute \718 by \63014;
-  substitute \719 by \63015;
-  substitute \720 by \63016;
-  substitute \721 by \63017;
-  substitute \722 by \63018;
-  substitute \723 by \63019;
-  substitute \736 by \63020;
-  substitute \738 by \63021;
-  substitute \739 by \63022;
-  substitute \740 by \63023;
-  substitute \1346 by \63028;
-  substitute \1347 by \63029;
-  substitute \63040 by \63136;
-  substitute \63041 by \63137;
-  substitute \63046 by \63138;
-  substitute \63047 by \63139;
-  substitute \63048 by \63140;
-  substitute \63051 by \63141;
-  substitute \63052 by \63142;
-  substitute \63053 by \63143;
-  substitute \63054 by \63144;
-  substitute \63065 by \63145;
-  substitute \63066 by \63146;
-  substitute \63070 by \63147;
-  substitute \63098 by \63148;
-  substitute \63100 by \63149;
-  substitute \63130 by \63150;
-  substitute \63132 by \63151;
-  substitute \63133 by \63152;
-} kr_special;
 
 lookup cn2jp useExtension {
   substitute \729 by \726;
@@ -31721,32 +31651,169 @@ lookup cn2tw useExtension {
   substitute \63037 by \59022;
 } cn2tw;
 
+lookup latin_special {
+  substitute \728 by \63038;
+} latin_special;
+
+lookup cnhkjptw_special {
+  substitute \3 by \62997;
+  substitute \8 by \62998;
+  substitute \715 by \716;
+  substitute \718 by \63014;
+  substitute \719 by \63015;
+  substitute \720 by \63016;
+  substitute \721 by \63017;
+  substitute \722 by \63018;
+  substitute \723 by \63019;
+  substitute \736 by \63020;
+  substitute \738 by \63021;
+  substitute \739 by \63022;
+  substitute \740 by \63023;
+  substitute \1346 by \63028;
+  substitute \1347 by \63029;
+  substitute \63041 by \63137;
+  substitute \63046 by \63138;
+} cnhkjptw_special;
+
+lookup kr_special {
+  substitute \1 by \62995;
+  substitute \2 by \62996;
+  substitute \3 by \62997;
+  substitute \8 by \62998;
+  substitute \9 by \62999;
+  substitute \10 by \63000;
+  substitute \13 by \63001;
+  substitute \14 by \63002;
+  substitute \15 by \63003;
+  substitute \16 by \63004;
+  substitute \27 by \63005;
+  substitute \28 by \63006;
+  substitute \32 by \63007;
+  substitute \60 by \63008;
+  substitute \62 by \63009;
+  substitute \92 by \63010;
+  substitute \94 by \63011;
+  substitute \95 by \63012;
+  substitute \118 by \63013;
+  substitute \715 by \716;
+  substitute \718 by \63014;
+  substitute \719 by \63015;
+  substitute \720 by \63016;
+  substitute \721 by \63017;
+  substitute \722 by \63018;
+  substitute \723 by \63019;
+  substitute \736 by \63020;
+  substitute \738 by \63021;
+  substitute \739 by \63022;
+  substitute \740 by \63023;
+  substitute \1346 by \63028;
+  substitute \1347 by \63029;
+  substitute \63040 by \63136;
+  substitute \63041 by \63137;
+  substitute \63046 by \63138;
+  substitute \63047 by \63139;
+  substitute \63048 by \63140;
+  substitute \63051 by \63141;
+  substitute \63052 by \63142;
+  substitute \63053 by \63143;
+  substitute \63054 by \63144;
+  substitute \63065 by \63145;
+  substitute \63066 by \63146;
+  substitute \63070 by \63147;
+  substitute \63098 by \63148;
+  substitute \63100 by \63149;
+  substitute \63130 by \63150;
+  substitute \63132 by \63151;
+  substitute \63133 by \63152;
+} kr_special;
+
 feature locl {
+  # LATN SCRIPT
   script latn;
   language dflt;
   lookup latin_special;
 
+  language JAN exclude_dflt; # ADDED
+  lookup cn2jp;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language KOR exclude_dflt; # ADDED
+  lookup cn2kr;              # ADDED
+  lookup kr_special;         # ADDED
+
+  language ZHS exclude_dflt; # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHT exclude_dflt; # ADDED
+  lookup cn2tw;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHH exclude_dflt; # ADDED
+# lookup cn2hk;              # NOT YET IMPLEMENTED
+  lookup cnhkjptw_special;   # ADDED
+
+  # KANA SCRIPT
   script kana;
   language JAN;
   lookup cn2jp;
   lookup cnhkjptw_special;
 
+  language KOR;              # ADDED
+  lookup cn2kr;              # ADDED
+  lookup kr_special;         # ADDED
+
+  language ZHS;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHT;              # ADDED
+  lookup cn2tw;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHH;              # ADDED
+# lookup cn2hk;              # NOT YET IMPLEMENTED
+  lookup cnhkjptw_special;   # ADDED
+
+  # HANG SCRIPT
   script hang;
+  language JAN;              # ADDED
+  lookup cn2jp;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
   language KOR;
   lookup cn2kr;
   lookup kr_special;
 
+  language ZHS;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHT;              # ADDED
+  lookup cn2tw;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language ZHH;              # ADDED
+# lookup cn2hk;              # NOT YET IMPLEMENTED
+  lookup cnhkjptw_special;   # ADDED
+
+  # HANI SCRIPT
   script hani;
+  language JAN;              # ADDED
+  lookup cn2jp;              # ADDED
+  lookup cnhkjptw_special;   # ADDED
+
+  language KOR;              # ADDED
+  lookup cn2kr;              # ADDED
+  lookup kr_special;         # ADDED
+
   language ZHS;
   lookup cnhkjptw_special;
 
-  language ZHT;
-  lookup cnhkjptw_special;
+  language ZHT;              # SWAPPED LOOKUP ORDER
   lookup cn2tw;
+  lookup cnhkjptw_special;
 
   language ZHH;
+# lookup cn2hk;              # NOT YET IMPLEMENTED
   lookup cnhkjptw_special;
-# lookup cn2hk; # This lookup is not yet implemented
 } locl;
 
 lookup vert_all {
