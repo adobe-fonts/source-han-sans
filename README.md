@@ -9,19 +9,29 @@ Starting with the Version 1.002 release, ZIP files were added that are intended 
 ### Language-specific OTFs
 
 [Simplified Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansSC.zip)
+
 [Simplified Chinese&mdash;HW](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWSC.zip)
+
 [Traditional Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansTC.zip)
+
 [Traditional Chinese&mdash;HW](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWTC.zip)
+
 [Japanese](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansJ.zip)
+
 [Japanese&mdash;HW](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWJ.zip)
+
 [Korean](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansK.zip)
+
 [Korean&mdash;HW](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWK.zip)
 
 ### Region-specific Subset OTFs
 
 [Simplified Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip)
+
 [Traditional Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansTW.zip)
+
 [Japanese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip)
+
 [Korean](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansKR.zip)
 
 ### OTCs
