@@ -2,7 +2,7 @@ FontName                   (SourceHanSansSC-Light)
 FullName                   (Source Han Sans Simplified Chinese Light)
 FamilyName                 (Source Han Sans Simplified Chinese)
 Weight                     (Light)
-version                    (1.002)
+version                    (1.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

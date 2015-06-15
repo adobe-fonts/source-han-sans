@@ -2,7 +2,7 @@ FontName                   (SourceHanSansSC-Medium)
 FullName                   (Source Han Sans Simplified Chinese Medium)
 FamilyName                 (Source Han Sans Simplified Chinese)
 Weight                     (Medium)
-version                    (1.002)
+version                    (1.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

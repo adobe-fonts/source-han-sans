@@ -3,6 +3,8 @@ languagesystem hani dflt;
 languagesystem hani ZHS;
 languagesystem hani ZHT;
 languagesystem hani ZHH;
+languagesystem hani JAN;
+languagesystem hani KOR;
 languagesystem kana dflt;
 languagesystem kana JAN;
 languagesystem hang dflt;
@@ -12,7 +14,7 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.003;
+  FontRevision 1.004;
 } head;
 
 table hhea {

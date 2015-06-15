@@ -2,7 +2,7 @@ FontName                   (SourceHanSansK-ExtraLight)
 FullName                   (Source Han Sans Korean ExtraLight)
 FamilyName                 (Source Han Sans Korean)
 Weight                     (ExtraLight)
-version                    (1.002)
+version                    (1.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

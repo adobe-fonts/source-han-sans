@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem hani dflt;
+languagesystem hani KOR;
 languagesystem kana dflt;
 languagesystem hang dflt;
 languagesystem hang KOR;
@@ -8,7 +9,7 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.003;
+  FontRevision 1.004;
 } head;
 
 table hhea {

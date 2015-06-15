@@ -2,7 +2,7 @@ FontName                   (SourceHanSansHWK-Bold)
 FullName                   (Source Han Sans HW Korean Bold)
 FamilyName                 (Source Han Sans HW Korean)
 Weight                     (Bold)
-version                    (1.002)
+version                    (1.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

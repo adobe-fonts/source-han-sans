@@ -2,7 +2,7 @@ FontName                   (SourceHanSansK-Heavy)
 FullName                   (Source Han Sans Korean Heavy)
 FamilyName                 (Source Han Sans Korean)
 Weight                     (Heavy)
-version                    (1.002)
+version                    (1.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
