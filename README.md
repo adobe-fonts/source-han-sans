@@ -19,13 +19,13 @@ Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHa
 
 ### Region-specific Subset OTFs
 
-[Simplified Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip)
+[China](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip)
 
-[Traditional Chinese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansTW.zip)
+[Taiwan](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansTW.zip)
 
-[Japanese](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip)
+[Japan](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip)
 
-[Korean](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansKR.zip)
+[Korea](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansKR.zip)
 
 ### OTCs
 
