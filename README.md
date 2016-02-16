@@ -2,9 +2,9 @@
 
 Source Han Sans is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
 
-Note that if you click the *Download ZIP* button for this project that the download size is approximately 1.6GB for the *master* branch, and approximately 1.2GB for the *release* branch.
-
 ## Download the fonts (OTF, OTC, Super OTC, Subset OTF)
+
+Note that if you click the *Download ZIP* button for this project that the download size of the current version is approximately 1.2GB for the *master* branch, and approximately 1.6GB for the *release* branch.
 
 * [Latest release](../../releases/latest)
 * [All releases](../../releases)
