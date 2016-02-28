@@ -6,6 +6,8 @@ Source Han Sans is a set of OpenType/CFF Pan-CJK fonts. In addition to functiona
 
 Note that if you click the *Download ZIP* button for this project that the download size of the current version is approximately 1.2GB for the *master* branch, and approximately 1.6GB for the *release* branch.
 
+You can either download entire releases after clicking one of the two links below, or go to this project's [release](https://github.com/adobe-fonts/source-han-sans/tree/release) branch to download individual font resources or ZIP files that include all weights for a particular language or region-specific subset:
+
 * [Latest release](../../releases/latest)
 * [All releases](../../releases)
 
