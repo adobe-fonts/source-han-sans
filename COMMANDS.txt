@@ -1,6 +1,6 @@
 # Command lines for building Source Han Sans OTFs & OTCs
 #
-# Version 2015-04-20
+# Version 2016-03-02
 #
 # To subroutinize the 'CFF' table, which may take several hours for
 # the 65,535-glyph fonts, replace "-nS" with "-maxs 30000" in the
@@ -35,6 +35,43 @@ makeotf -f cidfont.ps.JP -ff features.JP -fi cidfontinfo.JP -mf ../FontMenuNameD
 
 makeotf -f cidfont.ps.KR -ff features.KR -fi cidfontinfo.KR -mf ../FontMenuNameDB.SUBSET -r -nS -cs 3 -ch ../UniSourceHanSansKR-UTF32-H -ci ../SourceHanSans_KR_sequences.txt
 
+### Command lines for building alternate style-linked region-specific subset OTFs
+### Executed in Regular
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.CN -ff features.CN -fi cidfontinfo.CN -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 25 -ch ../UniSourceHanSansCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.TW -ff features.TW -fi cidfontinfo.TW -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 2 -ch ../UniSourceHanSansTW-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.JP -ff features.JP -fi cidfontinfo.JP -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 1 -ch ../UniSourceHanSansJP-UTF32-H -ci ../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.KR -ff features.KR -fi cidfontinfo.KR -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 3 -ch ../UniSourceHanSansKR-UTF32-H -ci ../SourceHanSans_KR_sequences.txt
+
+### Executed in Bold
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.CN -ff features.CN -fi cidfontinfo.CN.SL -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 25 -ch ../UniSourceHanSansCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.TW -ff features.TW -fi cidfontinfo.TW.SL -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 2 -ch ../UniSourceHanSansTW-UTF32-H -ci ../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.JP -ff features.JP -fi cidfontinfo.JP.SL -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 1 -ch ../UniSourceHanSansJP-UTF32-H -ci ../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.KR -ff features.KR -fi cidfontinfo.KR.SL -mf ../FontMenuNameDB.SUBSET.SL -r -nS -cs 3 -ch ../UniSourceHanSansKR-UTF32-H -ci ../SourceHanSans_KR_sequences.txt
+
 ### Command lines for building the language-specific OTFs
 ### Executed in {ExtraLight,Light,Normal,Regular,Medium,Bold,Heavy}/OTC
 
@@ -54,6 +91,43 @@ makeotf -f cidfont.ps.OTC.J -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../F
 
 makeotf -f cidfont.ps.OTC.K -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../FontMenuNameDB -r -nS -cs 3 -ch ../../UniSourceHanSansKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
 
+### Command lines for building alternate style-linked language-specific OTFs
+### Executed in Regular/OTC
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.OTC.SC -ff features.OTC.SC -fi cidfontinfo.OTC.SC -mf ../../FontMenuNameDB.SL -r -nS -cs 25 -ch ../../UniSourceHanSansCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.OTC.TC -ff features.OTC.TC -fi cidfontinfo.OTC.TC -mf ../../FontMenuNameDB.SL -r -nS -cs 2 -ch ../../UniSourceHanSansTW-UTF32-H -ci ../../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.OTC.J -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../FontMenuNameDB.SL -r -nS -cs 1 -ch ../../UniSourceHanSansJP-UTF32-H -ci ../../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.OTC.K -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../FontMenuNameDB.SL -r -nS -cs 3 -ch ../../UniSourceHanSansKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
+
+### Executed in Bold/OTC
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.OTC.SC -ff features.OTC.SC -fi cidfontinfo.OTC.SC.SL -mf ../../FontMenuNameDB.SL -r -nS -cs 25 -ch ../../UniSourceHanSansCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.OTC.TC -ff features.OTC.TC -fi cidfontinfo.OTC.TC.SL -mf ../../FontMenuNameDB.SL -r -nS -cs 2 -ch ../../UniSourceHanSansTW-UTF32-H -ci ../../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.OTC.J -ff features.OTC.J -fi cidfontinfo.OTC.J.SL -mf ../../FontMenuNameDB.SL -r -nS -cs 1 -ch ../../UniSourceHanSansJP-UTF32-H -ci ../../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.OTC.K -ff features.OTC.K -fi cidfontinfo.OTC.K.SL -mf ../../FontMenuNameDB.SL -r -nS -cs 3 -ch ../../UniSourceHanSansKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
+
 ### Command lines for building the language-specific half-width (HW) OTFs
 ### Executed in {Regular,Bold}/OTC
 
@@ -72,6 +146,43 @@ makeotf -f cidfont.ps.OTC.HW.J -ff features.OTC.J -fi cidfontinfo.OTC.HW.J -mf .
 # Korean
 
 makeotf -f cidfont.ps.OTC.HW.K -ff features.OTC.K -fi cidfontinfo.OTC.HW.K -mf ../../FontMenuNameDB.HW -r -nS -cs 3 -ch ../../UniSourceHanSansHWKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
+
+### Command lines for building alternate style-linked language-specific half-width (HW) OTFs
+### Executed in Regular/OTC
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.OTC.HW.SC -ff features.OTC.SC -fi cidfontinfo.OTC.HW.SC -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 25 -ch ../../UniSourceHanSansHWCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.OTC.HW.TC -ff features.OTC.TC -fi cidfontinfo.OTC.HW.TC -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 2 -ch ../../UniSourceHanSansHWTW-UTF32-H -ci ../../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.OTC.HW.J -ff features.OTC.J -fi cidfontinfo.OTC.HW.J -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 1 -ch ../../UniSourceHanSansHWJP-UTF32-H -ci ../../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.OTC.HW.K -ff features.OTC.K -fi cidfontinfo.OTC.HW.K -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 3 -ch ../../UniSourceHanSansHWKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
+
+### Executed in Bold/OTC
+
+# Simplified Chinese
+
+makeotf -f cidfont.ps.OTC.HW.SC -ff features.OTC.SC -fi cidfontinfo.OTC.HW.SC.SL -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 25 -ch ../../UniSourceHanSansHWCN-UTF32-H
+
+# Traditional Chinese (TW)
+
+makeotf -f cidfont.ps.OTC.HW.TC -ff features.OTC.TC -fi cidfontinfo.OTC.HW.TC.SL -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 2 -ch ../../UniSourceHanSansHWTW-UTF32-H -ci ../../SourceHanSans_TWHK_sequences.txt
+
+# Japanese
+
+makeotf -f cidfont.ps.OTC.HW.J -ff features.OTC.J -fi cidfontinfo.OTC.HW.J.SL -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 1 -ch ../../UniSourceHanSansHWJP-UTF32-H -ci ../../SourceHanSans_JP_sequences.txt
+
+# Korean
+
+makeotf -f cidfont.ps.OTC.HW.K -ff features.OTC.K -fi cidfontinfo.OTC.HW.K.SL -mf ../../FontMenuNameDB.HW.SL -r -nS -cs 3 -ch ../../UniSourceHanSansHWKR-UTF32-H -ci ../../SourceHanSans_KR_sequences.txt
 
 ### Command line for building the OTCs (replace $dir with the face name)
 ### Executed in {ExtraLight,Light,Normal,Medium,Heavy}/OTC
