@@ -27,7 +27,7 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Build all fonts
 
-In this repository, all necessary files are in place for building the OpenType/CFF and OpenType/CFF Collection fonts. The COMMANDS.txt file provides the command lines that are used to build the OTFs and OTCs.
+In this repository, all necessary files are in place for building the OpenType/CFF and OpenType/CFF Collection fonts. The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that are used to build the OTFs and OTCs.
 
 ## Getting Involved
 
