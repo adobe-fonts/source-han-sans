@@ -14,8 +14,8 @@ You can also download entire [releases](../../releases) that include all availab
 
 ## Font installation instructions
 
-* [OS X](http://support.apple.com/kb/HT2509)
-* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
+* [macOS](https://support.apple.com/en-us/HT201749)
+* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
 * [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
 
 ## Building the fonts from source
