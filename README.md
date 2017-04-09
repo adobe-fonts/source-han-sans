@@ -1,3 +1,5 @@
+[English](README.md) [日本語](README-JP.md)
+
 # Source Han Sans
 
 Source Han Sans is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
@@ -8,7 +10,7 @@ Individual font resources or ZIP files for various deployment configurations are
 
 * [Latest release](https://github.com/adobe-fonts/source-han-sans/tree/release)
 
-To help decide which fonts to download, please refer to the Configurations section of the [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf).
+To help decide which fonts to download, please refer to the Configurations section of the [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
 
 You can also download entire [releases](../../releases) that include all available configurations in a single ZIP file. The ZIP file for the [latest release](../../releases/latest) is approximately 1.6GB.
 
