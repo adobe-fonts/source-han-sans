@@ -1,4 +1,4 @@
-[English](README.md) [日本語](README-JP.md)
+[English](README.md) [简体中文](README-CN.md) [日本語](README-JP.md)
 
 # 源ノ角ゴシック（げんのかくごしっく）
 
