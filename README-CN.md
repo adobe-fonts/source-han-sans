@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-sans/) [简体中文](README-CN.md) [日本語](README-JP.md)
+[English](https://github.com/adobe-fonts/source-han-sans/) [简体中文](README-CN.md) [繁體中文](README-TW.md) [日本語](README-JP.md) [한국어](README-KR.md)
 
 # 思源黑体
 
