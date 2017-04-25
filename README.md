@@ -8,7 +8,7 @@ Select this deployment format if you want all languages and all weights in a sin
 
 [Super OTC](https://github.com/adobe-fonts/source-han-sans/raw/release/SuperOTC/SourceHanSans.ttc.zip)
 
-**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, or Windows 10 Version 1703 (aka *Creators Update*) or later. For Adobe apps, use CS6 or later.
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
 ### OTCs
 
@@ -16,7 +16,7 @@ Select this deployment format if you want all languages and some weights, or if 
 
 [ExtraLight + Light + Normal + Regular](https://github.com/adobe-fonts/source-han-sans/raw/release/OTC/SourceHanSansOTC_EL-R.zip) & [Medium + Bold + Heavy](https://github.com/adobe-fonts/source-han-sans/raw/release/OTC/SourceHanSansOTC_M-H.zip)
 
-**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, or Windows 10 Version 1607 (aka *Anniversary Update*) or later. For Adobe apps, use CS6 or later.
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1607 (aka *Anniversary Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
 ### Language-specific OTFs
 
