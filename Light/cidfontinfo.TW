@@ -2,18 +2,17 @@ FontName                   (SourceHanSansTW-Light)
 FullName                   (Source Han Sans TW Light)
 FamilyName                 (Source Han Sans TW)
 Weight                     (Light)
-version                    (1.004)
+version                    (2.000)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
-XUID                       [1 11 9274303]
 Layout                     (AI0-SourceHanSans)
 Subset                     (AI0-SourceHanSans.TW)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'.)
-Trademark                  (Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.)
+AdobeCopyright             (Copyright 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+Trademark                  (Source is a trademark of Adobe in the United States and/or other countries.)
 Serif                      false
 IsBoldStyle                false
 IsItalicStyle              false

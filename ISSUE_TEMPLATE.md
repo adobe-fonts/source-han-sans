@@ -1,6 +1,6 @@
 ### Prerequisites
 
-* [ ] If you are reporting an issue that affects glyphs for characters for a particular region or regions, did you verify that the characters are within the supported scope of the region or regions? This generally means GB 18030 or Tōngyòng Guīfàn Hànzìbiǎo (通用规范汉字表) for China, Big Five or CNS 11643 Planes 1 & 2 for Taiwan, HKSCS-2016 for Hong Kong (though support has been deferred until Version 2.000), the JIS standards for Japan, and KS X 1001 and KS X 1002 for Korea.
+* [ ] If you are reporting an issue that affects glyphs for characters for a particular region or regions, did you verify that the characters are within the supported scope of the region or regions? This generally means GB 18030 or Tōngyòng Guīfàn Hànzìbiǎo (通用规范汉字表) for China, Big Five or CNS 11643 Planes 1 & 2 for Taiwan, HKSCS-2016 for Hong Kong, JIS X 0208, JIS X 0212, and JIS X 0213 for Japan, and KS X 1001 and KS X 1002 for Korea.
 * [ ] Did you thoroughly search the [open](https://github.com/adobe-fonts/source-han-sans/issues) and [closed](https://github.com/adobe-fonts/source-han-sans/issues?q=is%3Aissue+is%3Aclosed) issues to avoid reporting a duplicate issue?
 * [ ] Did you go through the [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf) to better understand the scope of the project, to include the *Known Issues* section at the very end?
 

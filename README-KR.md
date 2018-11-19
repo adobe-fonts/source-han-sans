@@ -14,17 +14,11 @@
 
 또한 전체 [릴리스](../../releases)를 다운로드 할 수 있으며 이는 모든 가능한 설정들을 포함한 하나의 ZIP 파일입니다. [최신 릴리스](../../releases/latest) ZIP 파일의 크기는 대략 2GB 입니다.
 
-## 글꼴 설치 안내
-
-* [macOS](https://support.apple.com/en-us/HT201749)
-* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
-* [Linux/Unix-기반 시스템](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
-
 ## 소스로부터 글꼴 만들기
 
 ### 요구사항
 
-소스를 통해 바이너리 글꼴 파일을 만들기 위해서는, [Opentype 용 Adobe Font Development Kit](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO)을 반드시 설치하여야 합니다. AFDKO 툴은 글꼴 개발을 위해 오늘날 널리 사용되고 있으며 대부분의 글꼴 편집 프로그램들의 일부로 활용되고 있습니다.
+소스를 통해 바이너리 글꼴 파일을 만들기 위해서는, [Opentype 용 Adobe Font Development Kit](https://github.com/adobe-type-tools/afdko/) (AFDKO)을 반드시 설치하여야 합니다. AFDKO 툴은 글꼴 개발을 위해 오늘날 널리 사용되고 있으며 대부분의 글꼴 편집 프로그램들의 일부로 활용되고 있습니다.
 
 ### 모든 글꼴 제작
 

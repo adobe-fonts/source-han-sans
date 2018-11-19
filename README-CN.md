@@ -12,19 +12,13 @@
 
 参考[《官方字体 readme 文件》](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf)的 Configurations（设置）部分，可以帮助您决定下载哪一套字体。推荐不熟悉 GitHub 的人士参照以英文、日文、韩文、简体中文、繁体中文提供的[《思源字体官方下载指南》](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf)。
 
-您也可以一个单一 ZIP 文件形式下载整个 [releases](../../releases)，内含所有设置。[最新发布](../../releases/latest)的 ZIP 文件大约有 1.6GB 大小。
-
-## 字体安装步骤
-
-* [macOS](https://support.apple.com/en-us/HT201749)
-* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
-* [Linux/以 Unix 为基础的系统](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+您也可以一个单一 ZIP 文件形式下载整个 [releases](../../releases)，内含所有设置。[最新发布](../../releases/latest)的 ZIP 文件大约有 2GB 大小。
 
 ## 从源文件创建字体
 
 ### 要求
 
-要从源文件创建二进制字体文件，需要安装[「OpenType 用 Adobe 字体开发包」](http://www.adobe.com/devnet/opentype/afdko.html)（AFDKO）。AFDKO 工具目前已被广泛用于字体开发，也是大多数字体编辑应用程序的一部分。
+要从源文件创建二进制字体文件，需要安装[「OpenType 用 Adobe 字体开发包」](https://github.com/adobe-type-tools/afdko/)（AFDKO）。AFDKO 工具目前已被广泛用于字体开发，也是大多数字体编辑应用程序的一部分。
 
 ### 创建所有字体
 
