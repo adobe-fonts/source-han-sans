@@ -18,7 +18,7 @@
 
 ### 要件
 
-ソースからバイナリフォントファイルを作成するには、[OpenType 用 Adobe Font Development Kit](https://github.com/adobe-type-tools/afdko/)（AFDKO）がインストールされている必要があります。AFDKO ツールは、今日、フォント開発で広く使用されており、ほとんどのフォントエディタアプリケーションのの一部としても活用されています。
+ソースからバイナリフォントファイルを作成するには、[OpenType 用 Adobe Font Development Kit](https://github.com/adobe-type-tools/afdko/)（AFDKO）がインストールされている必要があります。AFDKO ツールは、今日、フォント開発で広く使用されており、ほとんどのフォントエディタアプリケーションの一部としても活用されています。
 
 ## 実行コマンドライン
 
