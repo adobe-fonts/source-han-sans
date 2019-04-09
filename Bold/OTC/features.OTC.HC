@@ -37,7 +37,7 @@ languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.000;
+  FontRevision 2.001;
 } head;
 
 table hhea {
@@ -47,7 +47,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "\00A9 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "\00A9 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe in the United States and/or other countries.";
   nameid 8 "Adobe";
   nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
@@ -2956,6 +2956,9 @@ feature dlig {
   substitute \1518 \1470 by \59382;
   substitute \1531 \1533 by \1552;
   # Ideograph Ligatures
+  substitute \9808 \12144 by \2184; # JP/KR
+  substitute \9809 \12144 by \2184; # CN
+  substitute \9810 \12144 by \2184; # TW/HK
   substitute \14075 \22620 by \2309; # ALL
   substitute \16854 \18519 by \2307; # JP/CN/TW/HK
   substitute \62256 \18519 by \2307; # KR
@@ -4407,7 +4410,7 @@ lookup hk2jp useExtension {
   substitute \9834 by \9832;
   substitute \9839 by \9838;
   substitute \9844 by \9843;
-  substitute \9848 by \9846;
+  substitute \9847 by \9846;
   substitute \9851 by \9850;
   substitute \9853 by \9852;
   substitute \9856 by \9855;
@@ -4596,7 +4599,6 @@ lookup hk2jp useExtension {
   substitute \10568 by \10566;
   substitute \10572 by \10570;
   substitute \10578 by \10577;
-  substitute \10580 by \10579;
   substitute \10585 by \10582;
   substitute \10588 by \10587;
   substitute \10590 by \10589;
@@ -4707,7 +4709,6 @@ lookup hk2jp useExtension {
   substitute \10941 by \10938;
   substitute \10957 by \10956;
   substitute \10960 by \10958;
-  substitute \10963 by \10962;
   substitute \10965 by \10964;
   substitute \10974 by \10973;
   substitute \10984 by \10983;
@@ -4928,7 +4929,6 @@ lookup hk2jp useExtension {
   substitute \11813 by \11812;
   substitute \11816 by \11815;
   substitute \11819 by \11818;
-  substitute \11823 by \11822;
   substitute \11826 by \11825;
   substitute \11828 by \11827;
   substitute \11830 by \11829;
@@ -5127,7 +5127,6 @@ lookup hk2jp useExtension {
   substitute \12665 by \12663;
   substitute \12667 by \12666;
   substitute \12670 by \12668;
-  substitute \12673 by \12671;
   substitute \12676 by \12674;
   substitute \12680 by \12679;
   substitute \12684 by \12683;
@@ -5189,7 +5188,6 @@ lookup hk2jp useExtension {
   substitute \12902 by \12901;
   substitute \12906 by \12904;
   substitute \12909 by \12907;
-  substitute \12912 by \12910;
   substitute \12916 by \12914;
   substitute \12919 by \12917;
   substitute \12923 by \12922;
@@ -5421,7 +5419,6 @@ lookup hk2jp useExtension {
   substitute \13805 by \13804;
   substitute \13807 by \13806;
   substitute \13809 by \13808;
-  substitute \13814 by \13813;
   substitute \13819 by \13818;
   substitute \13821 by \13820;
   substitute \13823 by \13822;
@@ -5441,7 +5438,6 @@ lookup hk2jp useExtension {
   substitute \13876 by \13875;
   substitute \13878 by \13877;
   substitute \13881 by \13880;
-  substitute \13885 by \13883;
   substitute \13888 by \13887;
   substitute \13891 by \13890;
   substitute \13895 by \13894;
@@ -5481,7 +5477,7 @@ lookup hk2jp useExtension {
   substitute \14018 by \14015;
   substitute \14022 by \14019;
   substitute \14029 by \14028;
-  substitute \14032 by \14030;
+  substitute \14031 by \14030;
   substitute \14034 by \14033;
   substitute \14037 by \14035;
   substitute \14040 by \14039;
@@ -5517,7 +5513,6 @@ lookup hk2jp useExtension {
   substitute \14164 by \14163;
   substitute \14167 by \14165;
   substitute \14174 by \14172;
-  substitute \14177 by \14176;
   substitute \14182 by \14181;
   substitute \14185 by \14183;
   substitute \14187 by \14186;
@@ -6049,7 +6044,7 @@ lookup hk2jp useExtension {
   substitute \15656 by \15655;
   substitute \15658 by \15657;
   substitute \15662 by \15659;
-  substitute \15664 by \15663;
+  substitute \15665 by \15663;
   substitute \15667 by \15666;
   substitute \15669 by \15668;
   substitute \15672 by \15670;
@@ -6068,7 +6063,6 @@ lookup hk2jp useExtension {
   substitute \15714 by \15713;
   substitute \15717 by \15715;
   substitute \15720 by \15719;
-  substitute \15722 by \15721;
   substitute \15728 by \15727;
   substitute \15732 by \15731;
   substitute \15735 by \15733;
@@ -6286,7 +6280,6 @@ lookup hk2jp useExtension {
   substitute \16447 by \16446;
   substitute \16450 by \16448;
   substitute \16453 by \16451;
-  substitute \16455 by \16454;
   substitute \16459 by \16458;
   substitute \16462 by \16460;
   substitute \16465 by \16464;
@@ -6312,7 +6305,6 @@ lookup hk2jp useExtension {
   substitute \16540 by \16538;
   substitute \16543 by \16541;
   substitute \16545 by \16544;
-  substitute \16549 by \16547;
   substitute \16551 by \16550;
   substitute \16553 by \16552;
   substitute \16555 by \16554;
@@ -6340,7 +6332,6 @@ lookup hk2jp useExtension {
   substitute \16625 by \16623;
   substitute \16628 by \16627;
   substitute \16633 by \16632;
-  substitute \16635 by \16634;
   substitute \16639 by \16637;
   substitute \16643 by \16642;
   substitute \16647 by \16646;
@@ -6745,7 +6736,7 @@ lookup hk2jp useExtension {
   substitute \18048 by \18047;
   substitute \18053 by \18051;
   substitute \18055 by \18054;
-  substitute \18058 by \18057;
+  substitute \18059 by \18057;
   substitute \18063 by \18062;
   substitute \18070 by \18068;
   substitute \18073 by \18071;
@@ -6772,7 +6763,6 @@ lookup hk2jp useExtension {
   substitute \18137 by \18136;
   substitute \18139 by \18138;
   substitute \18143 by \18140;
-  substitute \18146 by \18144;
   substitute \18150 by \18148;
   substitute \18155 by \18154;
   substitute \18161 by \18159;
@@ -6877,7 +6867,7 @@ lookup hk2jp useExtension {
   substitute \18510 by \18509;
   substitute \18514 by \18513;
   substitute \18517 by \18516;
-  substitute \18537 by \18535;
+  substitute \18536 by \18535;
   substitute \18540 by \18538;
   substitute \18544 by \18543;
   substitute \18546 by \18545;
@@ -7087,7 +7077,6 @@ lookup hk2jp useExtension {
   substitute \19383 by \19381;
   substitute \19386 by \19384;
   substitute \19389 by \19387;
-  substitute \19392 by \19390;
   substitute \19394 by \19393;
   substitute \19396 by \19395;
   substitute \19399 by \19397;
@@ -7150,6 +7139,7 @@ lookup hk2jp useExtension {
   substitute \19619 by \19618;
   substitute \19622 by \19621;
   substitute \19626 by \19625;
+  substitute \19630 by \19629;
   substitute \19633 by \19631;
   substitute \19635 by \19634;
   substitute \19638 by \19636;
@@ -7177,7 +7167,6 @@ lookup hk2jp useExtension {
   substitute \19709 by \19707;
   substitute \19711 by \19710;
   substitute \19713 by \19712;
-  substitute \19715 by \19714;
   substitute \19718 by \19716;
   substitute \19727 by \19725;
   substitute \19729 by \19728;
@@ -7329,7 +7318,7 @@ lookup hk2jp useExtension {
   substitute \20189 by \20188;
   substitute \20191 by \20190;
   substitute \20193 by \20192;
-  substitute \20197 by \20196;
+  substitute \20198 by \20196;
   substitute \20201 by \20200;
   substitute \20203 by \20202;
   substitute \20206 by \20204;
@@ -7635,7 +7624,6 @@ lookup hk2jp useExtension {
   substitute \21424 by \21423;
   substitute \21426 by \21425;
   substitute \21429 by \21428;
-  substitute \21431 by \21430;
   substitute \21439 by \21437;
   substitute \21446 by \21445;
   substitute \21450 by \21448;
@@ -7751,7 +7739,6 @@ lookup hk2jp useExtension {
   substitute \21837 by \21836;
   substitute \21840 by \21839;
   substitute \21842 by \21841;
-  substitute \21845 by \21843;
   substitute \21847 by \21846;
   substitute \21849 by \21848;
   substitute \21854 by \21853;
@@ -7782,7 +7769,6 @@ lookup hk2jp useExtension {
   substitute \21942 by \21941;
   substitute \21944 by \21943;
   substitute \21948 by \21946;
-  substitute \21952 by \21951;
   substitute \21955 by \21954;
   substitute \21958 by \21957;
   substitute \21966 by \21964;
@@ -7824,6 +7810,7 @@ lookup hk2jp useExtension {
   substitute \22098 by \22096;
   substitute \22105 by \22102;
   substitute \22109 by \22108;
+  substitute \22112 by \22111;
   substitute \22114 by \22113;
   substitute \22120 by \22118;
   substitute \22123 by \22121;
@@ -8034,7 +8021,6 @@ lookup hk2jp useExtension {
   substitute \22825 by \22824;
   substitute \22828 by \22826;
   substitute \22831 by \22830;
-  substitute \22833 by \22832;
   substitute \22836 by \22835;
   substitute \22839 by \22838;
   substitute \22841 by \22840;
@@ -8052,7 +8038,6 @@ lookup hk2jp useExtension {
   substitute \22895 by \22894;
   substitute \22907 by \22906;
   substitute \22914 by \22912;
-  substitute \22917 by \22916;
   substitute \22919 by \22918;
   substitute \22922 by \22920;
   substitute \22924 by \22923;
@@ -8072,7 +8057,6 @@ lookup hk2jp useExtension {
   substitute \22970 by \22968;
   substitute \22976 by \22975;
   substitute \22979 by \22978;
-  substitute \22982 by \22981;
   substitute \22987 by \22986;
   substitute \22989 by \22988;
   substitute \22992 by \22990;
@@ -8095,7 +8079,6 @@ lookup hk2jp useExtension {
   substitute \23071 by \23069;
   substitute \23075 by \23074;
   substitute \23083 by \23082;
-  substitute \23086 by \23085;
   substitute \23095 by \23094;
   substitute \23097 by \23096;
   substitute \23100 by \23099;
@@ -8365,7 +8348,6 @@ lookup hk2jp useExtension {
   substitute \24106 by \24105;
   substitute \24111 by \24110;
   substitute \24116 by \24115;
-  substitute \24122 by \24121;
   substitute \24125 by \24124;
   substitute \24130 by \24127;
   substitute \24133 by \24131;
@@ -8382,7 +8364,6 @@ lookup hk2jp useExtension {
   substitute \24160 by \24159;
   substitute \24163 by \24162;
   substitute \24176 by \24174;
-  substitute \24179 by \24178;
   substitute \24183 by \24181;
   substitute \24187 by \24184;
   substitute \24193 by \24192;
@@ -8392,7 +8373,6 @@ lookup hk2jp useExtension {
   substitute \24202 by \24200;
   substitute \24204 by \24203;
   substitute \24206 by \24205;
-  substitute \24208 by \24207;
   substitute \24213 by \24210;
   substitute \24217 by \24215;
   substitute \24219 by \24218;
@@ -8418,7 +8398,6 @@ lookup hk2jp useExtension {
   substitute \24274 by \24272;
   substitute \24276 by \24275;
   substitute \24279 by \24278;
-  substitute \24281 by \24280;
   substitute \24286 by \24284;
   substitute \24290 by \24288;
   substitute \24293 by \24292;
@@ -8428,6 +8407,7 @@ lookup hk2jp useExtension {
   substitute \24316 by \24313;
   substitute \24319 by \24318;
   substitute \24321 by \24320;
+  substitute \24324 by \24323;
   substitute \24326 by \24325;
   substitute \24328 by \24327;
   substitute \24332 by \24329;
@@ -8472,10 +8452,10 @@ lookup hk2jp useExtension {
   substitute \24475 by \24473;
   substitute \24480 by \24479;
   substitute \24482 by \24481;
-  substitute \24487 by \24485;
   substitute \24491 by \24489;
   substitute \24493 by \24492;
   substitute \24495 by \24494;
+  substitute \24497 by \24496;
   substitute \24500 by \24498;
   substitute \24503 by \24502;
   substitute \24505 by \24504;
@@ -8522,7 +8502,7 @@ lookup hk2jp useExtension {
   substitute \24638 by \24635;
   substitute \24641 by \24640;
   substitute \24644 by \24642;
-  substitute \24646 by \24645;
+  substitute \24647 by \24645;
   substitute \24649 by \24648;
   substitute \24652 by \24650;
   substitute \24655 by \24654;
@@ -8732,7 +8712,6 @@ lookup hk2jp useExtension {
   substitute \25276 by \25275;
   substitute \25281 by \25279;
   substitute \25283 by \25282;
-  substitute \25285 by \25284;
   substitute \25287 by \25286;
   substitute \25290 by \25288;
   substitute \25294 by \25292;
@@ -8822,7 +8801,7 @@ lookup hk2jp useExtension {
   substitute \25525 by \25524;
   substitute \25528 by \25526;
   substitute \25531 by \25529;
-  substitute \25533 by \25532;
+  substitute \25533 by \65509;
   substitute \25536 by \25534;
   substitute \25540 by \25539;
   substitute \25542 by \25541;
@@ -8840,7 +8819,6 @@ lookup hk2jp useExtension {
   substitute \25571 by \25570;
   substitute \25573 by \25572;
   substitute \25577 by \25575;
-  substitute \25580 by \25578;
   substitute \25582 by \25581;
   substitute \25584 by \25583;
   substitute \25589 by \25587;
@@ -8870,7 +8848,6 @@ lookup hk2jp useExtension {
   substitute \25660 by \25657;
   substitute \25664 by \25662;
   substitute \25666 by \25665;
-  substitute \25668 by \25667;
   substitute \25672 by \25669;
   substitute \25676 by \25673;
   substitute \25678 by \25677;
@@ -8899,11 +8876,9 @@ lookup hk2jp useExtension {
   substitute \25751 by \25750;
   substitute \25755 by \25754;
   substitute \25757 by \25756;
-  substitute \25760 by \25759;
   substitute \25770 by \25769;
   substitute \25776 by \25775;
   substitute \25778 by \25777;
-  substitute \25781 by \25780;
   substitute \25785 by \25782;
   substitute \25787 by \25786;
   substitute \25790 by \25789;
@@ -9137,11 +9112,11 @@ lookup hk2jp useExtension {
   substitute \26752 by \26751;
   substitute \26758 by \26757;
   substitute \26760 by \26759;
+  substitute \26762 by \26761;
   substitute \26765 by \26763;
   substitute \26769 by \26767;
   substitute \26772 by \26771;
   substitute \26776 by \26775;
-  substitute \26778 by \26777;
   substitute \26782 by \26780;
   substitute \26788 by \26787;
   substitute \26790 by \26789;
@@ -9453,7 +9428,7 @@ lookup hk2jp useExtension {
   substitute \27737 by \27736;
   substitute \27742 by \27741;
   substitute \27744 by \27743;
-  substitute \27749 by \27748;
+  substitute \27750 by \27748;
   substitute \27752 by \27751;
   substitute \27754 by \27753;
   substitute \27759 by \27758;
@@ -9749,7 +9724,6 @@ lookup hk2jp useExtension {
   substitute \28903 by \28902;
   substitute \28907 by \28906;
   substitute \28910 by \28909;
-  substitute \28913 by \28912;
   substitute \28918 by \28917;
   substitute \28922 by \28920;
   substitute \28924 by \28923;
@@ -9864,7 +9838,6 @@ lookup hk2jp useExtension {
   substitute \29294 by \29293;
   substitute \29296 by \29295;
   substitute \29300 by \29299;
-  substitute \29302 by \29301;
   substitute \29306 by \29304;
   substitute \29308 by \29307;
   substitute \29310 by \29309;
@@ -10114,7 +10087,6 @@ lookup hk2jp useExtension {
   substitute \30017 by \30016;
   substitute \30020 by \30018;
   substitute \30022 by \30021;
-  substitute \30024 by \30023;
   substitute \30027 by \30025;
   substitute \30030 by \30028;
   substitute \30032 by \30031;
@@ -10551,7 +10523,6 @@ lookup hk2jp useExtension {
   substitute \31320 by \31319;
   substitute \31324 by \31323;
   substitute \31327 by \31325;
-  substitute \31329 by \31328;
   substitute \31336 by \31335;
   substitute \31338 by \31337;
   substitute \31343 by \31342;
@@ -10880,7 +10851,6 @@ lookup hk2jp useExtension {
   substitute \32543 by \32542;
   substitute \32545 by \32544;
   substitute \32548 by \32547;
-  substitute \32550 by \32549;
   substitute \32554 by \32553;
   substitute \32559 by \32555;
   substitute \32566 by \32565;
@@ -11857,7 +11827,6 @@ lookup hk2jp useExtension {
   substitute \35320 by \35319;
   substitute \35322 by \35321;
   substitute \35324 by \35323;
-  substitute \35327 by \35325;
   substitute \35329 by \35328;
   substitute \35331 by \35330;
   substitute \35334 by \35332;
@@ -12055,7 +12024,6 @@ lookup hk2jp useExtension {
   substitute \35885 by \35884;
   substitute \35889 by \35887;
   substitute \35891 by \35890;
-  substitute \35894 by \35892;
   substitute \35896 by \35895;
   substitute \35898 by \35897;
   substitute \35903 by \35902;
@@ -12201,7 +12169,6 @@ lookup hk2jp useExtension {
   substitute \36444 by \36441;
   substitute \36447 by \36446;
   substitute \36449 by \36448;
-  substitute \36451 by \36450;
   substitute \36454 by \36453;
   substitute \36456 by \36455;
   substitute \36460 by \36459;
@@ -12436,7 +12403,6 @@ lookup hk2jp useExtension {
   substitute \37187 by \37186;
   substitute \37190 by \37188;
   substitute \37192 by \37191;
-  substitute \37194 by \37193;
   substitute \37196 by \37195;
   substitute \37198 by \37197;
   substitute \37201 by \37199;
@@ -12448,7 +12414,6 @@ lookup hk2jp useExtension {
   substitute \37219 by \37218;
   substitute \37221 by \37220;
   substitute \37224 by \37223;
-  substitute \37228 by \37226;
   substitute \37230 by \37229;
   substitute \37233 by \37231;
   substitute \37238 by \37236;
@@ -12507,6 +12472,7 @@ lookup hk2jp useExtension {
   substitute \37414 by \37412;
   substitute \37417 by \37416;
   substitute \37419 by \37418;
+  substitute \37425 by \37424;
   substitute \37430 by \37428;
   substitute \37451 by \37450;
   substitute \37458 by \37456;
@@ -12869,7 +12835,6 @@ lookup hk2jp useExtension {
   substitute \38614 by \38613;
   substitute \38618 by \38617;
   substitute \38620 by \38619;
-  substitute \38622 by \38621;
   substitute \38626 by \38624;
   substitute \38630 by \38629;
   substitute \38633 by \38632;
@@ -13054,7 +13019,6 @@ lookup hk2jp useExtension {
   substitute \39373 by \39372;
   substitute \39376 by \39374;
   substitute \39383 by \39382;
-  substitute \39390 by \39388;
   substitute \39395 by \39394;
   substitute \39398 by \39396;
   substitute \39400 by \39399;
@@ -13074,7 +13038,6 @@ lookup hk2jp useExtension {
   substitute \39447 by \39446;
   substitute \39450 by \39449;
   substitute \39453 by \39452;
-  substitute \39455 by \39454;
   substitute \39458 by \39457;
   substitute \39463 by \39462;
   substitute \39466 by \39465;
@@ -13361,7 +13324,6 @@ lookup hk2jp useExtension {
   substitute \40457 by \40455;
   substitute \40461 by \40458;
   substitute \40465 by \40463;
-  substitute \40468 by \40466;
   substitute \40471 by \40469;
   substitute \40474 by \40472;
   substitute \40478 by \40476;
@@ -13609,7 +13571,6 @@ lookup hk2jp useExtension {
   substitute \41240 by \41239;
   substitute \41242 by \41241;
   substitute \41244 by \41243;
-  substitute \41247 by \41246;
   substitute \41249 by \41248;
   substitute \41251 by \41250;
   substitute \41253 by \41252;
@@ -14185,7 +14146,6 @@ lookup hk2jp useExtension {
   substitute \43253 by \43252;
   substitute \43258 by \43256;
   substitute \43260 by \43259;
-  substitute \43265 by \43264;
   substitute \43268 by \43267;
   substitute \43271 by \43270;
   substitute \43275 by \43274;
@@ -14195,7 +14155,6 @@ lookup hk2jp useExtension {
   substitute \43284 by \43283;
   substitute \43287 by \43285;
   substitute \43291 by \43288;
-  substitute \43294 by \43292;
   substitute \43296 by \43295;
   substitute \43302 by \43300;
   substitute \43305 by \43304;
@@ -14425,7 +14384,6 @@ lookup hk2jp useExtension {
   substitute \44020 by \44019;
   substitute \44023 by \44022;
   substitute \44027 by \44026;
-  substitute \44032 by \44031;
   substitute \44037 by \44036;
   substitute \44039 by \44038;
   substitute \44045 by \44043;
@@ -14781,7 +14739,6 @@ lookup hk2jp useExtension {
   substitute \45373 by \45372;
   substitute \45376 by \45374;
   substitute \45379 by \45378;
-  substitute \45382 by \45381;
   substitute \45385 by \45384;
   substitute \45387 by \45386;
   substitute \45389 by \45388;
@@ -14928,7 +14885,6 @@ lookup hk2jp useExtension {
   substitute \45906 by \45904;
   substitute \45909 by \45907;
   substitute \45914 by \45912;
-  substitute \45916 by \45915;
   substitute \45921 by \45918;
   substitute \45924 by \45923;
   substitute \45926 by \45925;
@@ -15228,10 +15184,9 @@ lookup hk2jp useExtension {
   substitute \47095 by \47092;
   substitute \47099 by \47096;
   substitute \47101 by \47100;
-  substitute \47104 by \47102;
+  substitute \47103 by \47102;
   substitute \47106 by \47105;
-  substitute \47110 by \47108;
-  substitute \47113 by \47111;
+  substitute \47112 by \47111;
   substitute \47116 by \47114;
   substitute \47120 by \47118;
   substitute \47123 by \47121;
@@ -15458,6 +15413,7 @@ lookup hk2jp useExtension {
   substitute \61987 by \30083;
   substitute \61993 by \32213;
   substitute \62024 by \38897;
+  substitute \62044 by \43261;
   substitute \62082 by \10119;
   substitute \62087 by \10396;
   substitute \62092 by \10612;
@@ -15498,6 +15454,7 @@ lookup hk2jp useExtension {
   substitute \62554 by \28395;
   substitute \62572 by \29194;
   substitute \62651 by \32183;
+  substitute \62678 by \32577;
   substitute \62715 by \34323;
   substitute \62724 by \34500;
   substitute \62820 by \38839;
@@ -15519,6 +15476,46 @@ lookup hk2jp useExtension {
   substitute \63280 by \726;
   substitute \63281 by \728;
   substitute \63282 by \729;
+  substitute \65485 by \4183;
+  substitute \65486 by \4626;
+  substitute \65487 by \7510;
+  substitute \65488 by \10700;
+  substitute \65489 by \11822;
+  substitute \65490 by \12910;
+  substitute \65491 by \13883;
+  substitute \65492 by \14176;
+  substitute \65494 by \16547;
+  substitute \65495 by \16634;
+  substitute \65496 by \17089;
+  substitute \65497 by \18144;
+  substitute \65498 by \19390;
+  substitute \65499 by \19714;
+  substitute \65500 by \19719;
+  substitute \65501 by \21744;
+  substitute \65502 by \21807;
+  substitute \65503 by \21843;
+  substitute \65504 by \21989;
+  substitute \65505 by \22832;
+  substitute \65506 by \22916;
+  substitute \65507 by \24207;
+  substitute \65508 by \24485;
+  substitute \65510 by \25578;
+  substitute \65511 by \25988;
+  substitute \65512 by \28948;
+  substitute \65513 by \30023;
+  substitute \65515 by \31328;
+  substitute \65516 by \33101;
+  substitute \65517 by \35325;
+  substitute \65518 by \35892;
+  substitute \65519 by \37193;
+  substitute \65520 by \37226;
+  substitute \65521 by \40466;
+  substitute \65522 by \42928;
+  substitute \65523 by \43292;
+  substitute \65524 by \44040;
+  substitute \65525 by \45381;
+  substitute \65526 by \45453;
+  substitute \65527 by \47108;
 } hk2jp;
 
 lookup hk2kr useExtension {
@@ -16048,7 +16045,7 @@ lookup hk2kr useExtension {
   substitute \9834 by \9832;
   substitute \9839 by \9838;
   substitute \9844 by \9843;
-  substitute \9848 by \9846;
+  substitute \9847 by \9846;
   substitute \9851 by \9850;
   substitute \9853 by \9852;
   substitute \9856 by \9855;
@@ -16239,7 +16236,6 @@ lookup hk2kr useExtension {
   substitute \10568 by \10566;
   substitute \10572 by \10570;
   substitute \10578 by \10577;
-  substitute \10580 by \10579;
   substitute \10585 by \10582;
   substitute \10588 by \10587;
   substitute \10590 by \10589;
@@ -16351,7 +16347,6 @@ lookup hk2kr useExtension {
   substitute \10955 by \61807;
   substitute \10957 by \10956;
   substitute \10960 by \10958;
-  substitute \10963 by \10962;
   substitute \10966 by \10967;
   substitute \10974 by \10973;
   substitute \10984 by \10983;
@@ -16574,7 +16569,6 @@ lookup hk2kr useExtension {
   substitute \11813 by \11812;
   substitute \11816 by \11815;
   substitute \11819 by \11818;
-  substitute \11823 by \11822;
   substitute \11826 by \11825;
   substitute \11828 by \11827;
   substitute \11830 by \11829;
@@ -16773,7 +16767,6 @@ lookup hk2kr useExtension {
   substitute \12665 by \12663;
   substitute \12667 by \12666;
   substitute \12670 by \12668;
-  substitute \12673 by \12671;
   substitute \12676 by \12674;
   substitute \12680 by \12679;
   substitute \12684 by \12683;
@@ -16835,7 +16828,6 @@ lookup hk2kr useExtension {
   substitute \12902 by \12901;
   substitute \12906 by \12904;
   substitute \12909 by \12907;
-  substitute \12912 by \12910;
   substitute \12916 by \12914;
   substitute \12919 by \12917;
   substitute \12923 by \58920;
@@ -17069,7 +17061,6 @@ lookup hk2kr useExtension {
   substitute \13805 by \13804;
   substitute \13807 by \13806;
   substitute \13809 by \13808;
-  substitute \13814 by \13813;
   substitute \13819 by \13818;
   substitute \13821 by \13820;
   substitute \13823 by \13822;
@@ -17089,7 +17080,6 @@ lookup hk2kr useExtension {
   substitute \13876 by \13875;
   substitute \13878 by \13877;
   substitute \13881 by \13880;
-  substitute \13885 by \13883;
   substitute \13888 by \13887;
   substitute \13891 by \13890;
   substitute \13895 by \13894;
@@ -17129,7 +17119,7 @@ lookup hk2kr useExtension {
   substitute \14018 by \14015;
   substitute \14022 by \14020;
   substitute \14029 by \14028;
-  substitute \14032 by \14030;
+  substitute \14031 by \14030;
   substitute \14034 by \14033;
   substitute \14037 by \14036;
   substitute \14040 by \14039;
@@ -17164,7 +17154,6 @@ lookup hk2kr useExtension {
   substitute \14164 by \14163;
   substitute \14167 by \14165;
   substitute \14174 by \14172;
-  substitute \14177 by \14176;
   substitute \14182 by \14181;
   substitute \14185 by \14183;
   substitute \14187 by \14186;
@@ -17696,7 +17685,7 @@ lookup hk2kr useExtension {
   substitute \15656 by \15655;
   substitute \15658 by \62232;
   substitute \15662 by \15659;
-  substitute \15664 by \15663;
+  substitute \15665 by \15663;
   substitute \15667 by \15666;
   substitute \15669 by \15668;
   substitute \15672 by \15670;
@@ -17715,7 +17704,6 @@ lookup hk2kr useExtension {
   substitute \15714 by \15713;
   substitute \15717 by \15715;
   substitute \15720 by \15719;
-  substitute \15722 by \15721;
   substitute \15728 by \62235;
   substitute \15732 by \15731;
   substitute \15735 by \62237;
@@ -17934,7 +17922,6 @@ lookup hk2kr useExtension {
   substitute \16447 by \16446;
   substitute \16450 by \16448;
   substitute \16453 by \16451;
-  substitute \16455 by \16454;
   substitute \16459 by \16458;
   substitute \16462 by \16460;
   substitute \16465 by \16464;
@@ -17960,7 +17947,6 @@ lookup hk2kr useExtension {
   substitute \16540 by \16538;
   substitute \16543 by \16541;
   substitute \16545 by \16544;
-  substitute \16549 by \16547;
   substitute \16551 by \16550;
   substitute \16553 by \16552;
   substitute \16555 by \16554;
@@ -17988,7 +17974,6 @@ lookup hk2kr useExtension {
   substitute \16625 by \16623;
   substitute \16628 by \16627;
   substitute \16633 by \16632;
-  substitute \16635 by \16634;
   substitute \16639 by \62245;
   substitute \16643 by \16642;
   substitute \16647 by \16646;
@@ -18395,7 +18380,7 @@ lookup hk2kr useExtension {
   substitute \18048 by \18047;
   substitute \18053 by \18051;
   substitute \18055 by \18054;
-  substitute \18058 by \18057;
+  substitute \18059 by \18057;
   substitute \18063 by \18062;
   substitute \18070 by \18068;
   substitute \18073 by \18071;
@@ -18422,7 +18407,6 @@ lookup hk2kr useExtension {
   substitute \18137 by \18136;
   substitute \18139 by \18138;
   substitute \18143 by \18140;
-  substitute \18146 by \18144;
   substitute \18150 by \18148;
   substitute \18155 by \18154;
   substitute \18161 by \18159;
@@ -18527,7 +18511,7 @@ lookup hk2kr useExtension {
   substitute \18510 by \18509;
   substitute \18514 by \18513;
   substitute \18517 by \18516;
-  substitute \18537 by \18535;
+  substitute \18536 by \18535;
   substitute \18540 by \18538;
   substitute \18544 by \18543;
   substitute \18546 by \18545;
@@ -18739,7 +18723,6 @@ lookup hk2kr useExtension {
   substitute \19383 by \19381;
   substitute \19386 by \19384;
   substitute \19389 by \19387;
-  substitute \19392 by \62343;
   substitute \19394 by \19393;
   substitute \19396 by \19395;
   substitute \19399 by \19397;
@@ -18802,6 +18785,7 @@ lookup hk2kr useExtension {
   substitute \19619 by \19618;
   substitute \19622 by \19621;
   substitute \19626 by \19625;
+  substitute \19630 by \19629;
   substitute \19633 by \19631;
   substitute \19635 by \19634;
   substitute \19638 by \19636;
@@ -18829,7 +18813,6 @@ lookup hk2kr useExtension {
   substitute \19709 by \19707;
   substitute \19711 by \19710;
   substitute \19713 by \19712;
-  substitute \19715 by \19714;
   substitute \19718 by \19716;
   substitute \19727 by \19725;
   substitute \19729 by \19728;
@@ -18981,7 +18964,7 @@ lookup hk2kr useExtension {
   substitute \20189 by \20188;
   substitute \20191 by \20190;
   substitute \20193 by \20192;
-  substitute \20197 by \20196;
+  substitute \20198 by \20196;
   substitute \20201 by \20200;
   substitute \20203 by \20202;
   substitute \20206 by \20204;
@@ -19297,7 +19280,6 @@ lookup hk2kr useExtension {
   substitute \21424 by \21423;
   substitute \21426 by \21425;
   substitute \21429 by \21428;
-  substitute \21431 by \21430;
   substitute \21439 by \21437;
   substitute \21446 by \21445;
   substitute \21450 by \21448;
@@ -19413,7 +19395,6 @@ lookup hk2kr useExtension {
   substitute \21837 by \21836;
   substitute \21840 by \21839;
   substitute \21842 by \21841;
-  substitute \21845 by \62429;
   substitute \21847 by \21846;
   substitute \21849 by \21848;
   substitute \21854 by \21853;
@@ -19445,7 +19426,6 @@ lookup hk2kr useExtension {
   substitute \21942 by \21941;
   substitute \21944 by \21943;
   substitute \21948 by \21946;
-  substitute \21952 by \21951;
   substitute \21955 by \21954;
   substitute \21958 by \21957;
   substitute \21966 by \21964;
@@ -19487,6 +19467,7 @@ lookup hk2kr useExtension {
   substitute \22098 by \22096;
   substitute \22105 by \22102;
   substitute \22109 by \22108;
+  substitute \22112 by \22111;
   substitute \22114 by \22113;
   substitute \22120 by \22118;
   substitute \22123 by \22121;
@@ -19699,7 +19680,6 @@ lookup hk2kr useExtension {
   substitute \22825 by \22824;
   substitute \22828 by \22826;
   substitute \22831 by \22830;
-  substitute \22833 by \22832;
   substitute \22836 by \22835;
   substitute \22839 by \22838;
   substitute \22841 by \22840;
@@ -19717,7 +19697,6 @@ lookup hk2kr useExtension {
   substitute \22895 by \22894;
   substitute \22907 by \22906;
   substitute \22914 by \22912;
-  substitute \22917 by \22916;
   substitute \22919 by \22918;
   substitute \22922 by \22920;
   substitute \22924 by \22923;
@@ -19737,7 +19716,6 @@ lookup hk2kr useExtension {
   substitute \22970 by \22968;
   substitute \22976 by \22975;
   substitute \22979 by \22978;
-  substitute \22982 by \22981;
   substitute \22987 by \22986;
   substitute \22989 by \22988;
   substitute \22992 by \22990;
@@ -19759,7 +19737,6 @@ lookup hk2kr useExtension {
   substitute \23071 by \23069;
   substitute \23075 by \23074;
   substitute \23083 by \23082;
-  substitute \23086 by \23085;
   substitute \23095 by \23094;
   substitute \23097 by \23096;
   substitute \23100 by \23099;
@@ -20032,7 +20009,6 @@ lookup hk2kr useExtension {
   substitute \24106 by \24105;
   substitute \24111 by \24110;
   substitute \24116 by \24115;
-  substitute \24122 by \24121;
   substitute \24125 by \62476;
   substitute \24130 by \24127;
   substitute \24133 by \24131;
@@ -20049,7 +20025,6 @@ lookup hk2kr useExtension {
   substitute \24160 by \24159;
   substitute \24163 by \62477;
   substitute \24176 by \24174;
-  substitute \24179 by \24178;
   substitute \24183 by \24181;
   substitute \24187 by \24184;
   substitute \24193 by \24192;
@@ -20059,7 +20034,6 @@ lookup hk2kr useExtension {
   substitute \24202 by \24200;
   substitute \24204 by \24203;
   substitute \24206 by \24205;
-  substitute \24208 by \24207;
   substitute \24213 by \24210;
   substitute \24217 by \24215;
   substitute \24219 by \24218;
@@ -20084,7 +20058,6 @@ lookup hk2kr useExtension {
   substitute \24274 by \24272;
   substitute \24276 by \24275;
   substitute \24279 by \24278;
-  substitute \24281 by \24280;
   substitute \24286 by \24284;
   substitute \24290 by \24288;
   substitute \24293 by \24292;
@@ -20094,6 +20067,7 @@ lookup hk2kr useExtension {
   substitute \24316 by \24314;
   substitute \24319 by \24318;
   substitute \24321 by \24320;
+  substitute \24324 by \24323;
   substitute \24326 by \24325;
   substitute \24328 by \24327;
   substitute \24332 by \62483;
@@ -20140,10 +20114,10 @@ lookup hk2kr useExtension {
   substitute \24475 by \24473;
   substitute \24480 by \24479;
   substitute \24482 by \24481;
-  substitute \24487 by \24485;
   substitute \24491 by \24489;
   substitute \24493 by \24492;
   substitute \24495 by \24494;
+  substitute \24497 by \24496;
   substitute \24500 by \24498;
   substitute \24503 by \24502;
   substitute \24505 by \24504;
@@ -20191,7 +20165,7 @@ lookup hk2kr useExtension {
   substitute \24638 by \24635;
   substitute \24641 by \24640;
   substitute \24644 by \24642;
-  substitute \24646 by \24645;
+  substitute \24647 by \24645;
   substitute \24649 by \24648;
   substitute \24652 by \24650;
   substitute \24655 by \24654;
@@ -20401,7 +20375,6 @@ lookup hk2kr useExtension {
   substitute \25276 by \25275;
   substitute \25281 by \25279;
   substitute \25283 by \25282;
-  substitute \25285 by \25284;
   substitute \25287 by \62494;
   substitute \25290 by \25288;
   substitute \25294 by \25292;
@@ -20492,7 +20465,7 @@ lookup hk2kr useExtension {
   substitute \25525 by \25524;
   substitute \25528 by \25526;
   substitute \25531 by \25529;
-  substitute \25533 by \25532;
+  substitute \25533 by \65509;
   substitute \25536 by \25534;
   substitute \25540 by \25539;
   substitute \25546 by \25543;
@@ -20509,7 +20482,6 @@ lookup hk2kr useExtension {
   substitute \25571 by \25570;
   substitute \25573 by \25572;
   substitute \25577 by \25575;
-  substitute \25580 by \25578;
   substitute \25582 by \25581;
   substitute \25584 by \25583;
   substitute \25589 by \25587;
@@ -20539,7 +20511,6 @@ lookup hk2kr useExtension {
   substitute \25660 by \25657;
   substitute \25664 by \25662;
   substitute \25666 by \25665;
-  substitute \25668 by \25667;
   substitute \25672 by \25669;
   substitute \25676 by \25673;
   substitute \25678 by \25677;
@@ -20568,11 +20539,9 @@ lookup hk2kr useExtension {
   substitute \25751 by \25750;
   substitute \25755 by \62501;
   substitute \25757 by \25756;
-  substitute \25760 by \25759;
   substitute \25770 by \25769;
   substitute \25776 by \25775;
   substitute \25778 by \25777;
-  substitute \25781 by \25780;
   substitute \25785 by \25782;
   substitute \25787 by \25786;
   substitute \25790 by \25789;
@@ -20808,11 +20777,11 @@ lookup hk2kr useExtension {
   substitute \26752 by \26751;
   substitute \26758 by \26757;
   substitute \26760 by \26759;
+  substitute \26762 by \26761;
   substitute \26765 by \26763;
   substitute \26769 by \26767;
   substitute \26772 by \26771;
   substitute \26776 by \26775;
-  substitute \26778 by \26777;
   substitute \26782 by \26780;
   substitute \26788 by \26787;
   substitute \26790 by \26789;
@@ -21125,7 +21094,7 @@ lookup hk2kr useExtension {
   substitute \27737 by \27736;
   substitute \27742 by \27741;
   substitute \27744 by \27743;
-  substitute \27749 by \27748;
+  substitute \27750 by \27748;
   substitute \27752 by \27751;
   substitute \27754 by \27753;
   substitute \27759 by \27758;
@@ -21423,7 +21392,6 @@ lookup hk2kr useExtension {
   substitute \28903 by \28902;
   substitute \28907 by \28906;
   substitute \28910 by \28909;
-  substitute \28913 by \28912;
   substitute \28918 by \28917;
   substitute \28922 by \28920;
   substitute \28924 by \28923;
@@ -21538,7 +21506,6 @@ lookup hk2kr useExtension {
   substitute \29294 by \29293;
   substitute \29296 by \58948;
   substitute \29300 by \29299;
-  substitute \29302 by \29301;
   substitute \29306 by \29304;
   substitute \29308 by \29307;
   substitute \29310 by \29309;
@@ -21788,7 +21755,6 @@ lookup hk2kr useExtension {
   substitute \30017 by \30016;
   substitute \30020 by \30018;
   substitute \30022 by \30021;
-  substitute \30024 by \30023;
   substitute \30027 by \30025;
   substitute \30030 by \30028;
   substitute \30032 by \30031;
@@ -22228,7 +22194,6 @@ lookup hk2kr useExtension {
   substitute \31320 by \31319;
   substitute \31324 by \31323;
   substitute \31327 by \31325;
-  substitute \31329 by \31328;
   substitute \31336 by \31335;
   substitute \31338 by \31337;
   substitute \31343 by \31342;
@@ -22560,7 +22525,6 @@ lookup hk2kr useExtension {
   substitute \32543 by \32542;
   substitute \32545 by \32544;
   substitute \32548 by \32547;
-  substitute \32550 by \32549;
   substitute \32554 by \32553;
   substitute \32559 by \32556;
   substitute \32562 by \62677;
@@ -23538,7 +23502,6 @@ lookup hk2kr useExtension {
   substitute \35320 by \35319;
   substitute \35322 by \35321;
   substitute \35324 by \35323;
-  substitute \35327 by \35325;
   substitute \35329 by \35328;
   substitute \35331 by \35330;
   substitute \35334 by \62736;
@@ -23736,7 +23699,6 @@ lookup hk2kr useExtension {
   substitute \35885 by \35884;
   substitute \35889 by \35887;
   substitute \35891 by \35890;
-  substitute \35894 by \35892;
   substitute \35896 by \35895;
   substitute \35898 by \35897;
   substitute \35903 by \35902;
@@ -23879,7 +23841,6 @@ lookup hk2kr useExtension {
   substitute \36444 by \36441;
   substitute \36447 by \62753;
   substitute \36449 by \36448;
-  substitute \36451 by \36450;
   substitute \36454 by \36453;
   substitute \36456 by \36455;
   substitute \36460 by \36459;
@@ -24114,7 +24075,6 @@ lookup hk2kr useExtension {
   substitute \37187 by \37186;
   substitute \37190 by \62775;
   substitute \37192 by \37191;
-  substitute \37194 by \37193;
   substitute \37196 by \37195;
   substitute \37198 by \37197;
   substitute \37201 by \37199;
@@ -24126,7 +24086,6 @@ lookup hk2kr useExtension {
   substitute \37219 by \37218;
   substitute \37221 by \37220;
   substitute \37224 by \37223;
-  substitute \37228 by \37226;
   substitute \37230 by \37229;
   substitute \37233 by \37231;
   substitute \37238 by \37236;
@@ -24185,6 +24144,7 @@ lookup hk2kr useExtension {
   substitute \37414 by \37412;
   substitute \37417 by \37416;
   substitute \37419 by \37418;
+  substitute \37425 by \37424;
   substitute \37426 by \37427;
   substitute \37430 by \37428;
   substitute \37451 by \37450;
@@ -24545,7 +24505,6 @@ lookup hk2kr useExtension {
   substitute \38614 by \38613;
   substitute \38618 by \38617;
   substitute \38620 by \38619;
-  substitute \38622 by \38621;
   substitute \38626 by \38624;
   substitute \38630 by \38629;
   substitute \38633 by \38632;
@@ -24735,7 +24694,6 @@ lookup hk2kr useExtension {
   substitute \39373 by \39372;
   substitute \39376 by \39374;
   substitute \39383 by \39382;
-  substitute \39390 by \39388;
   substitute \39395 by \39394;
   substitute \39398 by \39396;
   substitute \39400 by \39399;
@@ -24755,7 +24713,6 @@ lookup hk2kr useExtension {
   substitute \39447 by \39446;
   substitute \39450 by \39449;
   substitute \39453 by \39452;
-  substitute \39455 by \39454;
   substitute \39458 by \39457;
   substitute \39463 by \39462;
   substitute \39466 by \39465;
@@ -24908,7 +24865,7 @@ lookup hk2kr useExtension {
   substitute \40039 by \40038;
   substitute \40042 by \40040;
   substitute \40045 by \40043;
-  substitute \40048 by \40046;
+  substitute \40048 by \62844;
   substitute \40052 by \40050;
   substitute \40055 by \40053;
   substitute \40057 by \40056;
@@ -25044,7 +25001,6 @@ lookup hk2kr useExtension {
   substitute \40457 by \62895;
   substitute \40461 by \40458;
   substitute \40465 by \40463;
-  substitute \40468 by \40466;
   substitute \40471 by \40469;
   substitute \40474 by \40472;
   substitute \40478 by \62896;
@@ -25294,7 +25250,6 @@ lookup hk2kr useExtension {
   substitute \41240 by \41239;
   substitute \41242 by \41241;
   substitute \41244 by \41243;
-  substitute \41247 by \41246;
   substitute \41249 by \41248;
   substitute \41251 by \41250;
   substitute \41253 by \41252;
@@ -25869,8 +25824,6 @@ lookup hk2kr useExtension {
   substitute \43253 by \43252;
   substitute \43258 by \43256;
   substitute \43260 by \43259;
-  substitute \43261 by \62044;
-  substitute \43265 by \43264;
   substitute \43268 by \43267;
   substitute \43271 by \43270;
   substitute \43275 by \43274;
@@ -25880,7 +25833,6 @@ lookup hk2kr useExtension {
   substitute \43284 by \43283;
   substitute \43287 by \43285;
   substitute \43291 by \43288;
-  substitute \43294 by \43292;
   substitute \43296 by \43295;
   substitute \43302 by \43300;
   substitute \43305 by \43304;
@@ -26109,7 +26061,6 @@ lookup hk2kr useExtension {
   substitute \44020 by \44019;
   substitute \44023 by \44022;
   substitute \44027 by \44026;
-  substitute \44032 by \44031;
   substitute \44037 by \44036;
   substitute \44039 by \44038;
   substitute \44045 by \44043;
@@ -26462,7 +26413,6 @@ lookup hk2kr useExtension {
   substitute \45373 by \45372;
   substitute \45376 by \45375;
   substitute \45379 by \45378;
-  substitute \45382 by \45381;
   substitute \45385 by \45384;
   substitute \45387 by \45386;
   substitute \45389 by \45388;
@@ -26610,7 +26560,6 @@ lookup hk2kr useExtension {
   substitute \45906 by \45904;
   substitute \45909 by \45907;
   substitute \45914 by \45912;
-  substitute \45916 by \45915;
   substitute \45921 by \45918;
   substitute \45924 by \45923;
   substitute \45926 by \45925;
@@ -26909,10 +26858,9 @@ lookup hk2kr useExtension {
   substitute \47095 by \47092;
   substitute \47099 by \47097;
   substitute \47101 by \47100;
-  substitute \47104 by \47102;
+  substitute \47103 by \47102;
   substitute \47106 by \47105;
-  substitute \47110 by \47108;
-  substitute \47113 by \47111;
+  substitute \47112 by \47111;
   substitute \47116 by \47114;
   substitute \47120 by \47118;
   substitute \47123 by \47121;
@@ -27153,6 +27101,7 @@ lookup hk2kr useExtension {
   substitute \62551 by \28154;
   substitute \62572 by \29195;
   substitute \62651 by \32183;
+  substitute \62678 by \32577;
   substitute \62715 by \34323;
   substitute \62724 by \34500;
   substitute \62820 by \62819;
@@ -27171,6 +27120,46 @@ lookup hk2kr useExtension {
   substitute \63280 by \726;
   substitute \63281 by \728;
   substitute \63282 by \729;
+  substitute \65485 by \4183;
+  substitute \65486 by \4626;
+  substitute \65487 by \7510;
+  substitute \65488 by \10700;
+  substitute \65489 by \11822;
+  substitute \65490 by \12910;
+  substitute \65491 by \13883;
+  substitute \65492 by \14176;
+  substitute \65494 by \16547;
+  substitute \65495 by \16634;
+  substitute \65496 by \17089;
+  substitute \65497 by \18144;
+  substitute \65498 by \62343;
+  substitute \65499 by \19714;
+  substitute \65500 by \19719;
+  substitute \65501 by \21744;
+  substitute \65502 by \21807;
+  substitute \65503 by \62429;
+  substitute \65504 by \21989;
+  substitute \65505 by \22832;
+  substitute \65506 by \22916;
+  substitute \65507 by \24207;
+  substitute \65508 by \24485;
+  substitute \65510 by \25578;
+  substitute \65511 by \25988;
+  substitute \65512 by \28948;
+  substitute \65513 by \30023;
+  substitute \65515 by \31328;
+  substitute \65516 by \33101;
+  substitute \65517 by \35325;
+  substitute \65518 by \35892;
+  substitute \65519 by \37193;
+  substitute \65520 by \37226;
+  substitute \65521 by \40466;
+  substitute \65522 by \42928;
+  substitute \65523 by \43292;
+  substitute \65524 by \44040;
+  substitute \65525 by \45381;
+  substitute \65526 by \45453;
+  substitute \65527 by \47108;
 } hk2kr;
 
 lookup hk2cn useExtension {
@@ -27585,7 +27574,6 @@ lookup hk2cn useExtension {
   substitute \9830 by \9829;
   substitute \9834 by \9833;
   substitute \9844 by \9843;
-  substitute \9848 by \9847;
   substitute \9870 by \9871;
   substitute \9888 by \9887;
   substitute \9900 by \9899;
@@ -27673,6 +27661,7 @@ lookup hk2cn useExtension {
   substitute \10559 by \10558;
   substitute \10568 by \10567;
   substitute \10572 by \10571;
+  substitute \10579 by \10580;
   substitute \10585 by \10583;
   substitute \10598 by \10596;
   substitute \10604 by \10603;
@@ -27722,7 +27711,6 @@ lookup hk2cn useExtension {
   substitute \10904 by \10903;
   substitute \10941 by \10939;
   substitute \10960 by \10959;
-  substitute \10963 by \10962;
   substitute \10987 by \10986;
   substitute \10997 by \10996;
   substitute \11009 by \11008;
@@ -27825,7 +27813,6 @@ lookup hk2cn useExtension {
   substitute \11811 by \11809;
   substitute \11819 by \11818;
   substitute \11820 by \11821;
-  substitute \11823 by \11822;
   substitute \11854 by \11853;
   substitute \11878 by \11879;
   substitute \11895 by \11893;
@@ -27929,7 +27916,7 @@ lookup hk2cn useExtension {
   substitute \12665 by \12664;
   substitute \12667 by \12666;
   substitute \12670 by \12668;
-  substitute \12673 by \12672;
+  substitute \12671 by \12672;
   substitute \12676 by \12675;
   substitute \12687 by \12686;
   substitute \12688 by \12689;
@@ -27977,7 +27964,6 @@ lookup hk2cn useExtension {
   substitute \12896 by \12897;
   substitute \12906 by \12905;
   substitute \12909 by \12908;
-  substitute \12912 by \12911;
   substitute \12916 by \12914;
   substitute \12919 by \12918;
   substitute \12923 by \58920;
@@ -28102,6 +28088,7 @@ lookup hk2cn useExtension {
   substitute \13795 by \13794;
   substitute \13800 by \13799;
   substitute \13810 by \13811;
+  substitute \13813 by \13814;
   substitute \13819 by \13818;
   substitute \13821 by \13820;
   substitute \13831 by \13830;
@@ -28113,7 +28100,6 @@ lookup hk2cn useExtension {
   substitute \13862 by \13861;
   substitute \13876 by \13875;
   substitute \13878 by \13877;
-  substitute \13885 by \13884;
   substitute \13910 by \13909;
   substitute \13920 by \13919;
   substitute \13924 by \13923;
@@ -28136,7 +28122,6 @@ lookup hk2cn useExtension {
   substitute \14018 by \14016;
   substitute \14022 by \14020;
   substitute \14029 by \14028;
-  substitute \14032 by \14031;
   substitute \14040 by \14039;
   substitute \14043 by \14042;
   substitute \14045 by \14044;
@@ -28161,7 +28146,6 @@ lookup hk2cn useExtension {
   substitute \14158 by \14157;
   substitute \14167 by \14166;
   substitute \14174 by \14173;
-  substitute \14177 by \14176;
   substitute \14179 by \14180;
   substitute \14185 by \14183;
   substitute \14194 by \14193;
@@ -28588,6 +28572,7 @@ lookup hk2cn useExtension {
   substitute \15651 by \15650;
   substitute \15654 by \15653;
   substitute \15662 by \15660;
+  substitute \15665 by \15664;
   substitute \15667 by \15666;
   substitute \15672 by \15671;
   substitute \15685 by \15684;
@@ -28596,6 +28581,7 @@ lookup hk2cn useExtension {
   substitute \15708 by \15709;
   substitute \15714 by \15713;
   substitute \15717 by \15716;
+  substitute \15721 by \15722;
   substitute \15728 by \15727;
   substitute \15735 by \15734;
   substitute \15739 by \15737;
@@ -28755,6 +28741,7 @@ lookup hk2cn useExtension {
   substitute \16447 by \16446;
   substitute \16450 by \16448;
   substitute \16453 by \16452;
+  substitute \16454 by \16455;
   substitute \16462 by \16461;
   substitute \16465 by \16464;
   substitute \16473 by \16471;
@@ -28776,7 +28763,6 @@ lookup hk2cn useExtension {
   substitute \16537 by \16536;
   substitute \16540 by \16539;
   substitute \16543 by \16541;
-  substitute \16549 by \16548;
   substitute \16551 by \16550;
   substitute \16553 by \16552;
   substitute \16555 by \16554;
@@ -28801,7 +28787,6 @@ lookup hk2cn useExtension {
   substitute \16622 by \16621;
   substitute \16625 by \16624;
   substitute \16633 by \16632;
-  substitute \16635 by \16634;
   substitute \16639 by \16638;
   substitute \16656 by \16657;
   substitute \16678 by \61822;
@@ -28854,7 +28839,6 @@ lookup hk2cn useExtension {
   substitute \17075 by \17074;
   substitute \17081 by \17079;
   substitute \17085 by \17084;
-  substitute \17089 by \17090;
   substitute \17099 by \17098;
   substitute \17102 by \17101;
   substitute \17104 by \17105;
@@ -28969,6 +28953,7 @@ lookup hk2cn useExtension {
   substitute \18048 by \18047;
   substitute \18053 by \18052;
   substitute \18055 by \18054;
+  substitute \18059 by \18058;
   substitute \18070 by \18069;
   substitute \18073 by \18072;
   substitute \18083 by \18081;
@@ -28980,7 +28965,6 @@ lookup hk2cn useExtension {
   substitute \18128 by \18127;
   substitute \18133 by \18132;
   substitute \18143 by \18141;
-  substitute \18146 by \18145;
   substitute \18150 by \18149;
   substitute \18155 by \18154;
   substitute \18161 by \18159;
@@ -29047,7 +29031,6 @@ lookup hk2cn useExtension {
   substitute \18488 by \18487;
   substitute \18491 by \18490;
   substitute \18495 by \18493;
-  substitute \18537 by \18536;
   substitute \18540 by \18539;
   substitute \18541 by \18542;
   substitute \18546 by \18545;
@@ -29160,7 +29143,6 @@ lookup hk2cn useExtension {
   substitute \19383 by \19382;
   substitute \19386 by \19385;
   substitute \19389 by \19387;
-  substitute \19392 by \19391;
   substitute \19399 by \19398;
   substitute \19402 by \19401;
   substitute \19405 by \19404;
@@ -29202,6 +29184,7 @@ lookup hk2cn useExtension {
   substitute \19604 by \19603;
   substitute \19626 by \19625;
   substitute \19627 by \19628;
+  substitute \19630 by \19629;
   substitute \19633 by \19632;
   substitute \19635 by \19634;
   substitute \19638 by \19636;
@@ -29217,7 +29200,6 @@ lookup hk2cn useExtension {
   substitute \19700 by \19699;
   substitute \19704 by \19703;
   substitute \19709 by \19707;
-  substitute \19715 by \19714;
   substitute \19718 by \19717;
   substitute \19727 by \19726;
   substitute \19732 by \19731;
@@ -29285,6 +29267,7 @@ lookup hk2cn useExtension {
   substitute \20137 by \20136;
   substitute \20168 by \20167;
   substitute \20174 by \20173;
+  substitute \20198 by \20197;
   substitute \20201 by \20200;
   substitute \20203 by \20202;
   substitute \20206 by \20205;
@@ -29427,6 +29410,7 @@ lookup hk2cn useExtension {
   substitute \21412 by \21411;
   substitute \21414 by \21415;
   substitute \21417 by \21418;
+  substitute \21430 by \21431;
   substitute \21433 by \21434;
   substitute \21439 by \21438;
   substitute \21450 by \21449;
@@ -29487,13 +29471,11 @@ lookup hk2cn useExtension {
   substitute \21780 by \21779;
   substitute \21798 by \21796;
   substitute \21802 by \21800;
-  substitute \21807 by \21808;
   substitute \21811 by \21810;
   substitute \21813 by \21812;
   substitute \21818 by \21819;
   substitute \21822 by \21820;
   substitute \21840 by \21839;
-  substitute \21845 by \21844;
   substitute \21849 by \21848;
   substitute \21850 by \21851;
   substitute \21860 by \21859;
@@ -29512,7 +29494,7 @@ lookup hk2cn useExtension {
   substitute \21939 by \21938;
   substitute \21948 by \21947;
   substitute \21949 by \21950;
-  substitute \21966 by \21965;
+  substitute \21951 by \21952;
   substitute \21968 by \21967;
   substitute \21973 by \21972;
   substitute \21988 by \21987;
@@ -29542,6 +29524,7 @@ lookup hk2cn useExtension {
   substitute \22099 by \22100;
   substitute \22105 by \22103;
   substitute \22109 by \22108;
+  substitute \22112 by \22111;
   substitute \22114 by \22113;
   substitute \22120 by \22119;
   substitute \22123 by \22122;
@@ -29698,7 +29681,6 @@ lookup hk2cn useExtension {
   substitute \22895 by \22894;
   substitute \22899 by \22900;
   substitute \22914 by \22912;
-  substitute \22917 by \22916;
   substitute \22922 by \22920;
   substitute \22924 by \22923;
   substitute \22926 by \22925;
@@ -29709,6 +29691,7 @@ lookup hk2cn useExtension {
   substitute \22970 by \22969;
   substitute \22972 by \22973;
   substitute \22979 by \22978;
+  substitute \22981 by \22982;
   substitute \22992 by \22991;
   substitute \22995 by \22994;
   substitute \23001 by \23000;
@@ -29722,7 +29705,6 @@ lookup hk2cn useExtension {
   substitute \23055 by \23054;
   substitute \23071 by \23070;
   substitute \23075 by \23074;
-  substitute \23086 by \23085;
   substitute \23090 by \23091;
   substitute \23092 by \23093;
   substitute \23106 by \23105;
@@ -29860,6 +29842,7 @@ lookup hk2cn useExtension {
   substitute \24094 by \24093;
   substitute \24104 by \24103;
   substitute \24111 by \24110;
+  substitute \24121 by \24122;
   substitute \24130 by \24128;
   substitute \24133 by \24132;
   substitute \24135 by \24134;
@@ -29870,6 +29853,7 @@ lookup hk2cn useExtension {
   substitute \24158 by \24157;
   substitute \24165 by \24166;
   substitute \24176 by \24175;
+  substitute \24178 by \24179;
   substitute \24183 by \24182;
   substitute \24187 by \24185;
   substitute \24193 by \24192;
@@ -29887,12 +29871,14 @@ lookup hk2cn useExtension {
   substitute \24249 by \24248;
   substitute \24251 by \24250;
   substitute \24274 by \24273;
+  substitute \24280 by \24281;
   substitute \24286 by \24285;
   substitute \24290 by \24288;
   substitute \24303 by \24304;
   substitute \24310 by \24309;
   substitute \24316 by \24315;
   substitute \24319 by \24318;
+  substitute \24324 by \24323;
   substitute \24328 by \24327;
   substitute \24332 by \24330;
   substitute \24334 by \24333;
@@ -29920,8 +29906,8 @@ lookup hk2cn useExtension {
   substitute \24468 by \24467;
   substitute \24475 by \24474;
   substitute \24476 by \24477;
-  substitute \24487 by \24486;
   substitute \24491 by \24490;
+  substitute \24497 by \24496;
   substitute \24500 by \24499;
   substitute \24503 by \24502;
   substitute \24507 by \24506;
@@ -29955,6 +29941,7 @@ lookup hk2cn useExtension {
   substitute \24633 by \24634;
   substitute \24638 by \24636;
   substitute \24644 by \24643;
+  substitute \24647 by \24646;
   substitute \24649 by \24648;
   substitute \24652 by \24651;
   substitute \24657 by \24658;
@@ -30140,7 +30127,6 @@ lookup hk2cn useExtension {
   substitute \25276 by \25275;
   substitute \25281 by \25280;
   substitute \25283 by \25282;
-  substitute \25285 by \25284;
   substitute \25287 by \25286;
   substitute \25290 by \25289;
   substitute \25294 by \25293;
@@ -30227,7 +30213,7 @@ lookup hk2cn useExtension {
   substitute \25525 by \25524;
   substitute \25528 by \25527;
   substitute \25531 by \25530;
-  substitute \25533 by \25532;
+  substitute \25533 by \65509;
   substitute \25536 by \25535;
   substitute \25540 by \25539;
   substitute \25542 by \25541;
@@ -30244,7 +30230,6 @@ lookup hk2cn useExtension {
   substitute \25571 by \25570;
   substitute \25573 by \25572;
   substitute \25577 by \25576;
-  substitute \25580 by \25579;
   substitute \25582 by \25581;
   substitute \25584 by \25583;
   substitute \25589 by \25587;
@@ -30296,10 +30281,10 @@ lookup hk2cn useExtension {
   substitute \25734 by \25733;
   substitute \25737 by \25736;
   substitute \25741 by \25740;
+  substitute \25759 by \25760;
   substitute \25761 by \25762;
   substitute \25763 by \25764;
   substitute \25776 by \25775;
-  substitute \25781 by \25780;
   substitute \25785 by \25783;
   substitute \25787 by \25786;
   substitute \25790 by \25789;
@@ -30449,9 +30434,11 @@ lookup hk2cn useExtension {
   substitute \26752 by \26751;
   substitute \26753 by \26754;
   substitute \26758 by \26757;
+  substitute \26762 by \26761;
   substitute \26765 by \26764;
   substitute \26769 by \26768;
   substitute \26772 by \26771;
+  substitute \26777 by \26778;
   substitute \26782 by \26781;
   substitute \26788 by \26787;
   substitute \26793 by \26792;
@@ -30524,6 +30511,7 @@ lookup hk2cn useExtension {
   substitute \27027 by \27026;
   substitute \27032 by \27031;
   substitute \27037 by \27036;
+  substitute \27059 by \27058;
   substitute \27061 by \27060;
   substitute \27080 by \27079;
   substitute \27087 by \27086;
@@ -30602,9 +30590,9 @@ lookup hk2cn useExtension {
   substitute \27684 by \27683;
   substitute \27703 by \27702;
   substitute \27710 by \27709;
-  substitute \27720 by \27719;
   substitute \27724 by \27723;
   substitute \27746 by \27747;
+  substitute \27750 by \27749;
   substitute \27762 by \27761;
   substitute \27776 by \27774;
   substitute \27786 by \27785;
@@ -30769,6 +30757,7 @@ lookup hk2cn useExtension {
   substitute \28864 by \28863;
   substitute \28873 by \28872;
   substitute \28898 by \28897;
+  substitute \28912 by \28913;
   substitute \28918 by \28917;
   substitute \28922 by \28921;
   substitute \28924 by \28923;
@@ -30826,6 +30815,7 @@ lookup hk2cn useExtension {
   substitute \29277 by \29275;
   substitute \29282 by \29281;
   substitute \29290 by \29289;
+  substitute \29301 by \29302;
   substitute \29306 by \29305;
   substitute \29308 by \29307;
   substitute \29317 by \29316;
@@ -32405,7 +32395,6 @@ lookup hk2cn useExtension {
   substitute \35316 by \35315;
   substitute \35320 by \35319;
   substitute \35324 by \35323;
-  substitute \35327 by \35326;
   substitute \35329 by \35328;
   substitute \35331 by \35330;
   substitute \35334 by \35333;
@@ -32600,7 +32589,6 @@ lookup hk2cn useExtension {
   substitute \35885 by \35884;
   substitute \35889 by \35888;
   substitute \35891 by \35890;
-  substitute \35894 by \35893;
   substitute \35896 by \35895;
   substitute \35906 by \35905;
   substitute \35910 by \35909;
@@ -32686,6 +32674,7 @@ lookup hk2cn useExtension {
   substitute \36429 by \36428;
   substitute \36435 by \36434;
   substitute \36444 by \36442;
+  substitute \36450 by \36451;
   substitute \36460 by \36459;
   substitute \36465 by \36464;
   substitute \36470 by \36469;
@@ -32809,7 +32798,6 @@ lookup hk2cn useExtension {
   substitute \37217 by \37216;
   substitute \37219 by \37218;
   substitute \37224 by \37223;
-  substitute \37228 by \37227;
   substitute \37233 by \37232;
   substitute \37238 by \37237;
   substitute \37241 by \37240;
@@ -32846,6 +32834,7 @@ lookup hk2cn useExtension {
   substitute \37414 by \37413;
   substitute \37417 by \37416;
   substitute \37422 by \37423;
+  substitute \37425 by \37424;
   substitute \37426 by \37427;
   substitute \37430 by \37429;
   substitute \37448 by \37449;
@@ -33019,6 +33008,7 @@ lookup hk2cn useExtension {
   substitute \38604 by \38602;
   substitute \38606 by \38605;
   substitute \38608 by \38607;
+  substitute \38621 by \38622;
   substitute \38626 by \38625;
   substitute \38642 by \38641;
   substitute \38651 by \38650;
@@ -33110,7 +33100,7 @@ lookup hk2cn useExtension {
   substitute \39376 by \39375;
   substitute \39379 by \39380;
   substitute \39383 by \39382;
-  substitute \39390 by \39389;
+  substitute \39388 by \39389;
   substitute \39398 by \39396;
   substitute \39400 by \39399;
   substitute \39405 by \39406;
@@ -33122,6 +33112,7 @@ lookup hk2cn useExtension {
   substitute \39436 by \39434;
   substitute \39439 by \39438;
   substitute \39445 by \39444;
+  substitute \39454 by \39455;
   substitute \39459 by \39460;
   substitute \39463 by \39462;
   substitute \39466 by \39465;
@@ -33338,7 +33329,6 @@ lookup hk2cn useExtension {
   substitute \40457 by \40456;
   substitute \40461 by \40459;
   substitute \40465 by \40464;
-  substitute \40468 by \40467;
   substitute \40471 by \40470;
   substitute \40474 by \40473;
   substitute \40478 by \40477;
@@ -33537,6 +33527,7 @@ lookup hk2cn useExtension {
   substitute \41217 by \41216;
   substitute \41220 by \41219;
   substitute \41226 by \41225;
+  substitute \41246 by \41247;
   substitute \41292 by \41291;
   substitute \41296 by \41295;
   substitute \41299 by \41298;
@@ -33764,12 +33755,12 @@ lookup hk2cn useExtension {
   substitute \43244 by \43243;
   substitute \43247 by \43246;
   substitute \43258 by \43257;
+  substitute \43264 by \43265;
   substitute \43271 by \43270;
   substitute \43275 by \43274;
   substitute \43279 by \43278;
   substitute \43287 by \43286;
   substitute \43291 by \43289;
-  substitute \43294 by \43293;
   substitute \43302 by \43301;
   substitute \43308 by \43307;
   substitute \43313 by \43311;
@@ -33919,6 +33910,7 @@ lookup hk2cn useExtension {
   substitute \44008 by \44007;
   substitute \44010 by \44011;
   substitute \44023 by \44022;
+  substitute \44031 by \44032;
   substitute \44039 by \44038;
   substitute \44045 by \44044;
   substitute \44062 by \44061;
@@ -34287,6 +34279,7 @@ lookup hk2cn useExtension {
   substitute \45906 by \45905;
   substitute \45909 by \45908;
   substitute \45914 by \45913;
+  substitute \45915 by \45916;
   substitute \45921 by \45919;
   substitute \45928 by \45927;
   substitute \45930 by \45929;
@@ -34491,9 +34484,6 @@ lookup hk2cn useExtension {
   substitute \47095 by \47093;
   substitute \47099 by \47097;
   substitute \47101 by \47100;
-  substitute \47104 by \47103;
-  substitute \47110 by \47109;
-  substitute \47113 by \47112;
   substitute \47116 by \47115;
   substitute \47120 by \47119;
   substitute \47123 by \47122;
@@ -34648,6 +34638,7 @@ lookup hk2cn useExtension {
   substitute \61863 by \61861;
   substitute \61922 by \17413;
   substitute \61993 by \32215;
+  substitute \62044 by \43261;
   substitute \62082 by \10120;
   substitute \62092 by \10612;
   substitute \62100 by \10899;
@@ -34680,6 +34671,46 @@ lookup hk2cn useExtension {
   substitute \63146 by \1398;
   substitute \63148 by \59058;
   substitute \63149 by \59060;
+  substitute \65485 by \4183;
+  substitute \65486 by \4626;
+  substitute \65487 by \7510;
+  substitute \65488 by \10700;
+  substitute \65489 by \11822;
+  substitute \65490 by \12911;
+  substitute \65491 by \13884;
+  substitute \65492 by \14176;
+  substitute \65494 by \16548;
+  substitute \65495 by \16634;
+  substitute \65496 by \17090;
+  substitute \65497 by \18145;
+  substitute \65498 by \19391;
+  substitute \65499 by \19714;
+  substitute \65500 by \19719;
+  substitute \65501 by \21744;
+  substitute \65502 by \21808;
+  substitute \65503 by \21844;
+  substitute \65504 by \21989;
+  substitute \65505 by \22833;
+  substitute \65506 by \22916;
+  substitute \65507 by \24208;
+  substitute \65508 by \24486;
+  substitute \65510 by \25579;
+  substitute \65511 by \25988;
+  substitute \65512 by \28948;
+  substitute \65513 by \30024;
+  substitute \65515 by \31329;
+  substitute \65516 by \33101;
+  substitute \65517 by \35326;
+  substitute \65518 by \35893;
+  substitute \65519 by \37194;
+  substitute \65520 by \37227;
+  substitute \65521 by \40467;
+  substitute \65522 by \42928;
+  substitute \65523 by \43293;
+  substitute \65524 by \44040;
+  substitute \65525 by \45382;
+  substitute \65526 by \45453;
+  substitute \65527 by \47109;
 } hk2cn;
 
 lookup hk2tw useExtension {
@@ -34724,10 +34755,10 @@ lookup hk2tw useExtension {
   substitute \9737 by \9736;
   substitute \9767 by \9768;
   substitute \9823 by \9822;
+  substitute \9847 by \9848;
   substitute \9853 by \9854;
   substitute \9868 by \9867;
   substitute \9900 by \9899;
-  substitute \9913 by \9912;
   substitute \9936 by \9937;
   substitute \9953 by \9954;
   substitute \9973 by \9974;
@@ -34774,13 +34805,12 @@ lookup hk2tw useExtension {
   substitute \10556 by \10557;
   substitute \10559 by \10558;
   substitute \10561 by \10562;
-  substitute \10580 by \10581;
+  substitute \10579 by \10581;
   substitute \10585 by \10584;
   substitute \10598 by \10597;
   substitute \10600 by \10601;
   substitute \10619 by \10618;
   substitute \10637 by \10638;
-  substitute \10652 by \10651;
   substitute \10659 by \10658;
   substitute \10666 by \10665;
   substitute \10669 by \10668;
@@ -34788,7 +34818,6 @@ lookup hk2tw useExtension {
   substitute \10684 by \10683;
   substitute \10688 by \10689;
   substitute \10692 by \10693;
-  substitute \10700 by \10701;
   substitute \10708 by \10709;
   substitute \10729 by \10728;
   substitute \10753 by \10752;
@@ -34808,6 +34837,7 @@ lookup hk2tw useExtension {
   substitute \10914 by \10915;
   substitute \10941 by \10940;
   substitute \10948 by \10949;
+  substitute \10962 by \10963;
   substitute \10979 by \10980;
   substitute \11049 by \11050;
   substitute \11053 by \11052;
@@ -34861,7 +34891,6 @@ lookup hk2tw useExtension {
   substitute \12019 by \12020;
   substitute \12025 by \62155;
   substitute \12046 by \12047;
-  substitute \12058 by \12057;
   substitute \12081 by \12082;
   substitute \12095 by \12094;
   substitute \12104 by \12105;
@@ -34869,7 +34898,6 @@ lookup hk2tw useExtension {
   substitute \12118 by \12119;
   substitute \12186 by \12187;
   substitute \12190 by \12191;
-  substitute \12193 by \12192;
   substitute \12220 by \12221;
   substitute \12261 by \12260;
   substitute \12271 by \12270;
@@ -34902,7 +34930,7 @@ lookup hk2tw useExtension {
   substitute \12661 by \12662;
   substitute \12665 by \12664;
   substitute \12670 by \12669;
-  substitute \12673 by \12671;
+  substitute \12671 by \12673;
   substitute \12681 by \12682;
   substitute \12693 by \12692;
   substitute \12695 by \12694;
@@ -34976,9 +35004,8 @@ lookup hk2tw useExtension {
   substitute \13783 by \13782;
   substitute \13788 by \13789;
   substitute \13802 by \13803;
-  substitute \13814 by \13815;
+  substitute \13813 by \13815;
   substitute \13838 by \13837;
-  substitute \13853 by \13852;
   substitute \13865 by \13866;
   substitute \13867 by \13868;
   substitute \13907 by \13908;
@@ -34990,6 +35017,7 @@ lookup hk2tw useExtension {
   substitute \14022 by \14021;
   substitute \14023 by \14024;
   substitute \14025 by \14026;
+  substitute \14031 by \14032;
   substitute \14037 by \14038;
   substitute \14054 by \14053;
   substitute \14055 by \14056;
@@ -35038,14 +35066,13 @@ lookup hk2tw useExtension {
   substitute \15087 by \15086;
   substitute \15150 by \15149;
   substitute \15155 by \15154;
-  substitute \15205 by \15204;
+  substitute \15158 by \65493;
   substitute \15242 by \15241;
   substitute \15246 by \15245;
   substitute \15253 by \15252;
   substitute \15264 by \15263;
   substitute \15279 by \15278;
   substitute \15294 by \15293;
-  substitute \15301 by \15300;
   substitute \15342 by \15341;
   substitute \15409 by \15410;
   substitute \15479 by \15478;
@@ -35057,19 +35084,17 @@ lookup hk2tw useExtension {
   substitute \15637 by \15638;
   substitute \15642 by \15641;
   substitute \15662 by \15661;
-  substitute \15664 by \15665;
   substitute \15682 by \15683;
   substitute \15692 by \15693;
   substitute \15700 by \15701;
   substitute \15708 by \15709;
-  substitute \15722 by \15723;
+  substitute \15721 by \15723;
   substitute \15725 by \15726;
   substitute \15739 by \15738;
   substitute \15740 by \15741;
   substitute \15748 by \15749;
   substitute \15759 by \15760;
   substitute \15790 by \15789;
-  substitute \15801 by \15800;
   substitute \15803 by \15804;
   substitute \15814 by \15815;
   substitute \15828 by \15830;
@@ -35100,7 +35125,6 @@ lookup hk2tw useExtension {
   substitute \16256 by \16255;
   substitute \16258 by \16259;
   substitute \16278 by \16277;
-  substitute \16312 by \16313;
   substitute \16342 by \16341;
   substitute \16351 by \16350;
   substitute \16362 by \16363;
@@ -35108,9 +35132,8 @@ lookup hk2tw useExtension {
   substitute \16408 by \16407;
   substitute \16439 by \16438;
   substitute \16450 by \16449;
-  substitute \16455 by \16456;
+  substitute \16454 by \16456;
   substitute \16473 by \16472;
-  substitute \16477 by \16476;
   substitute \16491 by \16490;
   substitute \16497 by \16496;
   substitute \16501 by \16502;
@@ -35126,7 +35149,6 @@ lookup hk2tw useExtension {
   substitute \16727 by \16726;
   substitute \16739 by \16740;
   substitute \16741 by \16742;
-  substitute \16820 by \16819;
   substitute \16829 by \16830;
   substitute \16850 by \16849;
   substitute \16858 by \16857;
@@ -35137,7 +35159,6 @@ lookup hk2tw useExtension {
   substitute \16975 by \16976;
   substitute \16982 by \16981;
   substitute \16984 by \16985;
-  substitute \16988 by \16987;
   substitute \17013 by \17014;
   substitute \17022 by \17021;
   substitute \17045 by \17044;
@@ -35208,7 +35229,6 @@ lookup hk2tw useExtension {
   substitute \18034 by \18033;
   substitute \18049 by \18050;
   substitute \18053 by \18052;
-  substitute \18058 by \18059;
   substitute \18083 by \18082;
   substitute \18090 by \18089;
   substitute \18098 by \18099;
@@ -35238,7 +35258,6 @@ lookup hk2tw useExtension {
   substitute \18324 by \18323;
   substitute \18335 by \18334;
   substitute \18342 by \18341;
-  substitute \18367 by \18366;
   substitute \18371 by \18370;
   substitute \18381 by \18382;
   substitute \18393 by \18392;
@@ -35252,6 +35271,7 @@ lookup hk2tw useExtension {
   substitute \18478 by \18477;
   substitute \18483 by \18482;
   substitute \18495 by \18494;
+  substitute \18536 by \18537;
   substitute \18547 by \18548;
   substitute \18559 by \18560;
   substitute \18583 by \18584;
@@ -35329,14 +35349,11 @@ lookup hk2tw useExtension {
   substitute \19588 by \19587;
   substitute \19598 by \19597;
   substitute \19614 by \19615;
-  substitute \19629 by \19630;
   substitute \19638 by \19637;
   substitute \19639 by \19640;
-  substitute \19659 by \19658;
   substitute \19677 by \19676;
   substitute \19689 by \19690;
   substitute \19709 by \19708;
-  substitute \19719 by \19720;
   substitute \19727 by \19726;
   substitute \19735 by \19736;
   substitute \19738 by \19739;
@@ -35371,7 +35388,6 @@ lookup hk2tw useExtension {
   substitute \20179 by \20180;
   substitute \20181 by \20182;
   substitute \20194 by \20195;
-  substitute \20197 by \20198;
   substitute \20201 by \20200;
   substitute \20235 by \20236;
   substitute \20263 by \20262;
@@ -35470,6 +35486,7 @@ lookup hk2tw useExtension {
   substitute \21400 by \21401;
   substitute \21414 by \21416;
   substitute \21426 by \21427;
+  substitute \21430 by \21431;
   substitute \21439 by \21438;
   substitute \21443 by \21444;
   substitute \21457 by \21458;
@@ -35483,7 +35500,6 @@ lookup hk2tw useExtension {
   substitute \21541 by \21540;
   substitute \21555 by \21554;
   substitute \21562 by \21561;
-  substitute \21604 by \21605;
   substitute \21629 by \21630;
   substitute \21636 by \21637;
   substitute \21660 by \21661;
@@ -35512,21 +35528,19 @@ lookup hk2tw useExtension {
   substitute \21919 by \21921;
   substitute \21923 by \21924;
   substitute \21926 by \21927;
-  substitute \21952 by \21953;
+  substitute \21951 by \21953;
   substitute \21955 by \21956;
   substitute \21960 by \21961;
   substitute \21962 by \21963;
   substitute \21970 by \21971;
   substitute \21973 by \21972;
   substitute \21981 by \21982;
-  substitute \21989 by \21990;
   substitute \22006 by \22005;
   substitute \22012 by \22011;
   substitute \22021 by \22022;
   substitute \22085 by \22086;
   substitute \22105 by \22104;
   substitute \22109 by \22108;
-  substitute \22111 by \22112;
   substitute \22115 by \22116;
   substitute \22129 by \22130;
   substitute \22138 by \22137;
@@ -35575,7 +35589,6 @@ lookup hk2tw useExtension {
   substitute \22775 by \22774;
   substitute \22801 by \22802;
   substitute \22822 by \22823;
-  substitute \22833 by \22834;
   substitute \22841 by \22840;
   substitute \22845 by \22846;
   substitute \22848 by \22849;
@@ -35585,10 +35598,11 @@ lookup hk2tw useExtension {
   substitute \22922 by \22921;
   substitute \22936 by \22937;
   substitute \22942 by \22941;
-  substitute \22982 by \22983;
+  substitute \22981 by \22983;
   substitute \23004 by \23005;
   substitute \23026 by \23027;
   substitute \23029 by \23030;
+  substitute \23085 by \23086;
   substitute \23100 by \23099;
   substitute \23102 by \23101;
   substitute \23120 by \23121;
@@ -35661,20 +35675,19 @@ lookup hk2tw useExtension {
   substitute \24072 by \24071;
   substitute \24079 by \24078;
   substitute \24080 by \24082;
-  substitute \24122 by \24123;
+  substitute \24121 by \24123;
   substitute \24125 by \24126;
   substitute \24130 by \24129;
   substitute \24160 by \24161;
   substitute \24163 by \24164;
   substitute \24169 by \24170;
-  substitute \24179 by \24180;
+  substitute \24178 by \24180;
   substitute \24187 by \24186;
   substitute \24206 by \24205;
   substitute \24213 by \24212;
-  substitute \24281 by \24282;
+  substitute \24280 by \24282;
   substitute \24290 by \24289;
   substitute \24321 by \24322;
-  substitute \24323 by \24324;
   substitute \24328 by \24327;
   substitute \24332 by \24331;
   substitute \24343 by \24342;
@@ -35691,7 +35704,6 @@ lookup hk2tw useExtension {
   substitute \24475 by \24474;
   substitute \24476 by \24478;
   substitute \24483 by \24484;
-  substitute \24496 by \24497;
   substitute \24512 by \24511;
   substitute \24536 by \24535;
   substitute \24564 by \24563;
@@ -35701,7 +35713,6 @@ lookup hk2tw useExtension {
   substitute \24622 by \24623;
   substitute \24633 by \24634;
   substitute \24638 by \24637;
-  substitute \24646 by \24647;
   substitute \24657 by \24658;
   substitute \24669 by \24668;
   substitute \24674 by \24673;
@@ -35731,7 +35742,6 @@ lookup hk2tw useExtension {
   substitute \25193 by \25192;
   substitute \25224 by \25223;
   substitute \25264 by \25265;
-  substitute \25285 by \25284;
   substitute \25301 by \25300;
   substitute \25305 by \25304;
   substitute \25312 by \25311;
@@ -35758,7 +35768,6 @@ lookup hk2tw useExtension {
   substitute \25522 by \25521;
   substitute \25533 by \25532;
   substitute \25546 by \25545;
-  substitute \25555 by \25554;
   substitute \25589 by \25588;
   substitute \25593 by \25592;
   substitute \25613 by \25612;
@@ -35770,6 +35779,8 @@ lookup hk2tw useExtension {
   substitute \25719 by \25718;
   substitute \25734 by \25733;
   substitute \25737 by \25736;
+  substitute \25759 by \25760;
+  substitute \25780 by \25781;
   substitute \25785 by \25784;
   substitute \25798 by \25797;
   substitute \25805 by \25804;
@@ -35842,9 +35853,8 @@ lookup hk2tw useExtension {
   substitute \26747 by \26746;
   substitute \26752 by \26751;
   substitute \26753 by \26755;
-  substitute \26761 by \26762;
   substitute \26773 by \26774;
-  substitute \26778 by \26779;
+  substitute \26777 by \26779;
   substitute \26783 by \26784;
   substitute \26793 by \26792;
   substitute \26821 by \26820;
@@ -35860,14 +35870,13 @@ lookup hk2tw useExtension {
   substitute \27011 by \27010;
   substitute \27034 by \27035;
   substitute \27054 by \27055;
-  substitute \27058 by \27059;
+  substitute \27059 by \27058;
   substitute \27061 by \27060;
   substitute \27063 by \27064;
   substitute \27101 by \27100;
   substitute \27137 by \27136;
   substitute \27143 by \27142;
   substitute \27145 by \27146;
-  substitute \27155 by \27154;
   substitute \27158 by \27159;
   substitute \27166 by \27165;
   substitute \27196 by \27195;
@@ -35898,7 +35907,6 @@ lookup hk2tw useExtension {
   substitute \27706 by \27705;
   substitute \27707 by \27708;
   substitute \27724 by \27723;
-  substitute \27749 by \27750;
   substitute \27759 by \27760;
   substitute \27776 by \27775;
   substitute \27791 by \27790;
@@ -35971,7 +35979,6 @@ lookup hk2tw useExtension {
   substitute \28698 by \28697;
   substitute \28706 by \28705;
   substitute \28709 by \28711;
-  substitute \28714 by \28713;
   substitute \28716 by \28717;
   substitute \28775 by \28774;
   substitute \28780 by \28779;
@@ -35981,9 +35988,8 @@ lookup hk2tw useExtension {
   substitute \28887 by \28888;
   substitute \28891 by \28892;
   substitute \28904 by \28905;
-  substitute \28913 by \28914;
+  substitute \28912 by \28914;
   substitute \28918 by \28917;
-  substitute \28948 by \28949;
   substitute \28952 by \28951;
   substitute \28991 by \28992;
   substitute \29001 by \29000;
@@ -36010,7 +36016,7 @@ lookup hk2tw useExtension {
   substitute \29263 by \29264;
   substitute \29277 by \29276;
   substitute \29282 by \29281;
-  substitute \29302 by \29303;
+  substitute \29301 by \29303;
   substitute \29308 by \29307;
   substitute \29312 by \29313;
   substitute \29331 by \29330;
@@ -36038,7 +36044,6 @@ lookup hk2tw useExtension {
   substitute \29985 by \29984;
   substitute \30002 by \30001;
   substitute \30061 by \30060;
-  substitute \30075 by \30074;
   substitute \30079 by \30078;
   substitute \30094 by \30093;
   substitute \30113 by \30112;
@@ -36058,7 +36063,6 @@ lookup hk2tw useExtension {
   substitute \30329 by \30328;
   substitute \30335 by \30334;
   substitute \30338 by \30337;
-  substitute \30422 by \30421;
   substitute \30426 by \30425;
   substitute \30457 by \30456;
   substitute \30477 by \30476;
@@ -36093,6 +36097,7 @@ lookup hk2tw useExtension {
   substitute \30595 by \30596;
   substitute \30599 by \30598;
   substitute \30603 by \30604;
+  substitute \30609 by \65514;
   substitute \30610 by \30611;
   substitute \30619 by \30620;
   substitute \30625 by \30624;
@@ -36153,12 +36158,10 @@ lookup hk2tw useExtension {
   substitute \31150 by \31151;
   substitute \31159 by \31160;
   substitute \31195 by \31194;
-  substitute \31251 by \31252;
   substitute \31285 by \31286;
   substitute \31300 by \31299;
   substitute \31304 by \31305;
   substitute \31311 by \31310;
-  substitute \31329 by \31330;
   substitute \31340 by \31341;
   substitute \31364 by \31363;
   substitute \31375 by \31376;
@@ -36177,7 +36180,6 @@ lookup hk2tw useExtension {
   substitute \31514 by \31513;
   substitute \31523 by \31524;
   substitute \31528 by \31527;
-  substitute \31535 by \31534;
   substitute \31550 by \31549;
   substitute \31570 by \31569;
   substitute \31582 by \31583;
@@ -36200,7 +36202,6 @@ lookup hk2tw useExtension {
   substitute \32052 by \32051;
   substitute \32061 by \32062;
   substitute \32068 by \32067;
-  substitute \32076 by \32075;
   substitute \32088 by \32087;
   substitute \32094 by \32095;
   substitute \32097 by \32096;
@@ -36265,10 +36266,8 @@ lookup hk2tw useExtension {
   substitute \33075 by \33074;
   substitute \33081 by \33082;
   substitute \33098 by \33097;
-  substitute \33101 by \33102;
   substitute \33121 by \33120;
   substitute \33130 by \33129;
-  substitute \33148 by \33147;
   substitute \33170 by \33171;
   substitute \33183 by \33182;
   substitute \33188 by \33189;
@@ -36364,7 +36363,6 @@ lookup hk2tw useExtension {
   substitute \35134 by \35133;
   substitute \35144 by \35143;
   substitute \35170 by \35169;
-  substitute \35182 by \35181;
   substitute \35205 by \35204;
   substitute \35213 by \35212;
   substitute \35227 by \35226;
@@ -36387,7 +36385,6 @@ lookup hk2tw useExtension {
   substitute \35567 by \35566;
   substitute \35574 by \35573;
   substitute \35578 by \35577;
-  substitute \35585 by \35584;
   substitute \35589 by \35588;
   substitute \35601 by \35600;
   substitute \35612 by \35611;
@@ -36409,7 +36406,6 @@ lookup hk2tw useExtension {
   substitute \35805 by \35804;
   substitute \35829 by \35828;
   substitute \35862 by \35861;
-  substitute \35934 by \35933;
   substitute \35977 by \35978;
   substitute \35981 by \35982;
   substitute \35992 by \35991;
@@ -36448,11 +36444,10 @@ lookup hk2tw useExtension {
   substitute \36427 by \36425;
   substitute \36432 by \36433;
   substitute \36444 by \36443;
-  substitute \36451 by \36452;
+  substitute \36450 by \36452;
   substitute \36457 by \36458;
   substitute \36474 by \36475;
   substitute \36500 by \36499;
-  substitute \36505 by \36504;
   substitute \36515 by \36514;
   substitute \36516 by \36518;
   substitute \36561 by \36562;
@@ -36523,7 +36518,6 @@ lookup hk2tw useExtension {
   substitute \37385 by \37386;
   substitute \37387 by \37388;
   substitute \37395 by \37394;
-  substitute \37424 by \37425;
   substitute \37426 by \37427;
   substitute \37465 by \37464;
   substitute \37471 by \37473;
@@ -36565,19 +36559,17 @@ lookup hk2tw useExtension {
   substitute \38188 by \38187;
   substitute \38239 by \38238;
   substitute \38242 by \38241;
-  substitute \38258 by \38257;
   substitute \38264 by \38263;
   substitute \38270 by \38269;
   substitute \38288 by \38289;
   substitute \38309 by \38308;
   substitute \38352 by \38351;
   substitute \38359 by \38358;
-  substitute \38373 by \38372;
   substitute \38383 by \38384;
   substitute \38428 by \38427;
   substitute \38604 by \38603;
   substitute \38611 by \38612;
-  substitute \38622 by \38623;
+  substitute \38621 by \38623;
   substitute \38657 by \38658;
   substitute \38689 by \38690;
   substitute \38714 by \38715;
@@ -36629,6 +36621,7 @@ lookup hk2tw useExtension {
   substitute \39333 by \39332;
   substitute \39361 by \39362;
   substitute \39386 by \39387;
+  substitute \39388 by \39390;
   substitute \39391 by \39392;
   substitute \39398 by \39397;
   substitute \39413 by \39412;
@@ -36636,11 +36629,10 @@ lookup hk2tw useExtension {
   substitute \39426 by \39427;
   substitute \39436 by \39435;
   substitute \39441 by \39442;
-  substitute \39455 by \39456;
+  substitute \39454 by \39456;
   substitute \39466 by \39465;
   substitute \39470 by \39471;
   substitute \39478 by \39477;
-  substitute \39482 by \39481;
   substitute \39501 by \39500;
   substitute \39513 by \39514;
   substitute \39534 by \39533;
@@ -36662,10 +36654,8 @@ lookup hk2tw useExtension {
   substitute \39856 by \39855;
   substitute \39867 by \39868;
   substitute \39873 by \39874;
-  substitute \39884 by \39883;
   substitute \39888 by \39887;
   substitute \39892 by \39891;
-  substitute \39896 by \39895;
   substitute \39914 by \39915;
   substitute \40112 by \40111;
   substitute \40135 by \40134;
@@ -36729,6 +36719,7 @@ lookup hk2tw useExtension {
   substitute \41190 by \41189;
   substitute \41199 by \41198;
   substitute \41206 by \41205;
+  substitute \41246 by \41247;
   substitute \41321 by \41322;
   substitute \41344 by \41345;
   substitute \41347 by \41348;
@@ -36786,7 +36777,6 @@ lookup hk2tw useExtension {
   substitute \42319 by \42318;
   substitute \42320 by \42321;
   substitute \42322 by \42323;
-  substitute \42338 by \42337;
   substitute \42344 by \42343;
   substitute \42369 by \42368;
   substitute \42375 by \42374;
@@ -36803,7 +36793,6 @@ lookup hk2tw useExtension {
   substitute \42867 by \42866;
   substitute \42872 by \42873;
   substitute \42924 by \42923;
-  substitute \42928 by \42929;
   substitute \42937 by \42936;
   substitute \42970 by \42969;
   substitute \42972 by \42973;
@@ -36815,8 +36804,7 @@ lookup hk2tw useExtension {
   substitute \43207 by \43206;
   substitute \43221 by \43222;
   substitute \43237 by \43238;
-  substitute \43261 by \43262;
-  substitute \43265 by \43266;
+  substitute \43264 by \43266;
   substitute \43291 by \43290;
   substitute \43302 by \43301;
   substitute \43313 by \43312;
@@ -36866,7 +36854,7 @@ lookup hk2tw useExtension {
   substitute \43917 by \43916;
   substitute \43934 by \43933;
   substitute \44010 by \44011;
-  substitute \44032 by \44033;
+  substitute \44031 by \44033;
   substitute \44039 by \44038;
   substitute \44066 by \44067;
   substitute \44095 by \44096;
@@ -36965,13 +36953,11 @@ lookup hk2tw useExtension {
   substitute \45364 by \45365;
   substitute \45376 by \45377;
   substitute \45379 by \45380;
-  substitute \45382 by \45383;
   substitute \45389 by \45390;
   substitute \45394 by \45393;
   substitute \45409 by \45408;
   substitute \45424 by \45423;
   substitute \45432 by \45431;
-  substitute \45453 by \45454;
   substitute \45458 by \45457;
   substitute \45469 by \45468;
   substitute \45474 by \45473;
@@ -37003,13 +36989,12 @@ lookup hk2tw useExtension {
   substitute \45885 by \45884;
   substitute \45889 by \45888;
   substitute \45896 by \45897;
-  substitute \45916 by \45917;
+  substitute \45915 by \45917;
   substitute \45921 by \45920;
   substitute \45932 by \45931;
   substitute \45933 by \45934;
   substitute \45951 by \45950;
   substitute \45967 by \45966;
-  substitute \45976 by \45975;
   substitute \45982 by \45981;
   substitute \45998 by \45997;
   substitute \46001 by \46002;
@@ -37087,7 +37072,9 @@ lookup hk2tw useExtension {
   substitute \47079 by \47078;
   substitute \47095 by \47094;
   substitute \47099 by \47098;
+  substitute \47103 by \47104;
   substitute \47106 by \47107;
+  substitute \47112 by \47113;
   substitute \47171 by \47170;
   substitute \47194 by \47193;
   substitute \47222 by \47221;
@@ -37120,10 +37107,50 @@ lookup hk2tw useExtension {
   substitute \59450 by \59451;
   substitute \61590 by \4935;
   substitute \61863 by \61862;
+  substitute \62044 by \43262;
   substitute \62715 by \34323;
   substitute \63049 by \45452;
   substitute \63089 by \47258;
   substitute \63096 by \47478;
+  substitute \65485 by \4183;
+  substitute \65486 by \4626;
+  substitute \65487 by \7510;
+  substitute \65488 by \10701;
+  substitute \65489 by \11823;
+  substitute \65490 by \12912;
+  substitute \65491 by \13885;
+  substitute \65492 by \14177;
+  substitute \65494 by \16549;
+  substitute \65495 by \16635;
+  substitute \65496 by \17089;
+  substitute \65497 by \18146;
+  substitute \65498 by \19392;
+  substitute \65499 by \19715;
+  substitute \65500 by \19720;
+  substitute \65501 by \21744;
+  substitute \65502 by \21807;
+  substitute \65503 by \21845;
+  substitute \65504 by \21990;
+  substitute \65505 by \22834;
+  substitute \65506 by \22917;
+  substitute \65507 by \24208;
+  substitute \65508 by \24487;
+  substitute \65510 by \25580;
+  substitute \65511 by \25988;
+  substitute \65512 by \28949;
+  substitute \65515 by \31330;
+  substitute \65516 by \33102;
+  substitute \65517 by \35327;
+  substitute \65518 by \35894;
+  substitute \65519 by \37194;
+  substitute \65520 by \37228;
+  substitute \65521 by \40468;
+  substitute \65522 by \42929;
+  substitute \65523 by \43294;
+  substitute \65524 by \44040;
+  substitute \65525 by \45383;
+  substitute \65526 by \45454;
+  substitute \65527 by \47110;
 } hk2tw;
 
 lookup latin_special {

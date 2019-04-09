@@ -13,7 +13,7 @@ languagesystem hani dflt;
 languagesystem hani KOR;
 
 table head {
-  FontRevision 2.000;
+  FontRevision 2.001;
 } head;
 
 table hhea {
@@ -23,7 +23,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "\00A9 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "\00A9 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe in the United States and/or other countries.";
   nameid 8 "Adobe";
   nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
@@ -2893,6 +2893,7 @@ feature dlig {
   substitute \1518 \1470 by \59382;
   substitute \1531 \1533 by \1552;
   # Ideograph Ligatures
+  substitute \9808 \12144 by \2184;
   substitute \14075 \22620 by \2309;
   substitute \62256 \18519 by \2307;
   substitute \20282 \23209 by \2310;
