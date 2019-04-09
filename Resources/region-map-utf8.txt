@@ -252,7 +252,7 @@ U+4EF9	仹	JP#	JP	JP#	JP#
 U+4EFA	CN	CN#	仺	CN#	CN#
 U+4EFB	CN	CN	任	任	TW
 U+4EFC	仼	JP#	JP	JP#	JP#
-U+4EFD	份	JP#	份	份	TW
+U+4EFD	份	JP#	份	份	CN
 U+4EFE	仾	JP#	JP	JP#	JP#
 U+4EFF	仿	JP	仿	CN	CN
 U+4F00	伀	JP	伀	伀	CN
@@ -299,7 +299,7 @@ U+4F28	CN	CN#	伨	HK#	伨
 U+4F29	CN	CN#	伩	CN#	CN
 U+4F2A	CN	CN#	伪	CN#	CN#
 U+4F2B	伫	JP#	伫	CN#	CN#
-U+4F2C	CN	CN#	伬	CN	伬
+U+4F2C	CN	CN#	伬	HK	伬
 U+4F2D	CN	CN#	伭	CN	CN
 U+4F2E	伮	JP#	JP	JP#	JP#
 U+4F2F	CN	CN	伯	CN	CN
@@ -697,7 +697,7 @@ U+50B6	CN	CN#	傶	CN	CN
 U+50B7	傷	JP	JP	JP	JP
 U+50B8	傸	JP#	JP	JP	JP
 U+50B9	傹	JP#	傹	CN#	CN#
-U+50BA	傺	JP#	傺	傺	CN
+U+50BA	傺	JP#	傺	傺	JP
 U+50BB	傻	JP#	傻	傻	傻
 U+50BC	HK	HK#	HK	HK#	傼
 U+50BD	傽	JP	傽	CN	CN
@@ -735,7 +735,7 @@ U+50DC	僜	JP#	僜	CN#	CN#
 U+50DD	僝	JP#	僝	CN	CN
 U+50DE	僞	JP	僞	CN#	CN#
 U+50DF	僟	JP#	僟	HK#	僟
-U+50E0	TW	TW#	TW	僠	僠
+U+50E0	TW	TW#	TW	HK	僠
 U+50E1	僡	JP#	僡	CN#	CN
 U+50E2	僢	JP	僢	CN#	CN#
 U+50E3	僣	JP#	JP	僣	僣
@@ -759,7 +759,7 @@ U+50F4	僴	JP#	JP	JP#	JP
 U+50F5	CN	CN	僵	CN	CN
 U+50F6	僶	JP#	僶	僶	TW
 U+50F7	僷	JP#	JP	JP#	JP#
-U+50F8	僸	JP#	JP	僸	JP
+U+50F8	僸	JP#	JP	僸	
 U+50F9	價	JP	JP	JP	JP
 U+50FA	僺	JP#	JP	JP#	JP#
 U+50FB	僻	JP	僻	CN	CN
@@ -912,7 +912,7 @@ U+518D	CN	再 (u2F815-JP)	再	CN	CN
 U+518E	冎	JP#	冎	CN#	CN#
 U+518F	冏	JP	冏	冏	TW
 U+5190	冐	JP#	JP	JP#	JP#
-U+5191	冑	JP#	JP	冑	TW
+U+5191	冑	JP#	JP	冑	JP
 U+5192	冒	CN	冒	CN	CN
 U+5193	冓	冓	JP	JP	JP
 U+5194	冔	JP#	JP	JP	JP
@@ -1459,7 +1459,7 @@ U+53B0	厰	JP#	厰	CN#	CN
 U+53B1	CN	CN#	厱	CN#	CN#
 U+53B2	厲	JP	JP	厲	TW
 U+53B3	厳	JP#	厳	JP#	JP#
-U+53B4	厴	JP#	JP	厴	TW
+U+53B4	厴	JP#	JP	厴	
 U+53B5	厵	JP#	JP	JP#	JP#
 U+53B6	厶	JP#	厶	CN#	CN
 U+53B7	厷	JP#	厷	CN#	CN#
@@ -1613,7 +1613,7 @@ U+544A	CN	CN	告	CN	CN
 U+544B	CN	CN#	呋	CN#	CN
 U+544C	呌	JP#	JP	JP#	JP
 U+544D	呍	JP#	呍	CN#	CN
-U+544E	呎	JP	JP	JP	呎
+U+544E	呎	JP	JP	HK	呎
 U+544F	呏	JP#	JP	JP	JP
 U+5450	CN	CN#	呐	CN#	CN#
 U+5451	呑	JP	JP	JP#	JP#
@@ -1706,7 +1706,7 @@ U+54A7	咧	JP#	咧	JP	JP
 U+54A8	咨	JP	咨	咨	CN
 U+54A9	咩	JP#	咩	CN	CN
 U+54AA	CN	CN#	咪	咪	CN
-U+54AB	CN	CN	咫	CN	咫
+U+54AB	CN	CN	咫	HK	咫
 U+54AC	咬	JP	咬	CN	CN
 U+54AD	CN	CN#	咭	CN	CN
 U+54AE	咮	JP#	JP	JP	JP
@@ -2006,7 +2006,7 @@ U+55D3	CN	CN#	嗓	嗓	CN
 U+55D4	嗔	JP	嗔	CN	嗔
 U+55D5	CN	CN#	嗕	嗕	TW
 U+55D6	CN	CN#	嗖	嗖	嗖
-U+55D7	嗗	JP#	嗗	JP#	嗗
+U+55D7	嗗	JP#	嗗	HK#	JP
 U+55D8	嗘	JP#	嗘	HK#	嗘
 U+55D9	CN	CN#	嗙	CN	CN
 U+55DA	嗚	JP	JP	JP	JP
@@ -2145,7 +2145,7 @@ U+565E	噞	JP#	噞	CN	CN
 U+565F	CN	CN#	噟	CN#	CN#
 U+5660	噠	JP#	噠	噠	TW
 U+5661	噡	JP#	噡	HK#	噡
-U+5662	噢	JP#	噢	噢	TW
+U+5662	噢	JP#	噢	噢	
 U+5663	噣	JP#	JP	JP	JP
 U+5664	CN	CN	噤	噤	噤
 U+5665	噥	JP	噥	噥	TW
@@ -2702,7 +2702,7 @@ U+588B	墋	JP#	墋	CN	CN
 U+588C	墌	JP#	墌	CN#	CN#
 U+588D	墍	JP	墍	JP#	JP#
 U+588E	CN	CN#	墎	CN	CN
-U+588F	墏	JP#	墏	墏	CN
+U+588F	墏	JP#	墏	墏	JP
 U+5890	墐	JP	JP	JP	JP
 U+5891	CN	CN#	墑	CN	CN
 U+5892	CN	CN#	墒	HK#	墒
@@ -2725,7 +2725,7 @@ U+58A2	墢	JP#	墢	CN#	CN#
 U+58A3	墣	JP	JP	墣	TW
 U+58A4	墤	JP#	JP	JP#	JP#
 U+58A5	CN	CN#	墥	CN	CN
-U+58A6	墦	JP#	JP	墦	墦
+U+58A6	墦	JP#	JP	HK	墦
 U+58A7	墧	JP#	JP	JP#	JP
 U+58A8	墨	墨 (uniFA3A-JP)	墨 (uniFA3A-JP)	墨 (uniFA3A-JP)	墨 (uniFA3A-JP)
 U+58A9	墩	JP	墩	CN	CN
@@ -2745,7 +2745,7 @@ U+58B6	CN	CN#	墶	HK#	墶
 U+58B7	CN	CN#	墷	CN#	CN#
 U+58B8	墸	JP#	墸	CN#	CN#
 U+58B9	墹	JP#	JP	JP#	JP#
-U+58BA	墺	JP	墺	墺	TW
+U+58BA	墺	JP	墺	墺	
 U+58BB	墻	JP	JP	JP	JP
 U+58BC	墼	JP#	墼	CN	CN
 U+58BD	CN	CN#	墽	CN	CN
@@ -2833,7 +2833,7 @@ U+590E	夎	JP#	JP	夎	JP
 U+590F	CN	CN	夏	夏	CN
 U+5910	CN	CN	夐	CN#	CN#
 U+5911	CN	CN#	夑	HK#	夑
-U+5912	夒	JP#	夒	夒	TW
+U+5912	夒	JP#	夒	夒	CN
 U+5913	夓	JP#	夓	CN#	CN#
 U+5914	夔	夔	夔	夔	CN
 U+5915	夕	JP	JP	夕	TW
@@ -2918,7 +2918,7 @@ U+5963	奣	JP#	JP	JP#	JP#
 U+5964	奤	JP#	JP	JP#	JP#
 U+5965	奥	JP#	奥	HK#	奥
 U+5966	CN	CN#	奦	CN#	CN#
-U+5967	CN	CN	奧	奧	TW
+U+5967	CN	CN	奧	奧	
 U+5968	奨	JP#	JP	JP#	JP#
 U+5969	奩	JP	奩	JP	JP
 U+596A	奪	JP	奪	CN	CN
@@ -3321,7 +3321,7 @@ U+5AF6	嫶	JP	嫶	嫶	TW
 U+5AF7	CN	CN#	嫷	嫷	嫷
 U+5AF8	CN	CN#	嫸	嫸	TW
 U+5AF9	CN	CN#	嫹	嫹	嫹
-U+5AFA	嫺	JP	嫺	HK	嫺
+U+5AFA	嫺	JP	嫺		嫺
 U+5AFB	嫻	JP	嫻	嫻	TW
 U+5AFC	CN	CN#	嫼	CN#	CN#
 U+5AFD	嫽	JP	嫽	嫽	TW
@@ -3342,7 +3342,7 @@ U+5B0B	嬋	JP	嬋	嬋	TW
 U+5B0C	嬌	JP	嬌	嬌	TW
 U+5B0D	CN	CN#	嬍	HK#	嬍
 U+5B0E	CN	CN#	嬎	嬎	TW#
-U+5B0F	CN	CN#	嬏	嬏	嬏
+U+5B0F	CN	CN#	嬏	HK	嬏
 U+5B10	CN	CN#	嬐	嬐	TW
 U+5B11	CN	CN#	嬑	HK#	嬑
 U+5B12	CN	CN#	嬒	CN#	CN#
@@ -3383,7 +3383,7 @@ U+5B34	嬴	嬴	嬴	嬴	嬴
 U+5B35	CN	CN#	嬵	CN#	CN#
 U+5B36	嬶	JP#	JP	JP#	JP#
 U+5B37	CN	CN#	嬷	CN#	CN#
-U+5B38	嬸	JP#	嬸	嬸	嬸
+U+5B38	嬸	JP#	嬸	HK	嬸
 U+5B39	CN	CN#	嬹	CN#	CN#
 U+5B3A	CN	CN#	嬺	CN#	CN#
 U+5B3B	CN	CN#	嬻	CN#	CN#
@@ -3560,7 +3560,7 @@ U+5BE5	寥	JP	寥	寥	TW
 U+5BE6	實	JP	實	CN	CN
 U+5BE7	寧	寧 (uni5BE7uE0100-JP)	寧	CN	CN
 U+5BE8	寨	JP	寨	寨	寨
-U+5BE9	審	JP	審	審	CN
+U+5BE9	審	JP	審	審	TW
 U+5BEA	CN	CN#	寪	寪	TW
 U+5BEB	寫	JP	寫	CN	CN
 U+5BEC	寬	JP	寬	寬	TW
@@ -3590,7 +3590,7 @@ U+5C03	尃	JP#	JP	尃	TW
 U+5C04	射	JP	射	射	TW
 U+5C05	尅	JP	JP	JP#	JP
 U+5C06	将	JP#	将	CN#	CN#
-U+5C07	將	JP	將	將	CN
+U+5C07	將	JP	將	將	JP
 U+5C08	專	JP	JP	JP	JP
 U+5C09	尉	JP	JP	尉	JP
 U+5C0A	CN	尊 (uni5C0AuE0102-JP)	尊	尊	TW
@@ -3641,7 +3641,7 @@ U+5C36	尶	JP#	JP	JP#	JP#
 U+5C37	尷	JP#	尷	JP	JP
 U+5C38	尸	JP	尸	CN	CN
 U+5C39	CN	CN	尹	CN	CN
-U+5C3A	CN	CN	尺	CN	尺
+U+5C3A	CN	CN	尺	HK	尺
 U+5C3B	尻	JP	JP	JP	JP
 U+5C3C	CN	CN	尼	尼	CN
 U+5C3D	CN	CN#	尽	CN#	CN#
@@ -3908,7 +3908,7 @@ U+5D41	嵁	JP	嵁	嵁	TW
 U+5D42	嵂	JP	JP	JP	JP
 U+5D43	嵃	JP#	嵃	嵃	TW
 U+5D44	嵄	JP#	JP	JP#	JP#
-U+5D45	嵅	JP#	JP	嵅	JP
+U+5D45	嵅	JP#	JP	JP	JP
 U+5D46	嵆	JP#	嵆	HK#	嵆
 U+5D47	嵇	JP#	嵇	CN	CN
 U+5D48	嵈	JP#	嵈	HK#	嵈
@@ -3975,7 +3975,7 @@ U+5D84	嶄	JP	嶄	CN	CN
 U+5D85	CN	CN#	嶅	HK#	嶅
 U+5D86	CN	CN#	嶆	嶆	嶆
 U+5D87	嶇	JP	嶇	嶇	TW
-U+5D88	嶈	JP#	嶈	嶈	CN
+U+5D88	嶈	JP#	嶈	嶈	JP
 U+5D89	CN	CN#	嶉	CN	CN
 U+5D8A	嶊	JP#	嶊	CN	CN
 U+5D8B	嶋	JP	嶋	HK#	嶋
@@ -3986,7 +3986,7 @@ U+5D8F	CN	CN#	嶏	CN#	CN#
 U+5D90	嶐	JP#	JP	JP#	JP#
 U+5D91	CN	CN#	嶑	CN#	CN#
 U+5D92	嶒	JP	嶒	嶒	嶒
-U+5D93	嶓	JP#	嶓	嶓	嶓
+U+5D93	嶓	JP#	嶓	HK	嶓
 U+5D94	嶔	JP	嶔	CN	CN
 U+5D95	嶕	JP	嶕	嶕	TW
 U+5D96	CN	CN#	嶖	CN#	CN#
@@ -4019,7 +4019,7 @@ U+5DB0	嶰	JP	嶰	嶰	TW
 U+5DB1	CN	CN#	嶱	嶱	嶱
 U+5DB2	嶲	JP#	嶲	CN	CN
 U+5DB3	CN	CN#	嶳	CN#	CN#
-U+5DB4	嶴	JP#	嶴	嶴	TW
+U+5DB4	嶴	JP#	嶴	嶴	
 U+5DB5	CN	CN#	嶵	嶵	TW
 U+5DB6	CN	CN#	嶶	HK#	嶶
 U+5DB7	CN	CN	嶷	嶷	TW
@@ -4062,7 +4062,7 @@ U+5DDB	CN	CN#	巛	CN#	CN
 U+5DDC	巜	JP#	JP	JP#	JP#
 U+5DDD	CN	CN	川	CN	CN
 U+5DDE	CN	CN	州	州	TW
-U+5DDF	CN	CN#	巟	巟	TW
+U+5DDF	CN	CN#	巟	巟	
 U+5DE0	巠	JP#	JP	JP	JP
 U+5DE1	巡	巡 (uni5DE1uE0101-JP)	巡	巡	TW
 U+5DE2	CN	CN	巢	CN	CN
@@ -4192,7 +4192,7 @@ U+5E5D	幝	JP#	JP	JP	JP
 U+5E5E	幞	JP	幞	HK#	幞
 U+5E5F	幟	JP	幟	CN	CN
 U+5E60	TW	TW#	TW	幠	TW
-U+5E61	CN	CN	幡	幡	幡
+U+5E61	CN	CN	幡	HK	幡
 U+5E62	幢	JP	幢	CN	CN
 U+5E63	幣	幣 (uni5E63uE0101-JP)	幣	CN	CN
 U+5E64	幤	JP#	幤	CN#	CN#
@@ -4280,7 +4280,7 @@ U+5EB5	庵	JP	庵	庵	CN
 U+5EB6	庶	JP	庶	CN	CN
 U+5EB7	康	JP	康	康	康
 U+5EB8	庸	JP	庸	庸	CN
-U+5EB9	庹	JP#	庹	CN	庹
+U+5EB9	庹	JP#	庹	HK	庹
 U+5EBA	CN	CN#	庺	CN#	CN#
 U+5EBB	CN	CN#	庻	CN#	CN#
 U+5EBC	CN	CN#	庼	CN#	CN#
@@ -4327,7 +4327,7 @@ U+5EE4	CN	CN#	廤	CN#	CN#
 U+5EE5	廥	JP	廥	CN	廥
 U+5EE6	CN	CN#	廦	CN	CN
 U+5EE7	廧	JP	廧	CN	CN
-U+5EE8	廨	JP	廨	JP	JP
+U+5EE8	廨	JP	廨	JP	
 U+5EE9	廩	JP	廩	廩	CN
 U+5EEA	CN	CN#	廪	CN#	CN#
 U+5EEB	廫	JP#	廫	CN#	CN#
@@ -4894,7 +4894,7 @@ U+611B	愛	JP	JP	愛	JP
 U+611C	愜	JP	愜	CN	愜
 U+611D	CN	CN#	愝	愝	TW
 U+611E	愞	JP#	JP	JP#	JP#
-U+611F	感	JP	感	感	CN
+U+611F	感	JP	感	感	TW
 U+6120	CN	CN#	愠	CN#	CN
 U+6121	CN	CN#	愡	CN#	CN#
 U+6122	愢	JP#	愢	CN#	CN
@@ -4939,7 +4939,7 @@ U+6148	慈	JP	慈	CN	CN
 U+6149	慉	JP#	慉	CN	CN
 U+614A	慊	JP	慊	CN	CN
 U+614B	態	JP	態	態	態
-U+614C	慌	JP	慌	慌	TW
+U+614C	慌	JP	慌	慌	
 U+614D	慍	JP	JP	JP	JP
 U+614E	慎	JP#	慎	CN	慎
 U+614F	CN	CN#	慏	CN	CN
@@ -5053,7 +5053,7 @@ U+61BA	憺	JP	憺	憺	TW
 U+61BB	憻	JP	憻	CN#	CN#
 U+61BC	憼	JP	JP	憼	TW
 U+61BD	CN	CN#	憽	CN#	CN#
-U+61BE	憾	JP	憾	憾	憾
+U+61BE	憾	JP	憾	HK	憾
 U+61BF	CN	CN#	憿	CN	CN
 U+61C0	懀	JP#	懀	CN#	懀
 U+61C1	懁	JP#	懁	CN	CN
@@ -5151,7 +5151,7 @@ U+621C	戜	JP#	JP	JP#	JP#
 U+621D	戝	JP#	JP	JP#	JP#
 U+621E	戞	JP	JP	JP#	JP#
 U+621F	CN	CN	戟	CN	CN
-U+6220	戠	JP#	戠	戠	TW
+U+6220	戠	JP#	戠	戠	CN
 U+6221	戡	JP	戡	戡	TW
 U+6222	戢	JP	戢	JP	JP
 U+6223	戣	JP#	戣	CN	CN
@@ -5671,7 +5671,7 @@ U+6424	搤	搤	搤	CN	CN
 U+6425	搥	JP	搥	搥	TW
 U+6426	搦	JP#	搦	搦	TW
 U+6427	CN	CN#	搧	搧	搧
-U+6428	搨	搨 (uni6428uE0101-JP)	搨	搨	TW
+U+6428	搨	搨 (uni6428uE0101-JP)	搨	搨	
 U+6429	搩	JP#	搩	CN#	CN#
 U+642A	搪	JP	搪	CN	CN
 U+642B	搫	JP	搫	搫	TW
@@ -5804,7 +5804,7 @@ U+64A9	CN	CN	撩	CN	CN
 U+64AA	CN	CN#	撪	CN#	CN#
 U+64AB	撫	JP	JP	撫	TW
 U+64AC	撬	JP#	撬	JP	JP
-U+64AD	CN	CN	播	播	CN
+U+64AD	CN	CN	播	播	TW
 U+64AE	撮	JP	撮	撮	TW
 U+64AF	CN	CN#	撯	HK#	撯
 U+64B0	CN	CN	撰	撰	撰
@@ -5819,7 +5819,7 @@ U+64B8	CN	CN#	撸	CN#	CN#
 U+64B9	撹	JP#	JP	JP#	JP#
 U+64BA	CN	CN#	撺	CN#	CN#
 U+64BB	撻	JP	撻	撻	TW
-U+64BC	撼	JP	撼	撼	撼
+U+64BC	撼	JP	撼	HK	撼
 U+64BD	撽	JP#	撽	CN	CN
 U+64BE	撾	JP	撾	撾	TW
 U+64BF	撿	JP	撿	CN	CN
@@ -5848,9 +5848,9 @@ U+64D5	擕	JP	擕	CN#	CN#
 U+64D6	CN	CN#	擖	擖	擖
 U+64D7	擗	JP	擗	CN	CN
 U+64D8	擘	JP	擘	CN	CN
-U+64D9	CN	CN#	擙	擙	TW
+U+64D9	CN	CN#	擙	擙	
 U+64DA	據	JP	據	據	TW
-U+64DB	擛	JP#	JP	擛	JP
+U+64DB	擛	JP#	JP	擛	
 U+64DC	CN	CN#	擜	CN#	CN#
 U+64DD	CN	CN#	擝	CN#	CN
 U+64DE	CN	CN#	擞	CN#	CN#
@@ -6106,7 +6106,7 @@ U+65D7	旗	JP	旗	CN	CN
 U+65D8	旘	JP#	旘	CN#	CN#
 U+65D9	旙	JP#	旙	CN#	CN#
 U+65DA	CN	CN#	旚	旚	CN
-U+65DB	旛	JP#	旛	旛	CN
+U+65DB	旛	JP#	旛	旛	TW
 U+65DC	CN	CN#	旜	CN#	CN#
 U+65DD	CN	CN#	旝	CN	旝
 U+65DE	CN	CN#	旞	旞	TW
@@ -6870,7 +6870,7 @@ U+68D3	棓	JP#	棓	CN	CN
 U+68D4	棔	JP#	棔	CN	CN
 U+68D5	棕	JP	棕	棕	CN
 U+68D6	棖	JP	棖	CN	CN
-U+68D7	棗	JP	棗	CN	CN
+U+68D7	棗	JP	棗	CN	JP
 U+68D8	棘	JP	JP	JP	JP
 U+68D9	棙	JP#	棙	JP#	JP#
 U+68DA	CN	CN	棚	CN	CN
@@ -6966,7 +6966,7 @@ U+6933	椳	JP#	椳	CN	CN
 U+6934	椴	JP	椴	CN	CN
 U+6935	椵	JP#	JP	JP	JP
 U+6936	椶	JP	椶	HK#	椶
-U+6937	椷	JP#	JP	椷	JP
+U+6937	椷	JP#	JP	JP	JP
 U+6938	椸	JP#	椸	椸	TW
 U+6939	椹	JP	椹	椹	TW
 U+693A	椺	JP#	JP	JP#	JP#
@@ -7042,7 +7042,7 @@ U+697F	楿	JP#	JP	JP#	JP#
 U+6980	CN	CN#	榀	CN#	CN
 U+6981	榁	JP#	榁	CN#	CN#
 U+6982	概	JP#	概	概	TW
-U+6983	CN	CN#	榃	CN	CN
+U+6983	CN	CN#	榃	CN	
 U+6984	CN	CN#	榄	CN#	CN#
 U+6985	CN	CN#	榅	CN#	CN
 U+6986	榆	JP#	榆	榆	CN
@@ -7078,7 +7078,7 @@ U+69A3	CN	CN#	榣	榣	榣
 U+69A4	榤	JP	榤	榤	榤
 U+69A5	榥	JP	JP	JP	JP
 U+69A6	榦	JP	榦	榦	CN
-U+69A7	榧	JP	榧	JP	JP
+U+69A7	榧	JP	榧	JP	
 U+69A8	榨	JP#	榨	榨	TW
 U+69A9	CN	CN#	榩	榩	TW
 U+69AA	CN	CN#	榪	CN	CN
@@ -7098,7 +7098,7 @@ U+69B7	榷	JP	榷	CN	CN
 U+69B8	榸	JP#	JP	JP#	JP#
 U+69B9	CN	CN#	榹	榹	TW
 U+69BA	榺	JP#	榺	CN#	CN#
-U+69BB	榻	榻 (uni69BBuE0101-JP)	榻	榻	TW
+U+69BB	榻	榻 (uni69BBuE0101-JP)	榻	榻	
 U+69BC	榼	JP	榼	CN	CN
 U+69BD	CN	CN#	榽	榽	TW
 U+69BE	榾	JP	榾	榾	JP
@@ -7154,13 +7154,13 @@ U+69EF	槯	JP#	槯	CN#	CN#
 U+69F0	CN	CN#	槰	CN#	CN#
 U+69F1	槱	JP#	槱	槱	TW
 U+69F2	槲	JP	槲	JP	JP
-U+69F3	槳	JP#	槳	槳	CN
+U+69F3	槳	JP#	槳	槳	JP
 U+69F4	槴	JP#	槴	槴	CN
 U+69F5	槵	JP#	槵	CN#	CN#
 U+69F6	槶	JP#	JP	JP	JP
 U+69F7	CN	CN#	槷	槷	CN
 U+69F8	CN	CN#	槸	槸	CN
-U+69F9	槹	JP	槹	HK#	槹
+U+69F9	槹	JP	HK	HK#	槹
 U+69FA	CN	CN#	槺	HK#	槺
 U+69FB	槻	JP	JP	JP	JP
 U+69FC	槼	JP#	JP	槼	JP
@@ -7174,7 +7174,7 @@ U+6A03	樃	JP#	樃	CN#	CN
 U+6A04	CN	CN#	樄	CN	CN
 U+6A05	樅	JP	JP	JP	JP
 U+6A06	CN	CN#	樆	樆	TW
-U+6A07	CN	CN#	樇	樇	CN
+U+6A07	CN	CN#	樇	樇	
 U+6A08	CN	CN#	樈	CN	CN
 U+6A09	CN	CN#	樉	CN	CN
 U+6A0A	CN	CN	樊	樊	TW
@@ -7245,7 +7245,7 @@ U+6A4A	橊	JP	JP	JP#	JP#
 U+6A4B	橋	JP	JP	JP	JP
 U+6A4C	橌	JP#	JP	JP#	橌
 U+6A4D	橍	JP#	JP	JP	JP
-U+6A4E	橎	JP#	JP	橎	JP
+U+6A4E	橎	JP#	JP	橎	TW
 U+6A4F	CN	CN#	橏	橏	TW
 U+6A50	CN	CN	橐	橐	CN
 U+6A51	橑	JP#	JP	JP	JP
@@ -7627,7 +7627,7 @@ U+6BC8	毈	JP#	毈	CN	CN
 U+6BC9	毉	JP#	毉	毉	TW
 U+6BCA	CN	CN#	毊	CN	CN
 U+6BCB	毋	JP	毋	CN	CN
-U+6BCC	毌	JP#	毌	毌	CN
+U+6BCC	毌	JP#	毌	毌	
 U+6BCD	母	JP	母	CN	CN
 U+6BCE	毎	JP#	JP	JP#	JP#
 U+6BCF	每	JP	每	CN	CN
@@ -7677,7 +7677,7 @@ U+6BFA	CN	CN#	毺	CN#	CN
 U+6BFB	毻	JP#	JP	毻	JP
 U+6BFC	CN	CN#	毼	毼	毼
 U+6BFD	CN	CN#	毽	CN	CN
-U+6BFE	CN	CN#	毾	毾	TW
+U+6BFE	CN	CN#	毾	毾	
 U+6BFF	毿	JP	毿	CN	CN
 U+6C00	CN	CN#	氀	氀	氀
 U+6C01	CN	CN#	氁	氁	TW
@@ -7714,7 +7714,7 @@ U+6C1F	氟	JP#	氟	CN	CN
 U+6C20	CN	CN#	氠	CN	CN
 U+6C21	CN	CN#	氡	氡	TW
 U+6C22	CN	CN#	氢	CN#	CN#
-U+6C23	氣	JP	氣	氣	CN
+U+6C23	氣	JP	氣	氣	JP
 U+6C24	CN	CN	氤	CN	CN
 U+6C25	氥	JP#	JP	JP	JP
 U+6C26	氦	JP#	氦	CN	CN
@@ -7784,7 +7784,7 @@ U+6C65	汥	JP#	JP	JP	JP
 U+6C66	CN	CN#	汦	CN	CN
 U+6C67	汧	JP#	汧	CN	CN
 U+6C68	CN	CN	汨	CN	CN
-U+6C69	CN	CN#	汩	汩	TW
+U+6C69	CN	CN#	汩	汩	CN
 U+6C6A	CN	CN	汪	CN	CN
 U+6C6B	汫	JP#	JP	JP	JP
 U+6C6C	汬	JP#	JP	JP#	JP#
@@ -8426,7 +8426,7 @@ U+6EE7	CN	CN#	滧	CN#	CN#
 U+6EE8	CN	CN#	滨	CN#	CN
 U+6EE9	CN	CN#	滩	CN#	CN
 U+6EEA	CN	CN#	滪	CN#	CN#
-U+6EEB	滫	JP#	滫	滫	CN
+U+6EEB	滫	JP#	滫	滫	JP
 U+6EEC	滬	滬 (uni6EECuE0101-JP)	滬	滬	CN
 U+6EED	滭	JP	滭	滭	滭
 U+6EEE	滮	JP#	滮	滮	TW
@@ -8455,7 +8455,7 @@ U+6F04	漄	JP	JP	JP#	JP
 U+6F05	漅	JP#	JP	JP	JP
 U+6F06	漆	JP	漆	漆	TW
 U+6F07	漇	JP#	JP	JP	JP
-U+6F08	漈	JP#	漈	漈	CN
+U+6F08	漈	JP#	漈	漈	JP
 U+6F09	漉	JP	漉	漉	TW
 U+6F0A	漊	JP#	漊	漊	漊
 U+6F0B	CN	CN#	漋	CN#	CN
@@ -8469,7 +8469,7 @@ U+6F12	CN	CN#	漒	漒	TW
 U+6F13	漓	JP	漓	漓	TW
 U+6F14	演	JP	演	CN	CN
 U+6F15	CN	CN	漕	CN	漕
-U+6F16	漖	JP#	漖	CN#	CN
+U+6F16	漖	JP#	漖	CN#	
 U+6F17	CN	CN#	漗	CN#	CN
 U+6F18	漘	JP#	漘	漘	漘
 U+6F19	漙	JP	JP	JP	JP
@@ -8510,7 +8510,7 @@ U+6F3B	漻	JP#	漻	漻	TW
 U+6F3C	漼	JP	漼	CN	CN
 U+6F3D	CN	CN#	漽	CN#	CN
 U+6F3E	漾	JP	漾	CN	CN
-U+6F3F	漿	JP	漿	漿	CN
+U+6F3F	漿	JP	漿	漿	JP
 U+6F40	CN	CN#	潀	CN	CN
 U+6F41	潁	JP	潁	潁	TW
 U+6F42	CN	CN#	潂	CN#	CN#
@@ -8535,7 +8535,7 @@ U+6F54	潔	潔	潔	潔	TW
 U+6F55	TW	TW#	TW	潕	TW
 U+6F56	CN	CN#	潖	HK#	潖
 U+6F57	潗	JP	潗	潗	CN
-U+6F58	CN	CN	潘	潘	CN
+U+6F58	CN	CN	潘	潘	TW
 U+6F59	潙	JP	潙	CN#	CN#
 U+6F5A	潚	JP	JP	JP	潚
 U+6F5B	潛	潛 (uni6F5BuE0101-JP)	潛	潛	潛
@@ -8626,12 +8626,12 @@ U+6FAF	澯	JP	澯	澯	JP
 U+6FB0	澰	JP#	澰	CN	CN
 U+6FB1	澱	JP	澱	CN	CN
 U+6FB2	澲	JP#	JP	澲	JP
-U+6FB3	澳	JP	澳	澳	TW
+U+6FB3	澳	JP	澳	澳	
 U+6FB4	CN	CN#	澴	CN	CN
 U+6FB5	澵	JP#	澵	HK#	澵
 U+6FB6	澶	JP	澶	CN	CN
 U+6FB7	澷	JP#	澷	CN#	CN#
-U+6FB8	CN	CN#	澸	澸	CN
+U+6FB8	CN	CN#	澸	澸	TW
 U+6FB9	澹	JP	澹	澹	TW
 U+6FBA	CN	CN#	澺	CN	CN
 U+6FBB	CN	CN#	澻	HK#	澻
@@ -8714,7 +8714,7 @@ U+7007	瀇	JP	瀇	瀇	瀇
 U+7008	CN	CN#	瀈	CN#	CN#
 U+7009	瀉	JP	瀉	CN	CN
 U+700A	瀊	JP#	瀊	瀊	TW
-U+700B	瀋	JP	瀋	瀋	CN
+U+700B	瀋	JP	瀋	瀋	TW
 U+700C	CN	CN#	瀌	瀌	TW
 U+700D	瀍	JP#	瀍	瀍	TW
 U+700E	TW	TW#	TW	瀎	TW
@@ -9047,7 +9047,7 @@ U+7154	TW	TW#	TW	煔	TW
 U+7155	CN	CN#	煕	CN#	CN#
 U+7156	煖	JP	煖	煖	TW
 U+7157	煗	JP	JP	HK#	煗
-U+7158	TW	TW#	TW	煘	煘
+U+7158	HK	HK#	HK	HK	煘
 U+7159	CN	煙 (uni7159uE0101-JP)	煙	煙	TW
 U+715A	煚	JP#	煚	煚	TW
 U+715B	CN	CN#	煛	CN#	CN#
@@ -9161,7 +9161,7 @@ U+71C6	TW	TW#	TW	燆	TW
 U+71C7	CN	CN#	燇	燇	TW
 U+71C8	燈	JP	燈	燈	TW
 U+71C9	燉	JP	燉	燉	TW
-U+71CA	TW	TW#	TW	燊	燊
+U+71CA				燊	燊
 U+71CB	燋	JP	燋	燋	TW
 U+71CC	燌	JP#	JP	JP#	JP#
 U+71CD	CN	CN#	燍	CN#	CN#
@@ -9171,7 +9171,7 @@ U+71D0	燐	JP	燐	燐	燐
 U+71D1	CN	CN#	燑	HK#	燑
 U+71D2	燒	JP	JP	燒	TW
 U+71D3	燓	JP#	燓	CN#	CN#
-U+71D4	燔	JP	JP	燔	燔
+U+71D4	燔	JP	JP	HK	燔
 U+71D5	CN	CN	燕	燕	TW
 U+71D6	燖	JP	燖	燖	TW
 U+71D7	燗	JP#	JP	JP#	JP#
@@ -9183,7 +9183,7 @@ U+71DC	燜	JP#	JP	燜	TW
 U+71DD	CN	CN#	燝	HK#	燝
 U+71DE	CN	CN#	燞	CN#	CN#
 U+71DF	營	JP	營	營	TW
-U+71E0	燠	JP	燠	燠	TW
+U+71E0	燠	JP	燠	燠	
 U+71E1	CN	CN#	燡	燡	TW
 U+71E2	CN	CN#	燢	燢	TW
 U+71E3	CN	CN#	燣	CN#	CN#
@@ -9226,7 +9226,7 @@ U+7207	爇	JP	爇	爇	爇
 U+7208	爈	JP#	JP	JP#	JP#
 U+7209	爉	JP#	爉	HK#	爉
 U+720A	CN	CN#	爊	爊	TW
-U+720B	爋	JP	爋	CN#	CN#
+U+720B	CN	CN	爋	CN#	CN#
 U+720C	爌	JP	爌	爌	爌
 U+720D	爍	JP	爍	爍	爍
 U+720E	CN	CN#	爎	HK#	爎
@@ -9271,7 +9271,7 @@ U+7234	爴	JP#	JP	JP#	JP#
 U+7235	爵	爵 (uni7235uE0102-JP)	爵	CN	CN
 U+7236	父	JP	父	CN	CN
 U+7237	CN	CN#	爷	CN#	CN#
-U+7238	爸	JP	爸	CN	CN
+U+7238	爸	JP	爸	CN	JP
 U+7239	爹	JP	爹	JP	JP
 U+723A	爺	JP	爺	JP	JP
 U+723B	CN	CN	爻	CN	CN
@@ -9286,7 +9286,7 @@ U+7243	CN	CN#	牃	CN#	CN#
 U+7244	CN	CN#	牄	牄	TW
 U+7245	牅	JP#	牅	CN#	CN#
 U+7246	牆	JP	JP	JP	JP
-U+7247	CN	CN	片	片	TW
+U+7247	CN	CN	片	片	CN
 U+7248	版	JP	版	版	版
 U+7249	CN	CN#	牉	牉	TW
 U+724A	TW	TW#	TW	牊	TW
@@ -9412,7 +9412,7 @@ U+72C1	狁	JP#	狁	CN	CN
 U+72C2	CN	CN	狂	CN	CN
 U+72C3	狃	JP#	狃	JP	JP
 U+72C4	狄	JP	狄	狄	TW
-U+72C5	TW	TW#	TW	狅	TW
+U+72C5	TW	TW#	TW	狅	
 U+72C6	狆	JP#	JP	JP	JP
 U+72C7	狇	JP#	JP	JP#	JP#
 U+72C8	CN	CN#	狈	CN#	CN#
@@ -9887,7 +9887,7 @@ U+749C	璜	JP	璜	璜	JP
 U+749D	CN	CN	璝	CN#	CN
 U+749E	CN	CN	璞	璞	TW
 U+749F	璟	JP	璟	CN	CN
-U+74A0	璠	JP#	JP	璠	JP
+U+74A0	璠	JP#	JP	璠	TW
 U+74A1	璡	JP	璡	璡	TW
 U+74A2	璢	JP#	JP	JP#	JP#
 U+74A3	璣	JP	璣	璣	TW
@@ -9895,7 +9895,7 @@ U+74A4	CN	CN#	璤	CN#	CN
 U+74A5	璥	JP	JP	璥	TW
 U+74A6	璦	JP#	JP	璦	JP
 U+74A7	璧	JP	璧	CN	CN
-U+74A8	璨	JP	璨	璨	CN
+U+74A8	璨	JP	璨	璨	JP
 U+74A9	璩	JP#	璩	璩	TW
 U+74AA	璪	JP	JP	璪	JP
 U+74AB	璫	JP	JP	JP	JP
@@ -10028,7 +10028,7 @@ U+7529	甩	CN#	甩	CN	CN
 U+752A	甪	JP#	JP	甪	JP
 U+752B	CN	CN	甫	CN	CN
 U+752C	CN	CN	甬	CN	CN
-U+752D	CN	CN#	甭	甭	CN
+U+752D	TW	TW#	甭	CN	TW
 U+752E	CN	CN#	甮	CN	甮
 U+752F	甯	JP#	甯	甯	CN
 U+7530	CN	CN	田	CN	CN
@@ -10089,7 +10089,7 @@ U+7566	CN	CN	畦	CN	CN
 U+7567	畧	JP	JP	JP#	JP
 U+7568	畨	JP#	JP	JP#	JP#
 U+7569	畩	JP#	畩	CN#	CN#
-U+756A	番	JP	JP	番	番
+U+756A	番	JP	JP	HK	番
 U+756B	畫	JP	JP	JP	JP
 U+756C	畬	JP#	畬	畬	CN
 U+756D	畭	JP#	畭	CN#	CN
@@ -10383,7 +10383,7 @@ U+768C	皌	JP#	JP	JP#	JP#
 U+768D	皍	JP#	皍	CN#	CN#
 U+768E	皎	JP	皎	CN	CN
 U+768F	皏	JP#	JP	JP	JP
-U+7690	皐	JP	皐	HK#	皐
+U+7690	皐	JP	HK	HK#	皐
 U+7691	CN	CN#	皑	CN#	CN#
 U+7692	皒	JP#	JP	JP	JP
 U+7693	CN	CN	皓	CN	皓
@@ -10403,7 +10403,7 @@ U+76A0	皠	JP#	皠	CN#	CN#
 U+76A1	皡	JP#	皡	CN#	CN
 U+76A2	皢	JP#	JP	JP#	JP#
 U+76A3	皣	JP#	皣	JP#	JP#
-U+76A4	皤	JP	皤	皤	CN
+U+76A4	皤	JP	皤	皤	TW
 U+76A5	皥	JP#	皥	CN#	CN
 U+76A6	皦	JP#	皦	CN	CN
 U+76A7	皧	JP#	JP	JP#	JP#
@@ -11002,7 +11002,7 @@ U+78F7	磷	JP	磷	磷	磷
 U+78F8	CN	CN#	磸	CN#	CN#
 U+78F9	磹	JP#	JP	JP	JP
 U+78FA	磺	JP	磺	磺	JP
-U+78FB	磻	JP	JP	磻	磻
+U+78FB	磻	JP	JP	HK	磻
 U+78FC	磼	JP	磼	磼	CN
 U+78FD	磽	JP	JP	JP	JP
 U+78FE	磾	JP#	JP	JP	JP
@@ -11116,7 +11116,7 @@ U+7969	祩	JP#	祩	CN	CN
 U+796A	CN	CN#	祪	CN	CN
 U+796B	祫	JP#	祫	CN	CN
 U+796C	CN	CN#	祬	CN#	CN#
-U+796D	祭	JP	祭	祭	CN
+U+796D	祭	JP	祭	祭	JP
 U+796E	CN	CN#	祮	CN#	CN#
 U+796F	CN	CN#	祯	CN#	CN#
 U+7970	CN	CN#	祰	CN	祰
@@ -11136,7 +11136,7 @@ U+797D	CN	CN#	祽	CN	CN
 U+797E	祾	JP#	祾	HK#	祾
 U+797F	祿	JP	祿	祿	TW
 U+7980	禀	JP	禀	CN#	CN
-U+7981	CN	CN	禁	禁	CN
+U+7981	CN	CN	禁	禁	
 U+7982	CN	CN#	禂	禂	禂
 U+7983	CN	CN#	禃	HK#	禃
 U+7984	禄	JP#	禄	CN#	CN#
@@ -11331,7 +11331,7 @@ U+7A40	穀	穀 (uniFA54-JP)	穀	CN	CN
 U+7A41	穁	JP#	JP	JP#	JP#
 U+7A42	穂	JP#	JP	JP#	JP#
 U+7A43	穃	JP#	穃	CN#	CN
-U+7A44	穄	JP#	穄	穄	CN
+U+7A44	穄	JP#	穄	穄	JP
 U+7A45	穅	JP	穅	HK#	穅
 U+7A46	CN	CN	穆	CN	穆
 U+7A47	穇	JP#	穇	CN	CN
@@ -11673,7 +11673,7 @@ U+7B96	箖	JP#	JP	箖	TW
 U+7B97	CN	CN	算	算	TW
 U+7B98	箘	JP#	箘	箘	TW
 U+7B99	箙	JP	JP	箙	TW
-U+7B9A	箚	JP	箚	CN	CN
+U+7B9A	箚	JP	箚		
 U+7B9B	箛	JP#	箛	箛	TW
 U+7B9C	箜	JP	箜	箜	TW
 U+7B9D	CN	CN	箝	箝	TW
@@ -11699,7 +11699,7 @@ U+7BB0	箰	JP#	箰	CN#	CN#
 U+7BB1	CN	CN	箱	箱	TW
 U+7BB2	箲	JP#	JP	HK#	箲
 U+7BB3	箳	JP#	JP	JP#	JP#
-U+7BB4	CN	CN	箴	箴	箴
+U+7BB4	CN	CN	箴	HK	箴
 U+7BB5	箵	JP#	箵	箵	箵
 U+7BB6	箶	JP#	JP	JP#	JP#
 U+7BB7	CN	CN#	箷	箷	TW
@@ -11858,7 +11858,7 @@ U+7C4F	籏	JP#	籏	CN#	CN#
 U+7C50	籐	籐 (uni7C50uE0101-JP)	籐	籐	TW
 U+7C51	籑	JP#	籑	HK#	籑
 U+7C52	籒	JP	JP	JP#	JP#
-U+7C53	籓	JP#	JP	籓	籓
+U+7C53	籓	JP#	JP	HK	籓
 U+7C54	籔	JP	籔	籔	籔
 U+7C55	籕	JP#	籕	CN#	CN#
 U+7C56	CN	CN#	籖	HK#	籖
@@ -11942,7 +11942,7 @@ U+7CA3	CN	CN#	粣	粣	粣
 U+7CA4	粤	JP	粤	CN#	CN#
 U+7CA5	粥	JP	粥	粥	CN
 U+7CA6	粦	JP	粦	HK#	粦
-U+7CA7	粧	JP	粧	CN	CN
+U+7CA7	粧	JP	粧		CN
 U+7CA8	粨	JP	JP	粨	JP
 U+7CA9	CN	CN#	粩	CN#	CN#
 U+7CAA	CN	CN#	粪	CN#	CN#
@@ -12247,7 +12247,7 @@ U+7DD4	CN	CN#	緔	CN#	CN
 U+7DD5	緕	JP#	緕	CN#	CN#
 U+7DD6	緖	JP	緖	CN#	CN#
 U+7DD7	緗	JP	緗	CN	CN
-U+7DD8	緘	JP	緘	緘	CN
+U+7DD8	緘	JP	緘	CN	CN
 U+7DD9	緙	JP#	緙	CN	CN
 U+7DDA	線	JP	線	CN	CN
 U+7DDB	CN	CN#	緛	緛	TW
@@ -12282,7 +12282,7 @@ U+7DF7	CN	CN#	緷	CN	CN
 U+7DF8	CN	CN#	緸	CN#	CN#
 U+7DF9	緹	JP	緹	CN	CN
 U+7DFA	緺	JP#	緺	緺	TW
-U+7DFB	緻	JP	緻	緻	CN
+U+7DFB	緻	JP	緻	緻	
 U+7DFC	CN	CN#	緼	CN#	CN
 U+7DFD	CN	CN#	緽	CN#	CN
 U+7DFE	CN	CN#	緾	CN#	CN
@@ -12376,7 +12376,7 @@ U+7E55	繕	JP	繕	繕	TW
 U+7E56	繖	JP	繖	繖	CN
 U+7E57	繗	JP	繗	繗	繗
 U+7E58	繘	JP#	繘	繘	TW
-U+7E59	繙	JP	繙	繙	繙
+U+7E59	繙	JP	繙	HK	繙
 U+7E5A	繚	JP	繚	CN	CN
 U+7E5B	CN	CN#	繛	CN#	CN
 U+7E5C	CN	CN#	繜	繜	TW
@@ -12722,7 +12722,7 @@ U+7FAF	羯	JP	羯	羯	羯
 U+7FB0	CN	CN#	羰	羰	TW
 U+7FB1	CN	CN#	羱	CN	CN
 U+7FB2	羲	JP	羲	CN	CN
-U+7FB3	CN	CN#	羳	羳	羳
+U+7FB3	CN	CN#	羳	HK	羳
 U+7FB4	羴	JP#	羴	CN#	CN
 U+7FB5	CN	CN#	羵	羵	TW
 U+7FB6	羶	JP	羶	CN	CN
@@ -12942,7 +12942,7 @@ U+808B	CN	CN	肋	肋	TW
 U+808C	CN	CN	肌	肌	TW
 U+808D	肍	JP#	JP	JP#	JP#
 U+808E	肎	JP#	肎	CN#	CN#
-U+808F	CN	CN#	肏	肏	TW
+U+808F	TW	TW#	肏	肏	TW
 U+8090	TW	TW#	TW	肐	TW
 U+8091	CN	CN#	肑	CN#	CN#
 U+8092	CN	CN#	肒	肒	TW
@@ -12957,7 +12957,7 @@ U+809A	CN	CN	肚	肚	TW
 U+809B	CN	CN	肛	肛	TW
 U+809C	肜	JP#	JP	肜	TW
 U+809D	CN	CN	肝	肝	TW
-U+809E	肞	JP#	JP	JP#	JP#
+U+809E	肞	JP#	肞 (uni809EuE0101-JP)	肞 (uni809EuE0101-JP)	肞 (uni809EuE0101-JP)
 U+809F	CN	CN#	肟	HK#	肟
 U+80A0	CN	CN#	肠	CN#	CN#
 U+80A1	股	JP	股	股	TW
@@ -13209,7 +13209,7 @@ U+8196	膖	JP#	膖	CN#	CN#
 U+8197	CN	CN#	膗	膗	TW
 U+8198	CN	CN#	膘	膘	膘
 U+8199	CN	CN#	膙	膙	TW
-U+819A	膚	JP	JP	膚	JP
+U+819A	膚	JP	JP	膚	
 U+819B	CN	CN#	膛	膛	TW
 U+819C	CN	CN	膜	膜	TW
 U+819D	膝	JP	膝	膝	TW
@@ -13231,7 +13231,7 @@ U+81AC	CN	CN#	膬	膬	TW
 U+81AD	膭	JP#	JP	JP#	JP#
 U+81AE	膮	JP#	JP	膮	TW
 U+81AF	CN	CN#	膯	CN#	CN#
-U+81B0	膰	JP	JP	膰	膰
+U+81B0	膰	JP	JP	HK	膰
 U+81B1	CN	CN#	膱	膱	TW
 U+81B2	膲	JP#	膲	膲	TW
 U+81B3	CN	CN	膳	膳	TW
@@ -14146,7 +14146,7 @@ U+853F	蔿	JP	蔿	CN#	CN#
 U+8540	蕀	JP#	JP	蕀	TW
 U+8541	蕁	JP	蕁	蕁	TW
 U+8542	CN	CN#	蕂	HK#	蕂
-U+8543	CN	CN	蕃	蕃	蕃
+U+8543	CN	CN	蕃	HK	蕃
 U+8544	CN	CN#	蕄	蕄	TW
 U+8545	CN	CN#	蕅	蕅	TW
 U+8546	CN	CN	蕆	蕆	TW
@@ -14208,7 +14208,7 @@ U+857D	蕽	JP#	蕽	CN#	CN#
 U+857E	CN	CN	蕾	蕾	TW
 U+857F	蕿	JP#	蕿	CN#	CN#
 U+8580	薀	JP	JP	薀	TW
-U+8581	薁	JP#	薁	薁	TW
+U+8581	薁	JP#	薁	薁	
 U+8582	CN	CN#	薂	薂	TW
 U+8583	CN	CN#	薃	薃	TW
 U+8584	薄	薄 (uni8584uE0101-JP)	薄	薄	TW
@@ -14312,7 +14312,7 @@ U+85E5	藥	JP	藥	藥	藥
 U+85E6	藦	JP#	藦	藦	藦
 U+85E7	CN	CN#	藧	CN#	CN#
 U+85E8	藨	JP#	藨	藨	TW
-U+85E9	CN	CN	藩	藩	藩
+U+85E9	CN	CN	藩	HK	藩
 U+85EA	藪	JP	藪	藪	藪
 U+85EB	CN	CN#	藫	藫	TW
 U+85EC	CN	CN#	藬	藬	TW
@@ -14440,7 +14440,7 @@ U+8665	CN	CN#	虥	虥	TW
 U+8666	CN	CN#	虦	CN#	CN#
 U+8667	虧	JP	虧	虧	TW
 U+8668	CN	CN#	虨	虨	TW
-U+8669	虩	JP#	虩	虩	TW
+U+8669	虩	JP#	虩	虩	
 U+866A	CN	CN#	虪	虪	TW
 U+866B	虫	JP	虫	CN	CN
 U+866C	CN	CN	虬	CN#	CN
@@ -14470,7 +14470,7 @@ U+8683	CN	CN#	蚃	CN#	CN#
 U+8684	CN	CN#	蚄	CN#	CN#
 U+8685	CN	CN#	蚅	CN	CN
 U+8686	CN	CN#	蚆	CN	CN
-U+8687	蚇	JP#	JP	JP	蚇
+U+8687	蚇	JP#	JP	HK	蚇
 U+8688	蚈	JP#	蚈	CN#	CN#
 U+8689	蚉	JP#	蚉	CN#	CN#
 U+868A	蚊	JP	蚊	CN	CN
@@ -14782,7 +14782,7 @@ U+87BB	螻	JP	螻	螻	螻
 U+87BC	CN	CN#	螼	CN	CN
 U+87BD	螽	螽 (uni87BDuE0101-JP)	螽	CN	CN
 U+87BE	螾	JP#	螾	CN	CN
-U+87BF	螿	JP#	螿	螿	CN
+U+87BF	螿	JP#	螿	螿	JP
 U+87C0	蟀	JP	蟀	CN	CN
 U+87C1	蟁	JP#	蟁	CN#	CN
 U+87C2	CN	CN#	蟂	蟂	CN
@@ -14815,7 +14815,7 @@ U+87DC	蟜	JP#	JP	JP	JP
 U+87DD	CN	CN#	蟝	蟝	蟝
 U+87DE	CN	CN#	蟞	CN	CN
 U+87DF	蟟	JP#	JP	JP	JP
-U+87E0	CN	CN	蟠	蟠	蟠
+U+87E0	CN	CN	蟠	HK	蟠
 U+87E1	CN	CN#	蟡	蟡	TW
 U+87E2	蟢	JP#	蟢	CN	CN
 U+87E3	蟣	JP	蟣	蟣	TW
@@ -15170,7 +15170,7 @@ U+893F	CN	CN#	褿	CN#	CN#
 U+8940	襀	JP#	襀	CN#	CN#
 U+8941	襁	襁 (uni8941uE0101-JP)	襁	襁	TW
 U+8942	襂	JP#	襂	CN	CN
-U+8943	襃	JP#	襃	CN#	CN
+U+8943	襃	JP#	襃	CN#	
 U+8944	襄	JP	襄	CN	CN
 U+8945	襅	JP#	襅	CN#	CN#
 U+8946	襆	JP#	襆	襆	TW
@@ -15189,7 +15189,7 @@ U+8952	襒	JP#	襒	CN	CN
 U+8953	CN	CN#	襓	CN	CN
 U+8954	CN	CN#	襔	HK#	襔
 U+8955	CN	CN#	襕	CN#	CN#
-U+8956	襖	JP	襖	襖	TW
+U+8956	襖	JP	襖	襖	
 U+8957	襗	JP#	襗	CN	CN
 U+8958	襘	JP	襘	CN	襘
 U+8959	CN	CN#	襙	襙	CN
@@ -15293,7 +15293,7 @@ U+89BA	覺	JP	覺	CN	CN
 U+89BB	CN	CN#	覻	CN#	CN#
 U+89BC	覼	JP#	JP	JP#	JP
 U+89BD	覽	JP	覽	JP	JP
-U+89BE	CN	CN#	覾	覾	CN
+U+89BE	CN	CN#	覾	覾	TW
 U+89BF	覿	CN	覿	CN	JP
 U+89C0	觀	JP	觀	觀	TW
 U+89C1	CN	CN#	见	CN#	CN
@@ -15697,7 +15697,7 @@ U+8B4E	譎	JP	譎	譎	TW
 U+8B4F	譏	JP	譏	譏	TW
 U+8B50	CN	CN#	譐	譐	TW
 U+8B51	譑	JP#	譑	CN	CN
-U+8B52	譒	JP#	譒	譒	譒
+U+8B52	譒	JP#	譒	HK	譒
 U+8B53	譓	JP#	譓	CN	CN
 U+8B54	譔	JP	譔	譔	譔
 U+8B55	CN	CN#	譕	譕	TW
@@ -15748,7 +15748,7 @@ U+8B81	讁	JP#	讁	HK#	讁
 U+8B82	CN	CN#	讂	讂	TW
 U+8B83	讃	JP#	讃	HK#	讃
 U+8B84	讄	JP#	讄	CN	CN
-U+8B85	讅	JP#	讅	讅	讅
+U+8B85	讅	JP#	讅	HK	讅
 U+8B86	CN	CN#	讆	CN	CN
 U+8B87	CN	CN#	讇	CN#	CN#
 U+8B88	CN	CN#	讈	讈	TW
@@ -15946,7 +15946,7 @@ U+8C47	CN	CN	豇	CN	CN
 U+8C48	豈	JP	JP	JP	JP
 U+8C49	豉	JP	豉	CN	CN
 U+8C4A	豊	JP	豊	CN	CN
-U+8C4B	豋	JP#	豋	豋	CN
+U+8C4B	豋	JP#	豋	豋	JP
 U+8C4C	豌	JP	豌	豌	TW
 U+8C4D	CN	CN#	豍	CN	CN
 U+8C4E	豎	JP	JP	JP	JP
@@ -16448,7 +16448,7 @@ U+8E3D	CN	CN	踽	踽	TW
 U+8E3E	CN	CN#	踾	CN	CN
 U+8E3F	CN	CN#	踿	CN	CN
 U+8E40	CN	CN	蹀	蹀	CN
-U+8E41	蹁	JP#	蹁	蹁	TW
+U+8E41	蹁	JP#	蹁	蹁	JP
 U+8E42	CN	CN	蹂	蹂	CN
 U+8E43	CN	CN#	蹃	CN#	CN#
 U+8E44	蹄	JP	蹄	CN	CN
@@ -16480,7 +16480,7 @@ U+8E5D	蹝	JP#	JP	JP	JP
 U+8E5E	蹞	JP#	蹞	CN	CN
 U+8E5F	蹟	JP	JP	JP	JP
 U+8E60	蹠	JP	蹠	CN	CN
-U+8E61	蹡	JP#	蹡	蹡	CN
+U+8E61	蹡	JP#	蹡	蹡	JP
 U+8E62	蹢	JP#	蹢	CN	CN
 U+8E63	蹣	JP	蹣	JP	JP
 U+8E64	蹤	JP	JP	JP	JP
@@ -16494,7 +16494,7 @@ U+8E6B	CN	CN#	蹫	CN#	CN#
 U+8E6C	蹬	JP#	蹬	CN	CN
 U+8E6D	蹭	JP#	蹭	CN	蹭
 U+8E6E	CN	CN#	蹮	CN#	CN#
-U+8E6F	蹯	JP#	JP	蹯	蹯
+U+8E6F	蹯	JP#	JP	HK	蹯
 U+8E70	CN	CN#	蹰	CN#	CN#
 U+8E71	蹱	JP#	蹱	CN#	CN
 U+8E72	蹲	JP	蹲	蹲	TW
@@ -16722,11 +16722,11 @@ U+8F4F	轏	JP#	轏	CN	CN
 U+8F50	CN	CN#	轐	轐	TW
 U+8F51	轑	JP#	JP	JP	JP
 U+8F52	轒	JP	JP	JP	JP
-U+8F53	轓	JP#	JP	轓	轓
+U+8F53	轓	JP#	JP	HK	轓
 U+8F54	轔	JP	轔	轔	轔
 U+8F55	轕	JP#	轕	轕	轕
 U+8F56	CN	CN#	轖	CN	CN
-U+8F57	轗	JP	JP	轗	轗
+U+8F57	轗	JP	JP	HK	轗
 U+8F58	轘	JP	轘	CN	CN
 U+8F59	CN	CN#	轙	CN	CN
 U+8F5A	CN	CN#	轚	CN	CN
@@ -16827,7 +16827,7 @@ U+8FB8	辸	JP#	辸	HK#	辸
 U+8FB9	CN	CN#	边	HK#	边
 U+8FBA	辺	JP#	辺	HK#	辺
 U+8FBB	辻	JP	辻	HK#	辻
-U+8FBC	込	JP#	込	HK#	込
+U+8FBC	込	込 (uni8FBCuE0101-JP)	込	HK#	込
 U+8FBD	CN	CN#	辽	CN#	CN#
 U+8FBE	达	JP#	达	HK#	达
 U+8FBF	辿	JP	辿	辿	TW
@@ -16987,7 +16987,7 @@ U+9058	遘	遘 (uni9058uE0101-JP)	遘	遘	TW
 U+9059	遙	JP	遙	遙	遙
 U+905A	CN	CN#	遚	CN#	CN#
 U+905B	遛	JP	遛	遛	TW
-U+905C	遜	JP	遜	遜	TW
+U+905C	遜	JP	遜	遜	
 U+905D	遝	JP	遝	遝	TW
 U+905E	遞	JP	遞	遞	TW
 U+905F	CN	CN#	遟	CN#	CN#
@@ -17371,7 +17371,7 @@ U+91D8	釘	JP	釘	CN	CN
 U+91D9	釙	JP#	釙	CN	CN
 U+91DA	釚	JP#	釚	CN	CN
 U+91DB	釛	JP#	JP	JP#	JP#
-U+91DC	釜	JP	釜	CN	CN
+U+91DC	釜	JP	釜	CN	JP
 U+91DD	針	JP	針	CN	CN
 U+91DE	釞	JP#	釞	CN#	CN#
 U+91DF	釟	JP#	釟	CN#	CN
@@ -17926,7 +17926,7 @@ U+9403	鐃	JP	鐃	CN	CN
 U+9404	鐄	JP	鐄	HK#	鐄
 U+9405	CN	CN#	鐅	CN#	CN#
 U+9406	CN	CN#	鐆	CN	CN
-U+9407	鐇	JP#	鐇	鐇	鐇
+U+9407	鐇	JP#	鐇	HK	鐇
 U+9408	鐈	JP#	鐈	CN#	CN
 U+9409	鐉	JP#	鐉	鐉	鐉
 U+940A	CN	CN#	鐊	CN	CN
@@ -18360,7 +18360,7 @@ U+95B5	CN	CN#	閵	CN	CN
 U+95B6	閶	JP	閶	CN	閶
 U+95B7	CN	CN#	閷	閷	TW
 U+95B8	CN	CN#	閸	CN#	CN#
-U+95B9	閹	JP	JP	閹	JP
+U+95B9	閹	JP	JP	閹	
 U+95BA	閺	JP#	閺	CN	CN
 U+95BB	閻	JP	閻	CN	CN
 U+95BC	閼	閼 (uni95BCuE0101-JP)	閼	閼	閼
@@ -18584,9 +18584,9 @@ U+9695	隕	JP	JP	JP	JP
 U+9696	隖	JP#	JP	JP#	JP
 U+9697	隗	JP	隗	隗	TW
 U+9698	隘	JP	隘	CN	CN
-U+9699	CN	隙 (uni9699-JP90-JP)	隙	隙	CN
+U+9699	CN	隙 (uni9699-JP90-JP)	隙	隙	隙 (uni9699-JP90-JP)
 U+969A	隚	JP#	JP	JP#	JP#
-U+969B	際	JP	際	際	CN
+U+969B	際	JP	際	際	JP
 U+969C	障	JP	障	CN	CN
 U+969D	隝	JP#	JP	JP#	JP#
 U+969E	CN	CN#	隞	隞	TW
@@ -18600,7 +18600,7 @@ U+96A5	隥	JP#	隥	CN#	CN
 U+96A6	隦	JP#	隦	CN#	CN#
 U+96A7	隧	JP	隧	隧	TW
 U+96A8	隨	JP	隨	隨	隨
-U+96A9	隩	JP	隩	隩	TW
+U+96A9	隩	JP	隩	隩	
 U+96AA	險	JP	險	CN	CN
 U+96AB	CN	CN#	隫	CN#	CN#
 U+96AC	CN	CN#	隬	CN	CN
@@ -18990,12 +18990,12 @@ U+982B	頫	JP	頫	CN	CN
 U+982C	頬	JP#	JP	JP#	JP#
 U+982D	頭	JP	JP	JP	JP
 U+982E	頮	JP	JP	JP#	JP
-U+982F	頯	JP#	頯	頯	CN
+U+982F	頯	JP#	頯	頯	JP
 U+9830	頰	JP	JP	JP	JP
 U+9831	CN	CN#	頱	CN#	CN#
 U+9832	頲	JP#	頲	CN	CN
 U+9833	頳	JP#	JP	JP#	頳
-U+9834	頴	JP#	JP	JP#	JP
+U+9834	頴	JP#	JP	JP#	
 U+9835	頵	JP#	JP	JP	JP
 U+9836	CN	CN#	頶	CN#	CN#
 U+9837	頷	JP	頷	頷	TW
@@ -19724,7 +19724,7 @@ U+9B09	鬉	JP#	鬉	HK#	鬉
 U+9B0A	鬊	JP	鬊	CN	CN
 U+9B0B	鬋	鬋	鬋	鬋	CN
 U+9B0C	鬌	JP#	鬌	鬌	CN
-U+9B0D	鬍	JP	鬍	鬍	CN
+U+9B0D	鬍	JP	鬍	鬍	
 U+9B0E	鬎	JP#	鬎	CN	CN
 U+9B0F	CN	CN#	鬏	HK#	鬏
 U+9B10	鬐	JP	鬐	鬐	CN
@@ -19758,7 +19758,7 @@ U+9B2B	鬫	JP#	鬫	鬫	TW
 U+9B2C	鬬	JP#	鬬	CN#	CN#
 U+9B2D	鬭	JP#	鬭	HK#	鬭
 U+9B2E	鬮	鬮 (uni9B2EuE0101-JP)	鬮	鬮	鬮 (uni9B2EuE0101-JP)
-U+9B2F	CN	CN	鬯	鬯	CN
+U+9B2F	CN	CN	鬯	鬯	
 U+9B30	CN	CN#	鬰	CN#	CN#
 U+9B31	鬱	JP	鬱	CN	鬱
 U+9B32	鬲	JP	鬲	CN	CN
@@ -20021,7 +20021,7 @@ U+9C32	鰲	JP	鰲	鰲	TW
 U+9C33	CN	CN#	鰳	CN	CN
 U+9C34	CN	CN#	鰴	CN	CN
 U+9C35	鰵	JP	鰵	HK#	鰵
-U+9C36	鰶	JP#	鰶	鰶	CN
+U+9C36	鰶	JP#	鰶	鰶	JP
 U+9C37	鰷	JP#	鰷	鰷	鰷
 U+9C38	CN	CN#	鰸	CN#	CN#
 U+9C39	鰹	JP	鰹	CN	CN
@@ -20052,7 +20052,7 @@ U+9C51	CN	CN#	鱑	CN#	CN#
 U+9C52	鱒	JP	鱒 (uni9C52-JP90-JP)	鱒	TW
 U+9C53	鱓	JP	JP	JP#	JP
 U+9C54	鱔	JP#	JP	鱔	TW
-U+9C55	CN	CN#	鱕	鱕	鱕
+U+9C55	CN	CN#	鱕	HK	鱕
 U+9C56	鱖	JP#	鱖	CN	CN
 U+9C57	鱗	JP	鱗	鱗	鱗
 U+9C58	鱘	JP#	鱘	JP	JP
@@ -20728,10 +20728,10 @@ U+9EF5	黵	JP	黵	黵	TW
 U+9EF6	黶	JP	黶	黶	黶
 U+9EF7	黷	CN	黷	黷	黷
 U+9EF8	黸	JP#	JP	HK#	黸
-U+9EF9	黹	JP#	黹	黹	TW
+U+9EF9	黹	JP#	黹	黹	CN
 U+9EFA	黺	JP	黺	黺	CN
-U+9EFB	黻	JP	黻	黻	TW
-U+9EFC	黼	JP	黼	黼	TW
+U+9EFB	黻	JP	黻	黻	
+U+9EFC	黼	JP	黼	黼	CN
 U+9EFD	黽	JP	黽	黽	TW
 U+9EFE	CN	CN#	黾	CN#	CN
 U+9EFF	黿	JP	黿	黿	TW
@@ -22594,7 +22594,7 @@ U+3A4E	CN	CN#	㩎	CN#	CN#
 U+3A4F	CN	CN#	㩏	CN#	CN#
 U+3A50	CN	CN#	㩐	CN#	CN#
 U+3A51	CN	CN#	㩑	CN#	CN#
-U+3A52	CN	CN#	㩒	CN#	CN
+U+3A52	CN	CN#	㩒	CN#	
 U+3A53	CN	CN#	㩓	CN#	CN#
 U+3A54	CN	CN#	㩔	CN#	CN#
 U+3A55	CN	CN#	㩕	CN#	CN#
@@ -23010,7 +23010,7 @@ U+3BEE	CN	CN#	㯮	CN#	CN#
 U+3BEF	CN	CN#	㯯	CN#	CN#
 U+3BF0	㯰	JP#	㯰	CN#	CN#
 U+3BF1	CN	CN#	㯱	CN#	CN#
-U+3BF2	CN	CN#	㯲	CN#	CN
+U+3BF2	CN	CN#	㯲	CN#	
 U+3BF3	㯳	JP#	JP	HK#	㯳
 U+3BF4	CN	CN#	㯴	HK#	㯴
 U+3BF5	CN	CN#	㯵	CN#	CN#
@@ -25675,7 +25675,7 @@ U+4657	CN	CN#	䙗	CN#	CN#
 U+4658	CN	CN#	䙘	CN#	CN#
 U+4659	CN	CN#	䙙	CN#	CN#
 U+465A	CN	CN#	䙚	CN#	CN#
-U+465B	CN	CN#	䙛	CN#	CN
+U+465B	CN	CN#	䙛	CN#	
 U+465C	CN	CN#	䙜	CN#	CN#
 U+465D	CN	CN#	䙝	CN#	CN#
 U+465E	CN	CN#	䙞	CN#	CN#
