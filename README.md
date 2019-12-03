@@ -28,7 +28,6 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/source-han-sans/issues) for consideration.
 
-
 ## Further information
 
 For information about the design and background of Source Han Sans, please refer to the [design guide](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansDesignGuide.pdf) and [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf).
