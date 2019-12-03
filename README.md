@@ -26,7 +26,8 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 ## Getting Involved
 
-Send suggestions for changes to the Source Han Sans project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans), for consideration.
+For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/source-han-sans/issues) for consideration.
+
 
 ## Further information
 
