@@ -26,7 +26,7 @@
 
 ## 如何参与
 
-有任何修改建议，请至issue頁面点选[New issue](https://github.com/adobe-fonts/source-han-sans/issues)以资参考。
+有任何修改建议，请至issue页面点选[New issue](https://github.com/adobe-fonts/source-han-sans/issues)以资参考。
 
 ## 更多信息
 
