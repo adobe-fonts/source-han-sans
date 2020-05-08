@@ -26,7 +26,7 @@
 
 ## 참여하기
 
-변경에 대한 제안은 검토를 위해 본고딕 프로젝트 관리자 [Ken Lunde 박사](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)에게 보내주시기 바랍니다.
+변경에 대한 제안은 검토를 위해 ["New issue"](https://github.com/adobe-fonts/source-han-sans/issues)를 생성해주시기 바랍니다.
 
 ## 추가 정보
 
