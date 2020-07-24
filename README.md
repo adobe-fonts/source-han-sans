@@ -26,9 +26,9 @@ Select this deployment format if you prefer to use only one language, but also w
 
 [Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansSC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWSC.zip)
 
-[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansTC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWTC.zip)
+[Traditional Chinese — Taiwan (繁體中文—中國臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansTC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWTC.zip)
 
-[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWHC.zip)
+[Traditional Chinese — Hong Kong (繁體中文—中國香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWHC.zip)
 
 [Japanese (日本語)](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansJ.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansHWJ.zip)
 
@@ -40,7 +40,7 @@ Select this deployment format if you need only the glyphs for characters for a p
 
 Each ZIP file contains seven font resources, one for each of the seven weights. If you need specific weights, download individual font resources from the [SubsetOTF](SubsetOTF) folder, otherwise click on the appropriate links below:
 
-[China (中国)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip), [Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansTW.zip), [Hong Kong (香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansHK.zip), [Japan (日本)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip), [Korea (한국)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansKR.zip)
+[China Mainland (中国大陆)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip), [China Taiwan (中國臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansTW.zip), [China Hong Kong (中國香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansHK.zip), [Japan (日本)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansJP.zip), [Korea (한국)](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansKR.zip)
 
 ## Getting Involved
 
