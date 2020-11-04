@@ -1,6 +1,6 @@
 # Downloading Source Han Sans
 
-Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). Here you will find the ready-to-install OpenType/CFF font resources, as individual font resources or grouped together in downloadable ZIP files. The fonts' CID-based sources and build instructions are available in the [repository's `master` branch](https://github.com/adobe-fonts/source-han-sans/). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
+Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). Here you will find the ready-to-install OpenType/CFF font resources, as individual font resources or grouped together in downloadable ZIP files. The fonts' CID-based sources and build instructions are available in the [repository's `main` branch](https://github.com/adobe-fonts/source-han-sans/). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
 
 ### Super OTC
 
@@ -44,7 +44,7 @@ Each ZIP file contains seven font resources, one for each of the seven weights. 
 
 ## Getting Involved
 
-[Open or respond to an issue](https://github.com/adobe-fonts/source-han-sans/issues/), or send suggestions for changes to the Source Han Sans project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans), for consideration.
+[Open or respond to an issue](https://github.com/adobe-fonts/source-han-sans/issues/).
 
 ## Further information
 

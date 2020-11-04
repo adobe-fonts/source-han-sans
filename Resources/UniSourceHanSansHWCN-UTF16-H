@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniSourceHanSansHWCN-UTF16-H)
 %%Title: (UniSourceHanSansHWCN-UTF16-H Adobe Identity 0)
-%%Version: 2.001
+%%Version: 2.002
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2020 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniSourceHanSansHWCN-UTF16-H def
-/CMapVersion 2.001 def
+/CMapVersion 2.002 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -11534,6 +11534,10 @@ endcidchar
 <d87eddd0> 61849
 <d87eddd4> 61850
 <d87eddf4> 61853
+<d881df29> 61858
+<d883dedd> 61859
+<d883dede> 61856
+<d884dc6c> 61861
 <f900> 38616
 <f901> 20652
 <f902> 39658
@@ -11598,13 +11602,13 @@ endcidchar
 <f93f> 41812
 <f940> 46792
 <f941> 37980
+endcidchar
+
+100 begincidchar
 <f942> 13954
 <f943> 17143
 <f944> 30454
 <f945> 32518
-endcidchar
-
-100 begincidchar
 <f946> 25841
 <f947> 28617
 <f948> 38825
@@ -11701,13 +11705,13 @@ endcidchar
 <f9a5> 22766
 <f9a6> 30373
 <f9a7> 26278
+endcidchar
+
+100 begincidchar
 <f9a8> 9808
 <f9a9> 13179
 <f9aa> 15657
 <f9ab> 16563
-endcidchar
-
-100 begincidchar
 <f9ac> 17622
 <f9ad> 26376
 <f9ae> 26662
@@ -11804,13 +11808,13 @@ endcidchar
 <fa09> 62979
 <fa0a> 37348
 <fa0b> 17040
+endcidchar
+
+13 begincidchar
 <fa0c> 10832
 <fa0d> 12623
 <fa0e> 58871
 <fa1f> 58892
-endcidchar
-
-9 begincidchar
 <fa27> 58903
 <fa28> 58905
 <fa2e> 40730

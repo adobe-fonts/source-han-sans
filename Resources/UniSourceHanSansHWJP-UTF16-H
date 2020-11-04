@@ -5,7 +5,7 @@
 %%Title: (UniSourceHanSansHWJP-UTF16-H Adobe Identity 0)
 %%Version: 2.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2020 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -10657,6 +10657,10 @@ endcidchar
 <d87eddd0> 61849
 <d87eddd4> 61850
 <d87eddf4> 61853
+<d881df29> 61858
+<d883dedd> 61859
+<d883dede> 61854
+<d884dc6c> 61860
 <f900> 38616
 <f901> 20652
 <f902> 39658
@@ -10671,13 +10675,13 @@ endcidchar
 <f90b> 12520
 <f90c> 14119
 <f90d> 18471
+endcidchar
+
+100 begincidchar
 <f90e> 27653
 <f90f> 31989
 <f910> 35799
 <f911> 36439
-endcidchar
-
-100 begincidchar
 <f912> 37027
 <f913> 40610
 <f914> 21980
@@ -10774,13 +10778,13 @@ endcidchar
 <f971> 40014
 <f972> 23136
 <f973> 18890
+endcidchar
+
+100 begincidchar
 <f974> 33844
 <f975> 19151
 <f976> 27147
 <f977> 9725
-endcidchar
-
-100 begincidchar
 <f978> 10900
 <f979> 11046
 <f97a> 21275
@@ -10877,13 +10881,13 @@ endcidchar
 <f9d7> 39800
 <f9d8> 17393
 <f9d9> 18124
+endcidchar
+
+62 begincidchar
 <f9da> 21107
 <f9db> 26317
 <f9dc> 58868
 <f9dd> 11189
-endcidchar
-
-58 begincidchar
 <f9de> 11958
 <f9df> 15869
 <f9e0> 20292

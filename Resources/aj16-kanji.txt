@@ -1,4 +1,3 @@
-# Adobe-Japan1-6 Ideographs (14,664)
 656	uni4EDD-JP
 1125	uni4E9C-JP
 1126	uni5516-JP
@@ -14663,4 +14662,3 @@
 23055	uni9F96-JP
 23056	uni9FA1-JP
 23057	uni9FA3-JP
-# EOF
