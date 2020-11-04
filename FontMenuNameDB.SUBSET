@@ -25,8 +25,10 @@
 [SourceHanSansJP-Regular]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
 	s=3,1,0x411,Regular
+	l=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
 	f=Source Han Sans JP
 	s=Regular
+	l=Source Han Sans JP
 
 [SourceHanSansJP-Medium]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
@@ -39,8 +41,10 @@
 [SourceHanSansJP-Bold]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
 	s=3,1,0x411,Bold
+	l=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
 	f=Source Han Sans JP
 	s=Bold
+	l=Source Han Sans JP
 
 [SourceHanSansJP-Heavy]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP
@@ -77,8 +81,10 @@
 [SourceHanSansKR-Regular]
 	f=3,1,0x412,\BCF8\ACE0\B515 KR
 	s=3,1,0x412,Regular
+	l=3,1,0x412,\BCF8\ACE0\B515 KR
 	f=Source Han Sans KR
 	s=Regular
+	l=Source Han Sans KR
 
 [SourceHanSansKR-Medium]
 	f=3,1,0x412,\BCF8\ACE0\B515 KR
@@ -91,8 +97,10 @@
 [SourceHanSansKR-Bold]
 	f=3,1,0x412,\BCF8\ACE0\B515 KR
 	s=3,1,0x412,Bold
+	l=3,1,0x412,\BCF8\ACE0\B515 KR
 	f=Source Han Sans KR
 	s=Bold
+	l=Source Han Sans KR
 
 [SourceHanSansKR-Heavy]
 	f=3,1,0x412,\BCF8\ACE0\B515 KR
@@ -129,8 +137,10 @@
 [SourceHanSansCN-Regular]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 CN
 	s=3,1,0x804,Regular
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 CN
 	f=Source Han Sans CN
 	s=Regular
+	l=Source Han Sans CN
 
 [SourceHanSansCN-Medium]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 CN
@@ -143,8 +153,10 @@
 [SourceHanSansCN-Bold]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 CN
 	s=3,1,0x804,Bold
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 CN
 	f=Source Han Sans CN
 	s=Bold
+	l=Source Han Sans CN
 
 [SourceHanSansCN-Heavy]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 CN
@@ -181,8 +193,10 @@
 [SourceHanSansTW-Regular]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Regular
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	f=Source Han Sans TW
 	s=Regular
+	l=Source Han Sans TW
 
 [SourceHanSansTW-Medium]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
@@ -195,8 +209,10 @@
 [SourceHanSansTW-Bold]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	s=3,1,0x404,Bold
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
 	f=Source Han Sans TW
 	s=Bold
+	l=Source Han Sans TW
 
 [SourceHanSansTW-Heavy]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW
@@ -233,8 +249,10 @@
 [SourceHanSansHK-Regular]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK
 	s=3,1,0xC04,Regular
+	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK
 	f=Source Han Sans HK
 	s=Regular
+	l=Source Han Sans HK
 
 [SourceHanSansHK-Medium]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK
@@ -247,8 +265,10 @@
 [SourceHanSansHK-Bold]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK
 	s=3,1,0xC04,Bold
+	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK
 	f=Source Han Sans HK
 	s=Bold
+	l=Source Han Sans HK
 
 [SourceHanSansHK-Heavy]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK

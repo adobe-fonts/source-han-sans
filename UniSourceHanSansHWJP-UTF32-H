@@ -5,7 +5,7 @@
 %%Title: (UniSourceHanSansHWJP-UTF32-H Adobe Identity 0)
 %%Version: 2.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2020 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -10877,7 +10877,7 @@ endcidchar
 <0002cdd5> 61791
 endcidchar
 
-58 begincidchar
+62 begincidchar
 <0002ce18> 61792
 <0002ce1a> 61793
 <0002ce23> 61794
@@ -10936,6 +10936,10 @@ endcidchar
 <0002f9d0> 61849
 <0002f9d4> 61850
 <0002f9f4> 61853
+<00030729> 61858
+<00030edd> 61859
+<00030ede> 61854
+<0003106c> 61860
 endcidchar
 
 100 begincidrange

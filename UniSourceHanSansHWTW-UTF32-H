@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniSourceHanSansHWTW-UTF32-H)
 %%Title: (UniSourceHanSansHWTW-UTF32-H Adobe Identity 0)
-%%Version: 2.001
+%%Version: 2.002
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2020 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniSourceHanSansHWTW-UTF32-H def
-/CMapVersion 2.001 def
+/CMapVersion 2.002 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -10980,7 +10980,7 @@ endcidchar
 <0002cd8d> 61783
 endcidchar
 
-60 begincidchar
+64 begincidchar
 <0002cda8> 61788
 <0002cdd5> 61791
 <0002ce18> 61792
@@ -11041,6 +11041,10 @@ endcidchar
 <0002f9d0> 61849
 <0002f9d4> 61850
 <0002f9f4> 61853
+<00030729> 61858
+<00030edd> 61859
+<00030ede> 61856
+<0003106c> 61862
 endcidchar
 
 100 begincidrange

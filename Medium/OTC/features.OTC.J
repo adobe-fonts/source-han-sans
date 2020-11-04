@@ -37,7 +37,7 @@ languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.001;
+  FontRevision 2.002;
 } head;
 
 table hhea {
@@ -47,7 +47,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "\00A9 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "\00A9 2014-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe in the United States and/or other countries.";
   nameid 8 "Adobe";
   nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
@@ -375,47 +375,6 @@ lookup std_ccmp {
   substitute \63128 \63128 by \63143;
   substitute \723 \723 \723 by \63144;
   substitute \723 \723 by \63143;
-  # UTC-00791 (Extension G)
-  # JP
-  substitute \1394 \40029 \1387 \29388 \1384 \20694 \1384 \1386 \1385 \16866 \42830 \1385 \37543 \44746 \1385 \16866 \42830 \11137 \17487 by \61854;
-  # KR
-  substitute \1394 \40029 \1387 \62576 \1384 \20694 \1384 \1386 \1385 \16866 \42830 \1385 \37543 \44746 \1385 \16866 \42830 \11137 \17487 by \61855;
-  # CN
-  substitute \1394 \40030 \1387 \29389 \1384 \20694 \1384 \1386 \1385 \16867 \42831 \1385 \37544 \44746 \1385 \16867 \42831 \11137 \17488 by \61856;
-  # TW
-  substitute \1394 \40031 \1387 \29390 \1384 \20694 \1384 \1386 \1385 \16867 \42831 \1385 \37544 \44746 \1385 \16867 \42831 \11137 \17488 by \61857;
-  # HK
-  substitute \1394 \40031 \1387 \29389 \1384 \20694 \1384 \1386 \1385 \16867 \42831 \1385 \37544 \44746 \1385 \16867 \42831 \11137 \17488 by \61857;
-  # UTC-01200 (Extension G)
-  # JP/KR
-  substitute \1384 \23011 \17745 by \61858;
-  # CN/TW/HK
-  substitute \1384 \23011 \17746 by \61858;
-  # UTC-01312 (Extension G)
-  # JP
-  substitute \1394 \40029 \1387 \29388 \1384 \20694 \1384 \1386 \1385 \16866 \42842 \1385 \37543 \45072 \1385 \16866 \42842 \11137 \17487 by \61859;
-  # KR
-  substitute \1394 \40029 \1387 \62576 \1384 \20694 \1384 \1386 \1385 \16866 \42842 \1385 \37543 \45072 \1385 \16866 \42842 \11137 \17487 by \61859;
-  # CN
-  substitute \1394 \40030 \1387 \29389 \1384 \20694 \1384 \1386 \1385 \16867 \42842 \1385 \37544 \45072 \1385 \16867 \42842 \11137 \17488 by \61859;
-  # TW
-  substitute \1394 \40031 \1387 \29390 \1384 \20694 \1384 \1386 \1385 \16867 \42842 \1385 \37544 \45072 \1385 \16867 \42842 \11137 \17488 by \61859;
-  # HK
-  substitute \1394 \40031 \1387 \29389 \1384 \20694 \1384 \1386 \1385 \16867 \42842 \1385 \37544 \45072 \1385 \16867 \42842 \11137 \17488 by \61859;
-  # UK-02960 (Extension G): Long IDS
-  # JP/KR
-  substitute \1387 \43442 \1386 \43442 \47443 \43442 \1384 \47443 \47443 by \61860;
-  # CN
-  substitute \1387 \43443 \1386 \43443 \47444 \43443 \1384 \47444 \47444 by \61861;
-  # TW
-  substitute \1387 \43444 \1386 \43444 \47445 \43444 \1384 \47445 \47445 by \61862;
-  # HK
-  substitute \1387 \43444 \1386 \43444 \47444 \43444 \1384 \47444 \47444 by \61863;
-  # UK-02960 (Extension G): Short IDS
-  # JP/KR/CN/HK
-  # substitute \1389 \8547 \47471 by \61860;
-  # TW
-  # substitute \1389 \8547 \47472 by \61862;
   substitute \1447 \1449 by \1445;
   substitute \1448 \1449 by \1446;
   substitute \1461 \1546 by \61872;
@@ -5274,7 +5233,6 @@ lookup jp2kr useExtension {
   substitute \10955 by \61807;
   substitute \10964 by \10965;
   substitute \10966 by \10967;
-  substitute \10989 by \61900;
   substitute \10999 by \61808;
   substitute \11087 by \58880;
   substitute \11138 by \62118;
@@ -5328,6 +5286,7 @@ lookup jp2kr useExtension {
   substitute \13786 by \13787;
   substitute \13833 by \62198;
   substitute \13855 by \58922;
+  substitute \13899 by \13900;
   substitute \14019 by \14020;
   substitute \14035 by \14036;
   substitute \14064 by \14065;
@@ -26765,7 +26724,7 @@ lookup jp2tw useExtension {
   substitute \61482 by \61483;
   substitute \61579 by \61580;
   substitute \61826 by \61827;
-  substitute \61854 by \61857;
+  substitute \61854 by \61856;
   substitute \61860 by \61862;
   substitute \62985 by \43278;
   substitute \63096 by \47477;
@@ -29000,7 +28959,6 @@ lookup jp2hk useExtension {
   substitute \15733 by \15735;
   substitute \15737 by \15739;
   substitute \15742 by \15743;
-  substitute \15744 by \15745;
   substitute \15755 by \15756;
   substitute \15761 by \15763;
   substitute \15769 by \15770;
@@ -29041,6 +28999,7 @@ lookup jp2hk useExtension {
   substitute \15912 by \15914;
   substitute \15915 by \15916;
   substitute \15917 by \15918;
+  substitute \15923 by \65530;
   substitute \15925 by \15926;
   substitute \15927 by \15928;
   substitute \15929 by \15930;

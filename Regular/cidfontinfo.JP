@@ -2,7 +2,7 @@ FontName                   (SourceHanSansJP-Regular)
 FullName                   (Source Han Sans JP Regular)
 FamilyName                 (Source Han Sans JP)
 Weight                     (Regular)
-version                    (2.001)
+version                    (2.002)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
@@ -11,7 +11,7 @@ Subset                     (AI0-SourceHanSans.JP)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+AdobeCopyright             (Copyright 2014-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark                  (Source is a trademark of Adobe in the United States and/or other countries.)
 Serif                      false
 IsBoldStyle                false

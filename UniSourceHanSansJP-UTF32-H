@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniSourceHanSansJP-UTF32-H)
 %%Title: (UniSourceHanSansJP-UTF32-H Adobe Identity 0)
-%%Version: 2.001
+%%Version: 2.002
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2019 Adobe. All rights reserved.
+%%Copyright: Copyright 1990-2020 Adobe. All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
 %%Copyright: without modification, are permitted provided that the
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniSourceHanSansJP-UTF32-H def
-/CMapVersion 2.001 def
+/CMapVersion 2.002 def
 /CMapType 1 def
 
 /WMode 0 def
@@ -10877,7 +10877,7 @@ endcidchar
 <0002ce18> 61792
 endcidchar
 
-57 begincidchar
+61 begincidchar
 <0002ce1a> 61793
 <0002ce23> 61794
 <0002ce26> 61795
@@ -10935,6 +10935,10 @@ endcidchar
 <0002f9d0> 61849
 <0002f9d4> 61850
 <0002f9f4> 61853
+<00030729> 61858
+<00030edd> 61859
+<00030ede> 61854
+<0003106c> 61860
 endcidchar
 
 100 begincidrange
