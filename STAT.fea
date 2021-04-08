@@ -1,0 +1,43 @@
+table STAT {
+
+    ElidedFallbackName { name "Regular"; };
+    DesignAxis wght 0 { name "Weight"; };
+
+   AxisValue {
+        location wght 250 250 300;
+        name "ExtraLight";
+    };
+
+    AxisValue {
+        location wght 300 300 350;
+        name "Light";
+    };
+
+    AxisValue {
+        location wght 350 350 400;
+        name "Normal";
+    };
+
+    AxisValue {
+        location wght 400 400 500;
+        name "Regular";
+        flag ElidableAxisValueName;
+    };
+
+    AxisValue {
+        location wght 500 500 650;
+        name "Medium";
+    };
+
+    AxisValue {
+        location wght 700 650 800;
+        name "Bold";
+    };
+
+    AxisValue {
+        location wght 900 800 900;
+        name "Heavy";
+    };
+
+} STAT;
+

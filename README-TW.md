@@ -2,9 +2,9 @@
 
 # 思源黑體
 
-「思源黑體」是一套 OpenType/CFF 泛中日韓字型。這個開放原始碼專案不僅提供了可用的 OpenType 字型，還提供了利用 AFDKO *makeotf* 與 *otf2otc* 工具建置這些 OpenType 字型時的所有原始碼檔案。
+「思源黑體」是一套 OpenType/CFF 泛中日韓字型。這個開放原始碼專案不僅提供了可用的 OpenType 字型，還提供了利用 [AFDKO](https://github.com/adobe-type-tools/afdko/) 工具建置這些 OpenType 字型時的所有原始碼檔案。
 
-## 下載字型（OTF、OTC、Super OTC 與 Subset OTF）
+## 下載字型（OTF、OTC、Super OTC, Subset OTF 與 Variable）
 
 本專案提供了為多種部署方式而設定的獨立字型資源以及 ZIP 檔案供下載：
 
@@ -12,7 +12,7 @@
 
 參考[《官方字型 readme 檔案》](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf)的 Configurations（設定）部分，可以幫助您決定下載哪一套字型。推薦不熟悉 GitHub 的人士，請參照以英文、日文、韓文、簡體中文、繁體中文提供的[《思源字型官方下載指南》](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf)。
 
-您也可以一個單一 ZIP 檔案形式下載整個 [releases](../../releases)，內含所有設定。[最新發佈](../../releases/latest)的 ZIP 檔案大約有 2GB 大小。
+您也可以一個單一 ZIP 檔案形式下載整個 [releases](../../releases)，內含所有設定。
 
 ## 自原始碼檔案建置字型
 

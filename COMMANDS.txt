@@ -1,6 +1,6 @@
 # Command lines for building Source Han Sans OTFs, OTCs & Super OTC
 #
-# Version 2018-11-19
+# Version 2021-04-08
 
 ### Command lines for building the region-specific subset OTFs
 ### (replace $dir with the weight name)
@@ -136,5 +136,7 @@ otf2otc -o SourceHanSans-$dir.ttc SourceHanSans-$dir.otf.tmp SourceHanSansK-$dir
 # Executed in the root directory
 
 otf2otc -o SourceHanSans.ttc ExtraLight/OTC/SourceHanSans-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSansK-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSansSC-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSansTC-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSansHC-ExtraLight.otf.tmp Light/OTC/SourceHanSans-Light.otf.tmp Light/OTC/SourceHanSansK-Light.otf.tmp Light/OTC/SourceHanSansSC-Light.otf.tmp Light/OTC/SourceHanSansTC-Light.otf.tmp Light/OTC/SourceHanSansHC-Light.otf.tmp Normal/OTC/SourceHanSans-Normal.otf.tmp Normal/OTC/SourceHanSansK-Normal.otf.tmp Normal/OTC/SourceHanSansSC-Normal.otf.tmp Normal/OTC/SourceHanSansTC-Normal.otf.tmp Normal/OTC/SourceHanSansHC-Normal.otf.tmp Regular/OTC/SourceHanSans-Regular.otf.tmp Regular/OTC/SourceHanSansK-Regular.otf.tmp Regular/OTC/SourceHanSansSC-Regular.otf.tmp Regular/OTC/SourceHanSansTC-Regular.otf.tmp Regular/OTC/SourceHanSansHC-Regular.otf.tmp Regular/OTC/SourceHanSansHW-Regular.otf.tmp Regular/OTC/SourceHanSansHWK-Regular.otf.tmp Regular/OTC/SourceHanSansHWSC-Regular.otf.tmp Regular/OTC/SourceHanSansHWTC-Regular.otf.tmp Regular/OTC/SourceHanSansHWHC-Regular.otf.tmp Medium/OTC/SourceHanSans-Medium.otf.tmp Medium/OTC/SourceHanSansK-Medium.otf.tmp Medium/OTC/SourceHanSansSC-Medium.otf.tmp Medium/OTC/SourceHanSansTC-Medium.otf.tmp Medium/OTC/SourceHanSansHC-Medium.otf.tmp Bold/OTC/SourceHanSans-Bold.otf.tmp Bold/OTC/SourceHanSansK-Bold.otf.tmp Bold/OTC/SourceHanSansSC-Bold.otf.tmp Bold/OTC/SourceHanSansTC-Bold.otf.tmp Bold/OTC/SourceHanSansHC-Bold.otf.tmp Bold/OTC/SourceHanSansHW-Bold.otf.tmp Bold/OTC/SourceHanSansHWK-Bold.otf.tmp Bold/OTC/SourceHanSansHWSC-Bold.otf.tmp Bold/OTC/SourceHanSansHWTC-Bold.otf.tmp Bold/OTC/SourceHanSansHWHC-Bold.otf.tmp Heavy/OTC/SourceHanSans-Heavy.otf.tmp Heavy/OTC/SourceHanSansK-Heavy.otf.tmp Heavy/OTC/SourceHanSansSC-Heavy.otf.tmp Heavy/OTC/SourceHanSansTC-Heavy.otf.tmp Heavy/OTC/SourceHanSansHC-Heavy.otf.tmp
+
+## Command line for building Variable Fonts will be added soon
 
 # EOF

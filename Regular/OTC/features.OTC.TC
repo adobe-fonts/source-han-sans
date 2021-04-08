@@ -37,7 +37,7 @@ languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.002;
+  FontRevision 2.003;
 } head;
 
 table hhea {
@@ -47,7 +47,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "\00A9 2014-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "\00A9 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe in the United States and/or other countries.";
   nameid 8 "Adobe";
   nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
@@ -15759,7 +15759,7 @@ lookup tw2jp useExtension {
   substitute \61483 by \61482;
   substitute \61580 by \61579;
   substitute \61827 by \61826;
-  substitute \61856 by \61854;
+  substitute \61857 by \61854;
   substitute \61862 by \61860;
   substitute \61900 by \10989;
   substitute \61909 by \12827;
@@ -27761,7 +27761,7 @@ lookup tw2kr useExtension {
   substitute \61483 by \61482;
   substitute \61580 by \61579;
   substitute \61827 by \61826;
-  substitute \61856 by \61855;
+  substitute \61857 by \61855;
   substitute \61862 by \61860;
   substitute \61900 by \10989;
   substitute \61913 by \13658;
@@ -35838,6 +35838,7 @@ lookup tw2cn useExtension {
   substitute \61419 by \61418;
   substitute \61580 by \61579;
   substitute \61827 by \61826;
+  substitute \61857 by \61856;
   substitute \61862 by \61861;
   substitute \61922 by \17413;
   substitute \61993 by \32215;
@@ -38308,7 +38309,6 @@ lookup tw2hk useExtension {
   substitute \59419 by \59420;
   substitute \59441 by \59440;
   substitute \59451 by \59450;
-  substitute \61856 by \61857;
   substitute \61862 by \61863;
   substitute \62062 by \46336;
   substitute \62155 by \12025;

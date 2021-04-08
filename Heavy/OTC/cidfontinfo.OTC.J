@@ -2,7 +2,7 @@ FontName                   (SourceHanSans-Heavy)
 FullName                   (Source Han Sans Heavy)
 FamilyName                 (Source Han Sans)
 Weight                     (Heavy)
-version                    (2.001)
+version                    (2.003)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
@@ -10,7 +10,7 @@ Layout                     (AI0-SourceHanSans)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2014-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+AdobeCopyright             (Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark                  (Source is a trademark of Adobe in the United States and/or other countries.)
 Serif                      false
 IsBoldStyle                false

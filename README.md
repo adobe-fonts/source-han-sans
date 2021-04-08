@@ -2,9 +2,9 @@
 
 # Source Han Sans
 
-Source Han Sans is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
+Source Han Sans is a set of OpenType Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the [AFDKO](https://github.com/adobe-type-tools/afdko/) tools.
 
-## Download the fonts (OTF, OTC, Super OTC, Subset OTF)
+## Download the fonts (OTF, OTC, Super OTC, Subset OTF, Variable)
 
 Individual font resources or ZIP files for various deployment configurations are available for download:
 
@@ -12,7 +12,7 @@ Individual font resources or ZIP files for various deployment configurations are
 
 To help decide which fonts to download, please refer to the Configurations section of the [official font readme file](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
 
-You can also download entire [releases](../../releases) that include all available configurations in a single ZIP file. The ZIP file for the [latest release](../../releases/latest) is approximately 2GB.
+You can also download entire [releases](../../releases) that include all available configurations in a single ZIP file.
 
 ## Building the fonts from source
 
@@ -22,7 +22,7 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Build all fonts
 
-In this repository, all necessary files are in place for building the OpenType/CFF and OpenType/CFF Collection fonts. The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that are used to build the OTFs and OTCs.
+In this repository, all necessary files are in place for building the fonts. The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that are used to build the OTFs and OTCs.
 
 ## Getting Involved
 

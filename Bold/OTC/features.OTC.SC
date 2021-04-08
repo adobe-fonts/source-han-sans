@@ -37,7 +37,7 @@ languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.002;
+  FontRevision 2.003;
 } head;
 
 table hhea {
@@ -47,7 +47,7 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "\00A9 2014-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+  nameid 0 "\00A9 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
   nameid 7 "Source is a trademark of Adobe in the United States and/or other countries.";
   nameid 8 "Adobe";
   nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications \C0B0\B3CC\CEE4\BBA4\B2C8\CF00\C774\C158, Soo-young JANG \C7A5\C218\C601 & Joo-yeon KANG \AC15\C8FC\C5F0 (hangul elements, letters & syllables)";
@@ -29622,6 +29622,7 @@ lookup cn2tw useExtension {
   substitute \61822 by \16677;
   substitute \61826 by \61827;
   substitute \61830 by \18829;
+  substitute \61856 by \61857;
   substitute \61861 by \61862;
   substitute \61907 by \12274;
   substitute \61910 by \12851;

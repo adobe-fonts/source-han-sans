@@ -1,0 +1,78 @@
+[SourceHanSansHWVF-Regular]
+	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF HW VF
+	s=3,1,0x411,Regular
+	l=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF HW VF
+	f=Source Han Sans HW VF
+	s=Regular
+
+[SourceHanSansHWVF-Bold]
+	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF HW VF
+	s=3,1,0x411,Bold
+	l=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF HW VF
+	f=Source Han Sans HW VF
+	s=Bold
+	l=Source Han Sans HW VF
+
+[SourceHanSansHWKVF-Regular]
+	f=3,1,0x412,\BCF8\ACE0\B515 HW VF
+	s=3,1,0x412,Regular
+	l=3,1,0x412,\BCF8\ACE0\B515 HW VF
+	f=Source Han Sans HW K VF
+	s=Regular
+	l=Source Han Sans HW K VF
+
+[SourceHanSansHWKVF-Bold]
+	f=3,1,0x412,\BCF8\ACE0\B515 HW VF
+	s=3,1,0x412,Bold
+	l=3,1,0x412,\BCF8\ACE0\B515 HW VF
+	f=Source Han Sans HW K VF
+	s=Bold
+	l=Source Han Sans HW K VF
+	
+[SourceHanSansHWSCVF-Regular]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53 HW VF
+	s=3,1,0x804,Regular
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 HW VF
+	f=Source Han Sans HW SC VF
+	s=Regular
+	l=Source Han Sans HW SC VF
+
+[SourceHanSansHWSCVF-Bold]
+	f=3,1,0x804,\601D\6E90\9ED1\4F53 HW VF
+	s=3,1,0x804,Bold
+	l=3,1,0x804,\601D\6E90\9ED1\4F53 HW VF
+	f=Source Han Sans HW SC VF
+	s=Bold
+	l=Source Han Sans HW SC VF
+
+[SourceHanSansHWTCVF-Regular]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 HW VF
+	s=3,1,0x404,Regular
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 HW VF
+	f=Source Han Sans HW TC VF
+	s=Regular
+	l=Source Han Sans HW TC VF
+
+[SourceHanSansHWTCVF-Bold]
+	f=3,1,0x404,\601D\6E90\9ED1\9AD4 HW VF
+	s=3,1,0x404,Bold
+	l=3,1,0x404,\601D\6E90\9ED1\9AD4 HW VF
+	f=Source Han Sans HW TC VF
+	s=Bold
+	l=Source Han Sans HW TC VF
+
+[SourceHanSansHWHCVF-Regular]
+	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F HW VF
+	s=3,1,0xC04,Regular
+	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F HW VF
+	f=Source Han Sans HW HC VF
+	s=Regular
+	l=Source Han Sans HW HC VF
+
+[SourceHanSansHWHCVF-Bold]
+	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F HW VF
+	s=3,1,0xC04,Bold
+	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F HW VF
+	f=Source Han Sans HW HC VF
+	s=Bold
+	l=Source Han Sans HW HC VF
