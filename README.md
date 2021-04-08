@@ -1,6 +1,45 @@
 # Downloading Source Han Sans
 
-Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). Here you will find the ready-to-install OpenType/CFF font resources, as individual font resources or grouped together in downloadable ZIP files. The fonts' CID-based sources and build instructions are available in the [repository's `main` branch](https://github.com/adobe-fonts/source-han-sans/). Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
+Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). Here you will find the ready-to-install OpenType/CFF font resources, as individual font resources or grouped together in downloadable ZIP files. The fonts' CID-based sources and build instructions are available in the [repository's `main` branch](https://github.com/adobe-fonts/source-han-sans/). 
+
+### Variable OTCs
+
+Select this deployment format if you want all five languages and all weights, along with the half-width (HW) variations, and your system supports both variable fonts and OTCs.
+
+[Language-specific Variable OTC](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/OTC/SourceHanSans-VF.ttc)
+
+[HW Variable OTC](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/OTC/SourceHanSansHW-VF.ttc)
+
+**Note**: There is no Region-specific Variable OTC as the file size would be larger than the 
+Language-specific OTC, defeating the benefit of file size. 
+
+### Language-specific Variable OTFs
+
+Select this deployment format if your system supports variable fonts and you prefer to use only one language, but also want full character coverage or the ability to language-tag text to use glyphs that are appropriate for the other languages (this requires an app that supports language tagging and the OpenType 'locl' GSUB feature). Font resources that include "HW" in their names use half-width glyphs for ASCII by default.
+
+[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/SourceHanSansSC-VF.otf) | [HW](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/HW/SourceHanSansHWSC-VF.otf)
+
+[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/SourceHanSansTC-VF.otf) | [HW](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/HW/SourceHanSansHWTC-VF.otf)
+
+[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/SourceHanSansHC-VF.otf) | [HW](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/HW/SourceHanSansHWHC-VF.otf)
+
+[Japanese (日本語)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/SourceHanSans-VF.otf) | [HW](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/HW/SourceHanSansHW-VF.otf)
+
+[Korean (한국어)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/SourceHanSansK-VF.otf) | [HW](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/HW/SourceHanSansHWK-VF.otf)
+
+### Region-specific Subset Variable OTFs
+
+Select this deployment format if your system support variable fonts and you need only the glyphs for characters for a particular region.
+
+[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/Subset/SourceHanSansCN-VF.otf)
+
+[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/Subset/SourceHanSansTW-VF.otf)
+
+[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/Subset/SourceHanSansHK-VF.otf)
+
+[Japanese (日本語)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/Subset/SourceHanSansJP-VF.otf)
+
+[Korean (한국어)](https://github.com/adobe-fonts/source-han-sans/raw/release/Variable/Subset/SourceHanSansKR-VF.otf)
 
 ### Super OTC
 
