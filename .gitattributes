@@ -1,0 +1,4 @@
+.gitattributes export-ignore
+**/*.SC linguist-vendored
+**/*.HC linguist-vendored
+**/*.J linguist-vendored
