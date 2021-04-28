@@ -2,7 +2,7 @@ FontName                   (SourceHanSansHWHC-Regular)
 FullName                   (Source Han Sans HW Hong Kong Chinese Regular)
 FamilyName                 (Source Han Sans HW Hong Kong Chinese)
 Weight                     (Regular)
-version                    (2.003)
+version                    (2.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

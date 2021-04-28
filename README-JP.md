@@ -4,7 +4,7 @@
 
 源ノ角ゴシックは、OpenType/CFF Pan-CJK （いわゆる「汎日中韓」）フォントのセットです。実際に使用可能な OpenType フォントに加えて、このオープンソースプロジェクトでは、[AFDKO](https://github.com/adobe-type-tools/afdko/) のツールを使用してこれらの OpenType フォントを構築した際に使用したすべてのソースファイルを提供します。
 
-## フォントのダウンロード（OTF、OTC、Super OTC, Subset OTF 及び Variable）
+## フォントのダウンロード（OTF、OTC、Super OTC, Subset OTF 及び Variable OTF/TTF/WOFF2）
 
 各フォント構成に対応した個々のフォントリソースまたは ZIP ファイルをダウンロードできます：
 
@@ -12,7 +12,7 @@
 
 どのフォントをダウンロードするかを決定するには、[公式フォントの readme ファイル](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf)の「Configurations」（各種のフォント構成）セクションを参照してください。GitHub に慣れていない人は、[公式 Source Han ダウンロードガイド](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf)を参照することをお勧めします。英語、日本語、韓国語、簡体字中国語および繁体字中国語で提供されています。
 
-また、利用可能なすべてのフォント構成を含む [releases](../../releases) 全体を単一の ZIP ファイルでダウンロードすることもできます。
+また、利用可能なすべてのフォント構成を含む [releases](../../releases) 全体を二つの ZIP ファイルでダウンロードすることもできます。
 
 ## ソースからフォントをビルドする
 
@@ -22,7 +22,7 @@
 
 ## 実行コマンドライン
 
-このリポジトリには、OpenType/CFF と OpenType/CFF Collectionフォントを構築するために必要なすべてのファイルが用意されています。[COMMANDS.txt](COMMANDS.txt) ファイルには、OTF と OTC を構築するために使用されるコマンドラインが用意されています。
+このリポジトリには、OpenType/CFF/CFF2/TTF と OpenType/CFF/CFF2/TTF Collectionフォントを構築するために必要なすべてのファイルが用意されています。[COMMANDS.txt](COMMANDS.txt) ファイルには、OTF と OTC を構築するために使用されるコマンドラインが用意されています。
 
 ## ご意見・ご提案など
 

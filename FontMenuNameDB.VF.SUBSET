@@ -1,9 +1,9 @@
 [SourceHanSansJPVF-ExtraLight]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP VF
-	s=3,1,0x411,Regular
+	s=3,1,0x411,ExtraLight
 	l=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF JP VF
 	f=Source Han Sans JP VF
-	s=Regular
+	s=ExtraLight
 	l=Source Han Sans JP VF
 
 [SourceHanSansJPVF-Heavy]
@@ -16,10 +16,10 @@
 
 [SourceHanSansKRVF-ExtraLight]
 	f=3,1,0x412,\BCF8\ACE0\B515 KR VF
-	s=3,1,0x412,Regular
+	s=3,1,0x412,ExtraLight
 	l=3,1,0x412,\BCF8\ACE0\B515 KR VF
 	f=Source Han Sans KR VF
-	s=Regular
+	s=ExtraLight
 	l=Source Han Sans KR VF
 
 [SourceHanSansKRVF-Heavy]
@@ -32,10 +32,10 @@
 
 [SourceHanSansCNVF-ExtraLight]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 CN VF
-	s=3,1,0x804,Regular
+	s=3,1,0x804,ExtraLight
 	l=3,1,0x804,\601D\6E90\9ED1\4F53 CN VF
 	f=Source Han Sans CN VF
-	s=Regular
+	s=ExtraLight
 	l=Source Han Sans CN VF
 
 [SourceHanSansCNVF-Heavy]
@@ -48,10 +48,10 @@
 
 [SourceHanSansTWVF-ExtraLight]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 TW VF
-	s=3,1,0x404,Regular
+	s=3,1,0x404,ExtraLight
 	l=3,1,0x404,\601D\6E90\9ED1\9AD4 TW VF
 	f=Source Han Sans TW VF
-	s=Regular
+	s=ExtraLight
 	l=Source Han Sans TW VF
 
 [SourceHanSansTWVF-Heavy]
@@ -64,10 +64,10 @@
 
 [SourceHanSansHKVF-ExtraLight]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK VF
-	s=3,1,0xC04,Regular
+	s=3,1,0xC04,ExtraLight
 	l=3,1,0xC04,\601D\6E90\9ED1\9AD4 HK VF
 	f=Source Han Sans HK VF
-	s=Regular
+	s=ExtraLight
 	l=Source Han Sans HK VF
 
 [SourceHanSansHKVF-Heavy]

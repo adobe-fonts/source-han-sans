@@ -2,7 +2,7 @@ FontName                   (SourceHanSansK-Normal)
 FullName                   (Source Han Sans Korean Normal)
 FamilyName                 (Source Han Sans Korean)
 Weight                     (Normal)
-version                    (2.003)
+version                    (2.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

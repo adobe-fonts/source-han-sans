@@ -1,4 +1,7 @@
+# Ignore files when creating a Release so we can control how we attach the assets
 .gitattributes export-ignore
+
+# Tell GitHub not to categorize these files as language files
 **/*.SC linguist-vendored
 **/*.HC linguist-vendored
 **/*.J linguist-vendored

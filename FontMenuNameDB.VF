@@ -1,62 +1,62 @@
 [SourceHanSansVF-ExtraLight]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF VF
-	s=3,1,0x411,Regular
+	s=3,1,0x411,ExtraLight
 	f=Source Han Sans VF
-	s=Regular
+	s=ExtraLight
 
 [SourceHanSansVF-Heavy]
 	f=3,1,0x411,\6E90\30CE\89D2\30B4\30B7\30C3\30AF VF
-	s=3,1,0x411,Master1
+	s=3,1,0x411,Heavy
 	f=Source Han Sans VF
-	s=Master1
+	s=Heavy
 
 [SourceHanSansSCVF-ExtraLight]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 VF
-	s=3,1,0x804,Regular
+	s=3,1,0x804,ExtraLight
 	f=Source Han Sans SC VF
-	s=Regular
+	s=ExtraLight
 
 [SourceHanSansSCVF-Heavy]
 	f=3,1,0x804,\601D\6E90\9ED1\4F53 VF
-	s=3,1,0x804,Master1
+	s=3,1,0x804,Heavy
 	f=Source Han Sans SC VF
-	s=Master1
+	s=Heavy
 
 [SourceHanSansTCVF-ExtraLight]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 VF
-	s=3,1,0x404,Regular
+	s=3,1,0x404,ExtraLight
 	f=Source Han Sans TC VF
-	s=Regular
+	s=ExtraLight
 
 [SourceHanSansTCVF-Heavy]
 	f=3,1,0x404,\601D\6E90\9ED1\9AD4 VF
-	s=3,1,0x404,Master1
+	s=3,1,0x404,Heavy
 	f=Source Han Sans TC VF
-	s=Master1
+	s=Heavy
 
 [SourceHanSansHCVF-ExtraLight]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F VF
-	s=3,1,0xC04,Regular
+	s=3,1,0xC04,ExtraLight
 	f=Source Han Sans HC VF
-	s=Regular
+	s=ExtraLight
 
 [SourceHanSansHCVF-Heavy]
 	f=3,1,0xC04,\601D\6E90\9ED1\9AD4 \9999\6E2F VF
-	s=3,1,0xC04,Master1
+	s=3,1,0xC04,Heavy
 	f=Source Han Sans HC VF 
-	s=Master1
+	s=Heavy
 
 [SourceHanSansKVF-ExtraLight]
 	f=3,1,0x412,\BCF8\ACE0\B515 VF
-	s=3,1,0x412,Regular
+	s=3,1,0x412,ExtraLight
 	f=Source Han Sans K VF
-	s=Regular
+	s=ExtraLight
 
 [SourceHanSansKVF-Heavy]
 	f=3,1,0x412,\BCF8\ACE0\B515 VF
-	s=3,1,0x412,Master1
+	s=3,1,0x412,Heavy
 	f=Source Han Sans K VF 
-	s=Master1
+	s=Heavy
 
 
 

@@ -13,7 +13,7 @@ languagesystem hani dflt;
 languagesystem hani KOR;
 
 table head {
-  FontRevision 2.003;
+  FontRevision 2.004;
 } head;
 
 table hhea {

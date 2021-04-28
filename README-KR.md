@@ -4,7 +4,7 @@
 
 본고딕는 Pan-CJK에 포함된 오픈타입 글꼴입니다. 사용 가능한 오픈타입 글꼴과 더불어, 이 오픈소스 프로젝트는 [AFDKO](https://github.com/adobe-type-tools/afdko/) 툴로 제작된 오픈타입 글꼴의 모든 소스 파일을 제공합니다.
 
-## 글꼴 다운로드 (OTF, OTC, Super OTC, Subset OTF, Variable)
+## 글꼴 다운로드 (OTF, OTC, Super OTC, Subset OTF, Variable OTF/TTF/WOFF2)
 
 개별 글꼴 리소스 또는 여러가지 형태로 배포를 하기 위한 ZIP 파일을 다운로드 할 수 있습니다:
 
@@ -12,7 +12,7 @@
 
 어떤 글꼴을 다운로드 해야 할지에 관해서는 설정(Configuration) 항목의 [공식 글꼴 readme 파일](https://github.com/adobe-fonts/source-han-sans/raw/release/SourceHanSansReadMe.pdf)을 참고하시기 바랍니다. GitHub 사용에 익숙하지 않은 경우에는 한국어는 물론, 영어, 일본어, 중국어 간체 및 중국어 번체로 제공되는 다음의 내용을 확인 하시기를 권장합니다. [공식 Source Han 다운로드 가이드](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf).
 
-또한 전체 [릴리스](../../releases)를 다운로드 할 수 있으며 이는 모든 가능한 설정들을 포함한 하나의 ZIP 파일입니다. 
+또한 전체 [릴리스](../../releases)를 다운로드 할 수 있으며 이는 모든 가능한 설정들을 포함한 두개의 ZIP 파일입니다. 
 
 ## 소스로부터 글꼴 만들기
 
@@ -22,7 +22,7 @@
 
 ### 모든 글꼴 제작
 
-이 저장소에는 OpenType/CFF와 OpenType/CFF 글꼴 모음을 제작하기 위한 모든 필요한 파일이 담겨 있습니다. [COMMANDS.txt](COMMANDS.txt) 파일에서 OTFs와 OTCs를 제작하기 위한 명령어들을 제공합니다.
+이 저장소에는 OpenType/CFF/CFF2/TTF와 OpenType/CFF/CFF2/TTF 글꼴 모음을 제작하기 위한 모든 필요한 파일이 담겨 있습니다. [COMMANDS.txt](COMMANDS.txt) 파일에서 OTFs와 OTCs를 제작하기 위한 명령어들을 제공합니다.
 
 ## 참여하기
 

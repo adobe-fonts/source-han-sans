@@ -37,7 +37,7 @@ languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.003;
+  FontRevision 2.004;
 } head;
 
 table hhea {
@@ -43785,3 +43785,4 @@ feature vkrn {
   position \65332 \65453 -80;
 } vkrn;
 
+include(../../../STAT.fea);

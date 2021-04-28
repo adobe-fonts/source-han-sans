@@ -2,7 +2,7 @@ FontName                   (SourceHanSansHC-Light)
 FullName                   (Source Han Sans Hong Kong Chinese Light)
 FamilyName                 (Source Han Sans Hong Kong Chinese)
 Weight                     (Light)
-version                    (2.003)
+version                    (2.004)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
