@@ -1,5 +1,7 @@
 # Ignore files when creating a Release so we can control how we attach the assets
 .gitattributes export-ignore
+# exclude the Variable folder for releases and attach a zip to keep the default release zip smaller
+Variable export-ignore
 
 # Tell GitHub not to categorize these files as language files
 **/*.SC linguist-vendored
