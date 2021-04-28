@@ -3,7 +3,7 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniSourceHanSansHWTW-UTF16-H)
 %%Title: (UniSourceHanSansHWTW-UTF16-H Adobe Identity 0)
-%%Version: 2.003
+%%Version: 2.004
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2021 Adobe. All rights reserved.
 %%Copyright:
@@ -53,7 +53,7 @@ begincmap
 end def
 
 /CMapName /UniSourceHanSansHWTW-UTF16-H def
-/CMapVersion 2.003 def
+/CMapVersion 2.004 def
 /CMapType 1 def
 
 /WMode 0 def
