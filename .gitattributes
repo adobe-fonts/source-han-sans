@@ -2,6 +2,8 @@
 .gitattributes export-ignore
 # exclude the Variable folder for releases and attach a zip to keep the default release zip smaller
 Variable export-ignore
+OTF/*.zip export-ignore
+SubsetOTF/*.zip export-ignore
 
 # Tell GitHub not to categorize these files as language files
 **/*.SC linguist-vendored
