@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+	<axes>
+		<axis default="400" maximum="700" minimum="400" name="weight" tag="wght">
+            <map input="400" output="390" /> <!-- Regular -->
+            <map input="500" output="560" /> <!-- Medium -->
+            <map input="700" output="780" /> <!-- Bold -->
+		</axis>
+	</axes>
+	<sources>
+		<source filename="../../Regular/OTC/VF/SourceHanSansHWHCVF-Regular.otf">
+			<info copy="1" />
+			<location>
+				<dimension name="weight" xvalue="390" />
+			</location>
+		</source>
+		<source filename="../../Bold/OTC/VF/SourceHanSansHWHCVF-Bold.otf">
+			<location>
+				<dimension name="weight" xvalue="780" />
+			</location>
+		</source>
+	</sources>
+	<instances>
+		<instance familyname="SourceHanSansHWHC" postscriptfontname="SourceHanSansHWHCVF-Regular" stylename="Regular">
+			<location>
+				<dimension name="weight" xvalue="390" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansHWHC" postscriptfontname="SourceHanSansHWHCVF-Medium" stylename="Medium">
+			<location>
+				<dimension name="weight" xvalue="560" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansHWHC" postscriptfontname="SourceHanSansHWHCVF-Bold" stylename="Bold">
+			<location>
+				<dimension name="weight" xvalue="780" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+	</instances>
+</designspace>

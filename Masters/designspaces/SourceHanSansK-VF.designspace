@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+	<axes>
+		<axis default="250" maximum="900" minimum="250" name="weight" tag="wght">
+		    <map input="250" output="0" />   <!-- ExtraLight -->
+            <map input="300" output="160" /> <!-- Light -->
+            <map input="350" output="320" /> <!-- Normal -->
+            <map input="400" output="390" /> <!-- Regular -->
+            <map input="500" output="560" /> <!-- Medium -->
+            <map input="700" output="780" /> <!-- Bold -->
+            <map input="900" output="1000" /><!-- Heavy -->
+		</axis>
+	</axes>
+	<sources>
+		<source filename="../ExtraLight/OTC/VF/SourceHanSansKVF-ExtraLight.otf" familyname="SourceHanSansK">
+			<info copy="1" />
+			<location>
+				<dimension name="weight" xvalue="0" />
+			</location>
+		</source>
+		<source filename="../Heavy/OTC/VF/SourceHanSansKVF-Heavy.otf">
+			<location>
+				<dimension name="weight" xvalue="1000" />
+			</location>
+		</source>
+	</sources>
+	<instances>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-ExtraLight" stylename="ExtraLight">
+			<location>
+				<dimension name="weight" xvalue="0" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Light" stylename="Light">
+			<location>
+				<dimension name="weight" xvalue="160" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Normal" stylename="Normal">
+			<location>
+				<dimension name="weight" xvalue="320" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Regular" stylename="Regular">
+			<location>
+				<dimension name="weight" xvalue="390" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Medium" stylename="Medium">
+			<location>
+				<dimension name="weight" xvalue="560" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Bold" stylename="Bold">
+			<location>
+				<dimension name="weight" xvalue="780" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+		<instance familyname="SourceHanSansK" postscriptfontname="SourceHanSansKVF-Heavy" stylename="Heavy">
+			<location>
+				<dimension name="weight" xvalue="1000" />
+			</location>
+			<kerning />
+			<info />
+		</instance>
+	</instances>
+</designspace>

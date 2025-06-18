@@ -1,33 +1,42 @@
 # Unicode Version 6.3 SVSes
-456B FE00; Standardized_Variants; CID+61059
-5140 FE00; Standardized_Variants; CID+10832
-52C7 FE01; Standardized_Variants; CID+61810
-5406 FE00; Standardized_Variants; CID+61813
-54A2 FE00; Standardized_Variants; CID+61815
-55C0 FE00; Standardized_Variants; CID+12623
-5C6E FE01; Standardized_Variants; CID+61821
-5F22 FE00; Standardized_Variants; CID+61823
-6148 FE00; Standardized_Variants; CID+61827
-6649 FE00; Standardized_Variants; CID+61831
-82B3 FE00; Standardized_Variants; CID+61846
-8728 FE00; Standardized_Variants; CID+61848
-8CAB FE00; Standardized_Variants; CID+61850
-9F9C FE00; Standardized_Variants; CID+47477
+456B FE00; Standardized_Variants;CID+61068
+5140 FE00; Standardized_Variants;CID+10857
+52C7 FE01; Standardized_Variants;CID+61823
+5406 FE00; Standardized_Variants;CID+61826
+54A2 FE00; Standardized_Variants;CID+61828
+55C0 FE00; Standardized_Variants;CID+12646
+5C6E FE01; Standardized_Variants;CID+61834
+5F22 FE00; Standardized_Variants;CID+61836
+6148 FE00; Standardized_Variants;CID+61840
+6649 FE00; Standardized_Variants;CID+61844
+82B3 FE00; Standardized_Variants;CID+61859
+8728 FE00; Standardized_Variants;CID+61861
+8CAB FE00; Standardized_Variants;CID+61863
+9F9C FE00; Standardized_Variants;CID+47475
 # Unicode Version 12.0 SVSes
-3001 FE00; Standardized_Variants; CID+1397
-3001 FE01; Standardized_Variants; CID+63145
-3002 FE00; Standardized_Variants; CID+1398
-3002 FE01; Standardized_Variants; CID+63146
-FF01 FE00; Standardized_Variants; CID+63147
-FF01 FE01; Standardized_Variants; CID+59047
-FF0C FE00; Standardized_Variants; CID+59058
-FF0C FE01; Standardized_Variants; CID+63148
-FF0E FE00; Standardized_Variants; CID+59060
-FF0E FE01; Standardized_Variants; CID+63149
-FF1A FE00; Standardized_Variants; CID+63150
-FF1A FE01; Standardized_Variants; CID+59072
-FF1B FE00; Standardized_Variants; CID+63151
-FF1B FE01; Standardized_Variants; CID+59073
-FF1F FE00; Standardized_Variants; CID+63152
-FF1F FE01; Standardized_Variants; CID+59077
+3001 FE00; Standardized_Variants;CID+1402
+3001 FE01; Standardized_Variants;CID+63158
+3002 FE00; Standardized_Variants;CID+1403
+3002 FE01; Standardized_Variants;CID+63159
+FF01 FE00; Standardized_Variants;CID+63160
+FF01 FE01; Standardized_Variants;CID+59055
+FF0C FE00; Standardized_Variants;CID+59066
+FF0C FE01; Standardized_Variants;CID+63161
+FF0E FE00; Standardized_Variants;CID+59068
+FF0E FE01; Standardized_Variants;CID+63162
+FF1A FE00; Standardized_Variants;CID+63163
+FF1A FE01; Standardized_Variants;CID+59080
+FF1B FE00; Standardized_Variants;CID+63164
+FF1B FE01; Standardized_Variants;CID+59081
+FF1F FE00; Standardized_Variants;CID+63165
+FF1F FE01; Standardized_Variants;CID+59085
+# Unicode Version 16.0 SVSes
+2018 FE00; Standardized_Variants;CID+725
+2018 FE01; Standardized_Variants;CID+63292
+2019 FE00; Standardized_Variants;CID+726
+2019 FE01; Standardized_Variants;CID+63293
+201C FE00; Standardized_Variants;CID+728
+201C FE01; Standardized_Variants;CID+63294
+201D FE00; Standardized_Variants;CID+729
+201D FE01; Standardized_Variants;CID+63295
 # EOF
