@@ -132,15 +132,15 @@ Select this deployment format if your system support variable fonts and you need
 
 Select this deployment format if you want all five languages and all seven weights, along with the half-width (HW) variations that are provided only for the Regular and Bold weights, in a single and easy-to-manage font resource that includes 45 fonts. Changing languages is accomplished by either selecting the font of the desired language or by language-tagging the text. A limited number of apps support language tagging and the corresponding OpenType 'locl' (*Localized Forms*) GSUB feature, such as [Adobe InDesign CC](https://www.adobe.com/products/indesign.html) and modern browsers.
 
-[Super OTC](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSans.ttc.zip)
+[Super OTC](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/01_SourceHanSans.ttc.zip)
 
 **Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
 ### OTCs
 
-Select this deployment format if you want all five languages and particular weights, or if your environment does not support the Super OTC. Changing languages is accomplished the same way as the Super OTC. If you need particular weights, download individual font resources from the [OTC](https://github.com/adobe-fonts/source-han-sans/raw/release/OTC) folder, otherwise click both of the links below:
+Select this deployment format if you want all five languages and particular weights, or if your environment does not support the Super OTC. Changing languages is accomplished the same way as the Super OTC. If you need particular weights, download individual font resources from the [OTC](https://github.com/adobe-fonts/source-han-sans/raw/release/OTC) folder.
 
-[Static OTCs](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansOTC.zip)
+[Static OTCs](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/03_SourceHanSansOTC.zip)
 
 **Note**: The Regular and Bold weights include 10 fonts due to the addition of the half-width (HW) variations.
 
@@ -150,15 +150,15 @@ Select this deployment format if you want all five languages and particular weig
 
 Select this deployment format if you prefer to use only one language, but also want full character coverage or the ability to language-tag text to use glyphs that are appropriate for the other languages (like the Super OTC and OTCs, this requires an app that supports language tagging and the OpenType 'locl' GSUB feature). Font resources that include "HW" in their names use half-width glyphs for ASCII by default. If you need only specific weights, download individual font resources from the [OTF](https://github.com/adobe-fonts/source-han-sans/raw/release/OTF) folder, otherwise click on the appropriate links below:
 
-[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansSC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHWSC.zip)
+[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/09_SourceHanSansSC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/14_SourceHanSansHWSC.zip)
 
-[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansTC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHWTC.zip)
+[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/10_SourceHanSansTC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/15_SourceHanSansHWTC.zip)
 
-[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHWHC.zip)
+[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/11_SourceHanSansHC.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/16_SourceHanSansHWHC.zip)
 
-[Japanese (日本語)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansJ.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHWJ.zip)
+[Japanese (日本語)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/07_SourceHanSansJ.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/12_SourceHanSansHWJ.zip)
 
-[Korean (한국어)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansK.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHWK.zip)
+[Korean (한국어)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/08_SourceHanSansK.zip) | [HW Regular + HW Bold](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/13_SourceHanSansHWK.zip)
 
 ### Region-specific Subset OTFs
 
@@ -166,15 +166,15 @@ Select this deployment format if you need only the glyphs for characters for a p
 
 Each ZIP file contains seven font resources, one for each of the seven weights. If you need specific weights, download individual font resources from the [SubsetOTF](https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF) folder, otherwise click on the appropriate links below:
 
-[China (中国)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansCN.zip)
+[China (中国)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/19_SourceHanSansCN.zip)
 
-[Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansTW.zip)
+[Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/20_SourceHanSansTW.zip)
 
-[Hong Kong (香港)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansHK.zip)
+[Hong Kong (香港)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/21_SourceHanSansHK.zip)
 
-[Japan (日本)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansJP.zip)
+[Japan (日本)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/17_SourceHanSansJP.zip)
 
-[Korea (한국)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/SourceHanSansKR.zip)
+[Korea (한국)](https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R/18_SourceHanSansKR.zip)
 
 ## Getting Involved
 
