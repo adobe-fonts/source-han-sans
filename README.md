@@ -4,7 +4,7 @@
 
 Source Han Sans is a set of OpenType Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the [AFDKO](https://github.com/adobe-type-tools/afdko/) tools.
 
-## Download the fonts (OTF, OTC, Super OTC, Subset OTF, Variable OTF/TTF/WOFF2)
+## Download the fonts 
 
 Individual font resources or ZIP files for various deployment configurations are available for download:
 
